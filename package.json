@@ -10,6 +10,9 @@
     "type": "git",
     "url": "http://git.softwaregroup-bg.com/lukian.tabandzhov/sg-build.git"
   },
+  "bin": {
+    "semver": "./bin/sg-build"
+  },
   "keywords": [
     "build",
     "release",
