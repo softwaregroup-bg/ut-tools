@@ -1,6 +1,6 @@
 {
   "name": "sg-build",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Build and Release management automation package. Please note that the current automation wraps the semver node module by providing ready to use binaries. The pacage should be installed globally.",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "url": "http://git.softwaregroup-bg.com/lukian.tabandzhov/sg-build.git"
   },
   "bin": {
-    "semver": "./bin/sg-build"
+    "sg-build": "./bin/sg-build"
   },
   "keywords": [
     "build",

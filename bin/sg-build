@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+// Standalone build and release program.
+
+main()
+
+function main(){
+
+    console.log("Hello from the binary :)")
+
+}
