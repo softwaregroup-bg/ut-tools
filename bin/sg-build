@@ -1,10 +1,34 @@
 #!/usr/bin/env node
-// Standalone build and release program.
+// Software Group Standalone build and release command line utility.
 
-main()
+var SgBuild = require('../sg-build.js').SgBuild;
 
-function main(){
+var action = process.argv[2]
 
-    console.log("Hello from the binary :)")
+var sgBuild = new SgBuild(process.env.BUILD_NUMBER);
+sgBuild.setPackageJsonFilePath("./package.json");
 
+switch(action) {
+    case "build":
+        sgBuild.build();
+        break;
+    case "-h":
+        usage();
+        break;
+    case "help":
+        usage();
+        break;
+    default:
+        console.log("\nNo build option specified.\n")
+        usage();
+}
+
+process.exit(0)
+
+// ------------------------ Utility functions ------------------------
+function usage(){
+    console.log("\nUsage: sg-build OPTION\n\n");
+    console.log("Avaliable options are:");
+    console.log("\t build - used for building the current state of a package under development");
+    console.log("\t help  - prints the help of the command line utility");
 }
