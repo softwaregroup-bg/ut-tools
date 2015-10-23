@@ -1,6 +1,6 @@
 {
   "name": "sg-build",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Build and Release management automation package. Please note that the current automation wraps the semver node module by providing ready to use binaries. The pacage should be installed globally.",
   "dependencies": {
     "semver": "5.0.3"

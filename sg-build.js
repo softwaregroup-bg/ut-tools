@@ -9,12 +9,15 @@ var SgBuild = function (buildNumber) {
     this._loadPackageJson();
 };
 
+/*
+    Continuous integration build currently updates the current package version by adding the
+    dev-__BUILD_NUMBER__ suffix
+*/
 SgBuild.prototype.build = function () {
-    this.preBuild();
-    this.build();
+    this._updateDevVersion();
 };
 
-SgBuild.prototype._preBuild = function () {
+SgBuild.prototype._updateDevVersion = function () {
     this.packageJson.version = this.packageJson.version + "-dev." + this.buildNumber;
     this.savePackageJson();
 };
