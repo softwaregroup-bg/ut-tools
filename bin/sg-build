@@ -12,6 +12,9 @@ switch(action) {
     case "build":
         sgBuild.build();
         break;
+    case "get-version":
+        console.log(sgBuild.getVersion());
+        break;
     case "-h":
         usage();
         break;
@@ -30,5 +33,6 @@ function usage(){
     console.log("\nUsage: sg-build OPTION\n\n");
     console.log("Avaliable options are:");
     console.log("\t build - used for building the current state of a package under development");
+    console.log("\t get-version - used for retrieve the current project version");
     console.log("\t help  - prints the help of the command line utility");
 }

@@ -17,8 +17,12 @@ SgBuild.prototype.build = function () {
     this._updateDevVersion();
 };
 
+SgBuild.prototype.getVersion = function(){
+    return this.packageJson.version;
+}
+
 SgBuild.prototype._updateDevVersion = function () {
-    this.packageJson.version = this.packageJson.version + "-dev." + this.buildNumber;
+    this.packageJson.version = this.packageJson.version + "+" + this.buildNumber;
     this.savePackageJson();
 };
 
