@@ -3,10 +3,13 @@
   "version": "0.1.1",
   "description": "Build and Release management automation package. Please note that the current automation wraps the semver node module by providing ready to use binaries. The pacage should be installed globally.",
   "dependencies": {
-    "semver": "5.0.3"
+    "semver": "5.0.3",
+    "eslint": "1.7.3",
+    "eslint-plugin-react": "3.6.3"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "eslint -f checkstyle . > eslint-checkstyle.xml"
   },
   "publishConfig": {
     "registry": "http://npm.softwaregroup-bg.com:5001"

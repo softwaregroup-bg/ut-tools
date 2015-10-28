@@ -2,7 +2,10 @@
 // Software Group Standalone build and release command line utility.
 
 var SgBuild = require('../sg-build.js').SgBuild;
+var path = require('path');
+var cmd=require('node-cmd');
 
+var sgBuildInstallDir = require("path").dirname(require.main.filename)
 var action = process.argv[2]
 
 var sgBuild = new SgBuild(process.env.BUILD_NUMBER);
@@ -14,6 +17,22 @@ switch(action) {
         break;
     case "get-version":
         console.log(sgBuild.getVersion());
+        break;
+    case "eslint":
+        console.log(sgBuildInstallDir);
+        var eslintConf = path.join(sgBuildInstallDir, "..", ".eslintrc")
+        console.log(`eslint -c ${eslintConf} -f checkstyle . > eslint-checkstyle.xml`);
+        //require('child_process').exec(`eslint -c ${eslintConf} -f checkstyle . > eslint-checkstyle.xml`, function(error, stdout, stderr){ callback(stdout); });
+
+        var cmdOut = cmd.get(
+            'pwd',
+            function(data){
+                console.log('the current working dir is : ',data)
+            }
+        );
+
+        console.log(cmdOut);
+
         break;
     case "-h":
         usage();
