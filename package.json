@@ -19,7 +19,8 @@
     "url": "http://git.softwaregroup-bg.com/lukian.tabandzhov/sg-build.git"
   },
   "bin": {
-    "sg-build": "./bin/sg-build"
+    "sg-build": "./bin/sg-build",
+    "hello": "./bin/hello"
   },
   "keywords": [
     "build",
