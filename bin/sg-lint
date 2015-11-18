@@ -24,7 +24,7 @@ childProcess.exec(
         if (error !== null) {
             console.log('exec error: ' + error);
         } else {
-            console.log("fuck'n success");
+            console.log("Eslint scan successfully completed");
         }
     }
 );
