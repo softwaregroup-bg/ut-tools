@@ -5,11 +5,11 @@
   "dependencies": {
     "semver": "5.0.3",
     "eslint": "1.7.3",
-    "eslint-plugin-react": "3.6.3"
+    "eslint-plugin-react": "3.6.3",
+    "eslint-config-eslint": "1.0.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "eslint": "eslint -f checkstyle . > eslint-checkstyle.xml"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "publishConfig": {
     "registry": "http://npm.softwaregroup-bg.com:5001"
@@ -19,7 +19,8 @@
     "url": "http://git.softwaregroup-bg.com/lukian.tabandzhov/sg-build.git"
   },
   "bin": {
-    "sg-build": "./bin/sg-build"
+    "sg-build": "./bin/sg-build",
+    "sg-lint": "./bin/sg-lint"
   },
   "keywords": [
     "build",
@@ -30,5 +31,12 @@
     "Continuous"
   ],
   "author": "Lukian Tabandzhov",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "^4.1.5"
+  }
 }
+
+
+
+
