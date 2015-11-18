@@ -9,8 +9,7 @@
     "eslint-config-eslint": "1.0.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "sg-lint": "sg-lint"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "publishConfig": {
     "registry": "http://npm.softwaregroup-bg.com:5001"
