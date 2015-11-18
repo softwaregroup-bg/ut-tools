@@ -1,6 +1,2 @@
-.idea/.name
-.idea/misc.xml
-.idea/modules.xml
-.idea/sg-build.iml
-.idea/vcs.xml
-.idea/workspace.xml
+.idea
+node_modules
