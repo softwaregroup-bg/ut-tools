@@ -3,7 +3,7 @@
 
 var SgBuild = require('../sg-build.js').SgBuild;
 var path = require('path');
-var cmd=require('node-cmd');
+//var cmd=require('node-cmd');
 
 var sgBuildInstallDir = require("path").dirname(require.main.filename)
 var action = process.argv[2]
