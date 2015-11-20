@@ -8,7 +8,7 @@ apeTasking.runTasks('release', [
         apeReleasing.releasePackage({
             beforeRelease: [],
             afterRelease:[],
-            "skip-interactive": true
+            "skipInteractive": true
         }, callback);
     }
 ], true);
