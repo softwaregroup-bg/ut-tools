@@ -50,7 +50,6 @@
     "no-sequences": 2,
     "no-self-compare": 2,
     "no-shadow": 2,
-    "no-script-url": 2,
     "no-throw-literal": 2,
     "no-trailing-spaces": 2,
     "no-undef": 2,
@@ -82,16 +81,38 @@
   "env": {
     "mocha": true,
     "node": true,
-    "browser": true
+    "browser": true,
+    "es6": true
   },
   "globals": {
     "isc": true
   },
   "extends": "eslint:recommended",
   "ecmaFeatures": {
+    "arrowFunctions": true,
+    "binaryLiterals": true,
+    "blockBindings": true,
+    "classes": true,
+    "defaultParams": true,
+    "destructuring": true,
+    "forOf": true,
+    "generators": true,
+    "modules": true,
+    "objectLiteralComputedProperties": true,
+    "objectLiteralDuplicateProperties": true,
+    "objectLiteralShorthandMethods": true,
+    "objectLiteralShorthandProperties": true,
+    "octalLiterals": true,
+    "regexUFlag": true,
+    "regexYFlag": true,
+    "spread": true,
+    "superInFunctions": true,
+    "templateStrings": true,
+    "unicodeCodePointEscapes": true,
+    "globalReturn": true,
     "jsx": true,
     "experimentalObjectRestSpread": true
   },
   "parser": "babel-eslint",
-  "plugins": ["react"]
+  "plugins": ["react", "babel"]
 }
