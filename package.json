@@ -6,7 +6,7 @@
     "eslint": "1.7.3",
     "eslint-plugin-react": "3.6.3",
     "ape-tasking": "1.0.8",
-    "ape-releasing": "1.0.17"
+    "ape-releasing": "1.0.20"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
