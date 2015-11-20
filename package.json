@@ -3,10 +3,11 @@
   "version": "0.1.1",
   "description": "Build and Release management automation package. Please note that the current automation wraps the semver node module by providing ready to use binaries. The pacage should be installed globally.",
   "dependencies": {
-    "semver": "5.0.3",
     "eslint": "1.7.3",
     "eslint-plugin-react": "3.6.3",
-    "eslint-config-eslint": "1.0.1"
+    "eslint-config-eslint": "1.0.1",
+    "ape-tasking": "1.0.8",
+    "ape-releasing": "1.0.20"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,11 +17,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://git.softwaregroup-bg.com/lukian.tabandzhov/sg-build.git"
+    "url": "git@git.softwaregroup-bg.com:release/sg-build.git"
   },
   "bin": {
     "sg-build": "./bin/sg-build",
-    "sg-lint": "./bin/sg-lint"
+    "sg-lint": "./bin/sg-lint",
+    "sg-release": "./bin/sg-release"
   },
   "keywords": [
     "build",

@@ -1,0 +1,14 @@
+#!/usr/bin/env node
+
+var apeTasking = require('ape-tasking');
+var apeReleasing = require('ape-releasing');
+
+apeTasking.runTasks('release', [
+    function releasePackage(callback) {
+        apeReleasing.releasePackage({
+            beforeRelease: [],
+            afterRelease:[],
+            "skip-interactive": true
+        }, callback);
+    }
+], true);
