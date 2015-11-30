@@ -12,7 +12,7 @@ child_process.exec("git commit -m 'Remove npm-shrinkwrap.json from master' ", fu
     console.log(stdout);
 });
 
-child_process.exec('git status', function(error, stdout, stderr){
+child_process.exec('git push', function(error, stdout, stderr){
     console.log('Git push');
     console.log(stdout);
 });
