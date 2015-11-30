@@ -8,12 +8,12 @@ child_process.exec('git rm npm-shrinkwrap.json', function(error, stdout, stderr)
     console.log(stdout);
 });
 
-child_process.exec('git commit -m "Remove npm-shrinkwrap.json from master"', function(error, stdout, stderr){
+child_process.exec("git commit -m 'Remove npm-shrinkwrap.json from master' ", function(error, stdout, stderr){
+    console.log("git commit -m 'Remove npm-shrinkwrap.json from master' ");
     console.log(stdout);
 });
 
-child_process.exec('git push', function(error, stdout, stderr){
+child_process.exec('git status', function(error, stdout, stderr){
+    console.log('Git push');
     console.log(stdout);
 });
-
-
