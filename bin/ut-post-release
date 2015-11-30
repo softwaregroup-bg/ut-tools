@@ -2,6 +2,11 @@
 
 var child_process = require('child_process');
 
+child_process.exec('npm run lint', function(error, stdout, stderr){
+    console.log('Schecking the code with Eslint...');
+    console.log(stdout);
+});
+
 child_process.exec('git rm npm-shrinkwrap.json', function(error, stdout, stderr){
     console.log('Remove the shrinkwrap file');
     console.log(stdout);
