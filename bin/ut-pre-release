@@ -3,8 +3,7 @@
 var exec = require('exec');
 var child_process = require('child_process');
 
-child_process.exec('npm install', function(error, stdout, stderr){
-    console.log('npm install...');
+child_process.exec('git checkout master', function(error, stdout, stderr){
     console.log(stdout);
 });
 
