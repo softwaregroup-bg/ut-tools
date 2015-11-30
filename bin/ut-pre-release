@@ -1,0 +1,14 @@
+#!/usr/bin/env node
+
+var exec = require('exec');
+var child_process = require('child_process');
+
+child_process.exec('npm install', function(error, stdout, stderr){
+    console.log('npm install...');
+    console.log(stdout);
+});
+
+child_process.exec('npm shrinkwrap', function(error, stdout, stderr){
+    console.log('npm shrinkwrap');
+    console.log(stdout);
+});

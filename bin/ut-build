@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // Software Group Standalone build and release command line utility.
 
-var SgBuild = require('../sg-build.js').SgBuild;
+var SgBuild = require('../ut-build.js').SgBuild;
 var path = require('path');
 //var cmd=require('node-cmd');
 
@@ -49,7 +49,7 @@ process.exit(0)
 
 // ------------------------ Utility functions ------------------------
 function usage(){
-    console.log("\nUsage: sg-build OPTION\n\n");
+    console.log("\nUsage: ut-build OPTION\n\n");
     console.log("Avaliable options are:");
     console.log("\t build - used for building the current state of a package under development");
     console.log("\t get-version - used for retrieve the current project version");

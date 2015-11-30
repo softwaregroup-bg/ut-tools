@@ -1,0 +1,19 @@
+#!/usr/bin/env node
+
+var exec = require('exec');
+var child_process = require('child_process');
+
+child_process.exec('git rm npm-shrinkwrap.json', function(error, stdout, stderr){
+    console.log('Remove the shrinkwrap file');
+    console.log(stdout);
+});
+
+child_process.exec('git commit -m "Remove npm-shrinkwrap.json from master"', function(error, stdout, stderr){
+    console.log(stdout);
+});
+
+child_process.exec('git push', function(error, stdout, stderr){
+    console.log(stdout);
+});
+
+
