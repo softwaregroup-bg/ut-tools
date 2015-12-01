@@ -1,22 +1,8 @@
 #!/usr/bin/env node
 
-var childProcess = require('child_process');
+var executeCommand = require('../lib/exec_command');
 
-//executeCommand('npm run lint', 'Linting the project. Please wait ...');
+executeCommand('npm run lint', 'Linting the project. Please wait ...');
 executeCommand('git rm npm-shrinkwrap.json', 'Removing the shrinkwrap file');
 executeCommand('git commit -m "Remove npm-shrinkwrap.json from master"', '');
 executeCommand('git push', '');
-
-
-function executeCommand(cmd, logMessage){
-    console.log(logMessage);
-    try {
-        var procStdout = childProcess.execSync(cmd);
-        console.log(procStdout);
-    } catch (ex) {
-        // if here the command failed i.e. non zero exit code
-        /* TODO: Implement me !!! */
-        return false;
-    }
-    return true;
-}
