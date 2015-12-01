@@ -4,7 +4,7 @@ var args = [];
 args.push('-c ');
 args.push(__dirname + '/../eslint/.eslintrc');
 args.push('--ignore-pattern');
-args.push('**/sg-build.js');
+args.push('**/test.js');
 args.push('**/coverage/**');
 args.push('.');
 
