@@ -7,6 +7,8 @@ args.push('--ignore-pattern');
 args.push('**/test.js');
 args.push('--ignore-pattern');
 args.push('**/coverage/**');
+args.push('--ignore-pattern');
+args.push('**/*.marko.js');
 
 if (typeof process.env.BUILD_NUMBER !== 'undefined') {
     args.push('-f');
