@@ -11,6 +11,8 @@ args.push('--ignore-pattern');
 args.push('**/*.marko.js');
 
 if (typeof process.env.BUILD_NUMBER !== 'undefined') {
+    args.push('--ignore-pattern');
+    args.push('test.js');
     args.push('-f');
     args.push('checkstyle');
     args.push('-o');

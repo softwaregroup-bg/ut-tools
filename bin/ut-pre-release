@@ -3,7 +3,7 @@
 var executeCommand = require('../lib/exec_command');
 
 executeCommand('git checkout master', 'Will checkout master branch ...');
-executeCommand('npm run lint --silent', 'Linting the project. Please wait ...');
+executeCommand('npm run lint . --silent', 'Linting the project. Please wait ...');
 executeCommand('npm shrinkwrap', 'Will perform shrinkwrap ...');
 executeCommand('git add npm-shrinkwrap.json', 'Will add the shrinkwrap file ...');
 executeCommand('git commit -m "Add npm-shrinkwrap.json"', 'Will commit the shrinkwrap file ...');
