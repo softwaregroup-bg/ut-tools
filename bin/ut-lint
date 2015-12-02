@@ -1,12 +1,12 @@
 #!/usr/bin/env node
 
 var args = [];
-args.push('-c ');
-args.push(__dirname + '/../eslint/.eslintrc');
+args.push('-c');
+args.push(require.resolve('../eslint/.eslintrc'));
 args.push('--ignore-pattern');
 args.push('**/test.js');
+args.push('--ignore-pattern');
 args.push('**/coverage/**');
-args.push('.');
 
 if (typeof process.env.BUILD_NUMBER !== 'undefined') {
     args.push('-f');
@@ -16,7 +16,7 @@ if (typeof process.env.BUILD_NUMBER !== 'undefined') {
 }
 
 var cli = require('eslint/lib/cli');
-var exitCode = cli.execute(Array.prototype.concat(process.argv, args));
+var exitCode = cli.execute(Array.prototype.concat(process.argv.slice(0, 2), args, process.argv.slice(2)));
 
 process.on('exit', function() {
     process.exit(exitCode);
