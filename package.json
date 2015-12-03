@@ -23,7 +23,6 @@
     "url": "git@git.softwaregroup-bg.com:release/sg-build.git"
   },
   "bin": {
-    "ut-build": "./bin/ut-build",
     "ut-lint": "./bin/ut-lint",
     "ut-release": "./bin/ut-release",
     "ut-pre-release": "./bin/ut-pre-release",
