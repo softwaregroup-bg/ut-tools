@@ -1,6 +1,6 @@
 {
   "name": "ut-tools",
-  "version": "0.5.1",
+  "version": "1.0.0",
   "description": "Build and Release management automation package.",
   "dependencies": {
     "eslint": "1.7.3",
