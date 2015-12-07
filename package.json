@@ -1,10 +1,10 @@
 {
   "name": "ut-tools",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Build and Release management automation package.",
   "dependencies": {
-    "eslint": "1.7.3",
-    "eslint-plugin-react": "3.6.3",
+    "eslint": "1.10.3",
+    "eslint-plugin-react": "3.11.3",
     "eslint-config-eslint": "1.0.1",
     "ape-tasking": "1.0.8",
     "ape-releasing": "1.1.2",
