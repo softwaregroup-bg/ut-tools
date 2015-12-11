@@ -2,4 +2,4 @@
 
 var executeCommand = require('../lib/exec_command');
 
-executeCommand('echo " " ');
+executeCommand('echo " " ', 'Post-release procedure will be executed');
