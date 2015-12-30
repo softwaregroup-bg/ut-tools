@@ -2,4 +2,6 @@
 
 var executeCommand = require('../lib/exec_command');
 
-executeCommand('echo " " ', 'Post-release procedure will be executed');
+executeCommand('git rm npm-shrinkwrap.json', 'Removing the shrinkwrap file');
+executeCommand('git commit -m "Remove npm-shrinkwrap.json from master"', '');
+executeCommand('git push', '');
