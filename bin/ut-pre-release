@@ -2,7 +2,7 @@
 
 var executeCommand = require('../lib/exec_command');
 
-executeCommand('npm run lint --silent', 'Linting the project. Please wait ...');
+executeCommand('npm run lint', 'Linting the project. Please wait ...');
 /*
 # Temporary remove Shrinkwrap by Dev team reques untill they fix the directory structure changes caused by the shrinkwrap
 executeCommand('npm shrinkwrap', 'Will perform shrinkwrap ...');
