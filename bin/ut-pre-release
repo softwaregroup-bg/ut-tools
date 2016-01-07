@@ -3,9 +3,12 @@
 var executeCommand = require('../lib/exec_command');
 
 executeCommand('npm run lint --silent', 'Linting the project. Please wait ...');
+/*
+# Temporary remove Shrinkwrap by Dev team reques untill they fix the directory structure changes caused by the shrinkwrap
 executeCommand('npm shrinkwrap', 'Will perform shrinkwrap ...');
 executeCommand('git add npm-shrinkwrap.json', 'Will add the shrinkwrap file ...');
 executeCommand('git commit -m "Add npm-shrinkwrap.json" || true', 'Will commit the shrinkwrap file ...');
 executeCommand('git push', 'Will push all the local changes to the remote repo ...');
+*/
 
 
