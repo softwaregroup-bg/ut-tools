@@ -1,6 +1,8 @@
 # Setup Git, ESLint, Visual studio code linting + ut-tools
+
 ## Git
   - install git for [Windows](https://git-scm.com/downloads)
+
 ### Setup Git ssh keys
   - right click on desktop and select Git Gui here
   - in gui menu select help > ssh keys
