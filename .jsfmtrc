@@ -1,0 +1,8 @@
+{
+  "preset": "default",
+  "lineBreak": {
+    "after": {
+      "FunctionExpressionOpeningBrace": "-1"
+    }
+  }
+}
