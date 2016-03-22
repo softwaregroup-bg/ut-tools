@@ -1,0 +1,9 @@
+{
+  "extends": ".eslintrc",
+  "rules": {
+    "no-console": 2,
+    "no-alert": 2,
+    "no-debugger": 2,
+    "ut-lint/exists":  2
+  }
+}
