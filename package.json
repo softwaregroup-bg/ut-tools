@@ -1,6 +1,6 @@
 {
   "name": "ut-tools",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Build and Release management automation package.",
   "dependencies": {
     "ape-tasking": "2.0.2",
@@ -29,7 +29,7 @@
     "postrelease": "./bin/ut-post-release"
   },
   "publishConfig": {
-    "registry": "http://npm.softwaregroup-bg.com:5001"
+    "registry": "https://nexus.softwaregroup-bg.com/repository/npm-internal"
   },
   "repository": {
     "type": "git",
