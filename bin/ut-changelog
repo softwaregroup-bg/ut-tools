@@ -1,4 +1,4 @@
 #!/bin/sh
-conventional-changelog -p angular -i CHANGELOG.md -w && \
+conventional-changelog -p angular -i CHANGELOG.md -s && \
     git add CHANGELOG.md && \
     git commit -m "chore(changelog): auto generate changelog"
