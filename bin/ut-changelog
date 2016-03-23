@@ -1,4 +1,3 @@
-#!/bin/sh
-conventional-changelog -p angular -i CHANGELOG.md -s && \
-    git add CHANGELOG.md && \
-    git commit -m "chore(changelog): auto generate changelog"
+#!/bin/bash
+conventional-changelog -p angular -i CHANGELOG.md -s -c $(dirname $(readlink -f $0))/../context.js && \
+    git add CHANGELOG.md

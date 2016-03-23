@@ -36,7 +36,8 @@
     "prepush": "./bin/ut-prepush",
     "pretest": "./bin/ut-pretest",
     "preversion": "./bin/ut-preversion",
-    "test": "./bin/ut-test"
+    "test": "./bin/ut-test",
+    "version": "./bin/ut-version"
   },
   "publishConfig": {
     "registry": "https://nexus.softwaregroup-bg.com/repository/npm-internal"
@@ -58,6 +59,7 @@
     "ut-pretest": "./bin/ut-pretest",
     "ut-preversion": "./bin/ut-preversion",
     "ut-test": "./bin/ut-test",
+    "ut-version": "./bin/ut-version",
     "ut-release": "./bin/ut-release",
     "ut-pre-release": "./bin/ut-pre-release",
     "ut-post-release": "./bin/ut-post-release"
