@@ -1,0 +1,2 @@
+#!/bin/sh
+npm version patch -m "[ci-skip] version incremented to %s"

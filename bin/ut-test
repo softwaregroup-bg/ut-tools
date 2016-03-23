@@ -1,0 +1,2 @@
+#!/bin/sh
+blue-tape test/**/test*.js

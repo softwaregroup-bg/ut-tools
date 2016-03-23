@@ -1,0 +1,4 @@
+#!/bin/sh
+npm test && \
+    nsp check
+##  npm outdated --depth 0 --registry https://nexus.softwaregroup-bg.com/repository/npm-all/
