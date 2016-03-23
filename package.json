@@ -29,7 +29,7 @@
   "scripts": {
     "changelog": "./bin/ut-changelog",
     "check": "./bin/ut-check",
-    "lint": "./bin/ut-lint .",
+    "lint": "./bin/ut-lint-js .",
     "postversion": "./bin/ut-postversion",
     "precommit": "./bin/ut-precommit",
     "prepublish": "./bin/ut-prepublish",
@@ -47,6 +47,7 @@
   },
   "bin": {
     "ut-lint": "./bin/ut-lint",
+    "ut-lint-js": "./bin/ut-lint-js",
     "ut-changelog": "./bin/ut-changelog",
     "ut-check": "./bin/ut-check",
     "ut-postpublish": "./bin/ut-postpublish",
