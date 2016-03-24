@@ -29,6 +29,7 @@
   "scripts": {
     "changelog": "./bin/ut-changelog",
     "check": "./bin/ut-check",
+    "cover": "./bin/ut-cover",
     "lint": "./bin/ut-lint-js .",
     "postversion": "./bin/ut-postversion",
     "precommit": "./bin/ut-precommit",
@@ -51,6 +52,7 @@
     "ut-lint-js": "./bin/ut-lint-js",
     "ut-changelog": "./bin/ut-changelog",
     "ut-check": "./bin/ut-check",
+    "ut-cover": "./bin/ut-cover",
     "ut-postpublish": "./bin/ut-postpublish",
     "ut-postversion": "./bin/ut-postversion",
     "ut-precommit": "./bin/ut-precommit",

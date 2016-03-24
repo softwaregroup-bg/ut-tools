@@ -1,0 +1,2 @@
+#!/bin/bash
+babel-node `which isparta` cover --report cobertura --report lcov test
