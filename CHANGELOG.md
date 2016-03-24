@@ -1,3 +1,13 @@
+<a name="1.0.18"></a>
+## [1.0.18](https://git.softwaregroup-bg.com/release/ut-tools/compare/v1.0.17...v1.0.18) (2016-03-24)
+
+
+### Bug Fixes
+
+* workaround prepublish issue ([60fb028](https://git.softwaregroup-bg.com/release/ut-tools/commit/60fb028))
+
+
+
 <a name="1.0.17"></a>
 ## [1.0.17](https://git.softwaregroup-bg.com/release/ut-tools/compare/v1.0.16...v1.0.17) (2016-03-24)
 

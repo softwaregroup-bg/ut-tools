@@ -1,6 +1,6 @@
 {
   "name": "ut-tools",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "description": "Build and Release management automation package.",
   "dependencies": {
     "ape-tasking": "2.0.2",
