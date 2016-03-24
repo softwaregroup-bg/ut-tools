@@ -21,9 +21,12 @@
     "eslint-plugin-require-path-exists": "1.1.5",
     "eslint-plugin-standard": "1.3.2",
     "latest-version": "2.0.0",
+    "meow": "3.7.0",
+    "nodegit": "0.11.9",
     "nsp": "2.2.1",
     "resolve": "1.1.7",
     "semver": "5.1.0",
+    "sync-request": "3.0.0",
     "ut-ape-releasing": "5.3.0"
   },
   "scripts": {
@@ -37,6 +40,7 @@
     "prepush": "./bin/ut-prepush",
     "pretest": "./bin/ut-pretest",
     "preversion": "./bin/ut-preversion",
+    "release": "./bin/ut-release",
     "test": "./bin/ut-test",
     "version": "./bin/ut-version"
   },
@@ -60,11 +64,9 @@
     "ut-prepush": "./bin/ut-prepush",
     "ut-pretest": "./bin/ut-pretest",
     "ut-preversion": "./bin/ut-preversion",
-    "ut-test": "./bin/ut-test",
-    "ut-version": "./bin/ut-version",
     "ut-release": "./bin/ut-release",
-    "ut-pre-release": "./bin/ut-pre-release",
-    "ut-post-release": "./bin/ut-post-release"
+    "ut-test": "./bin/ut-test",
+    "ut-version": "./bin/ut-version"
   },
   "keywords": [
     "build",

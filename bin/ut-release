@@ -1,3 +1,2 @@
-#!/usr/bin/env node
-
-require('../lib/release')();
+#!/bin/sh
+npm version patch -m "[ci-skip] version incremented to %s" && npm publish

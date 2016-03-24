@@ -1,3 +1,3 @@
 #!/usr/bin/env node
 
-require('../lib/lintJS')();
+require('../lib/lintJS')() && process.exit(1);
