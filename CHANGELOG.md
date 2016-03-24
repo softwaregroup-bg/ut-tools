@@ -1,3 +1,13 @@
+<a name="1.0.16"></a>
+## [1.0.16](https://git.softwaregroup-bg.com/release/ut-tools/compare/v1.0.15...v1.0.16) (2016-03-24)
+
+
+### Features
+
+* lint cover script ([e054888](https://git.softwaregroup-bg.com/release/ut-tools/commit/e054888))
+
+
+
 <a name="1.0.15"></a>
 ## [1.0.15](https://git.softwaregroup-bg.com/release/ut-tools/compare/v1.0.14...v1.0.15) (2016-03-24)
 
