@@ -1,3 +1,13 @@
+<a name="1.0.15"></a>
+## [1.0.15](https://git.softwaregroup-bg.com/release/ut-tools/compare/v1.0.14...v1.0.15) (2016-03-24)
+
+
+### Bug Fixes
+
+* derive links from repository url ([4fbecee](https://git.softwaregroup-bg.com/release/ut-tools/commit/4fbecee))
+
+
+
 <a name="1.0.14"></a>
 ## [1.0.14](https://git.softwaregroup-bg.com/release/ut-tools/compare/v1.0.13...v1.0.14) (2016-03-24)
 
