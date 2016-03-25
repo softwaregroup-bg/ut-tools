@@ -1,3 +1,13 @@
+<a name="1.0.19"></a>
+## [1.0.19](https://git.softwaregroup-bg.com/ut5/ut-tools/compare/v1.0.18...v1.0.19) (2016-03-25)
+
+
+### Features
+
+* add ut-init ([2276bda](https://git.softwaregroup-bg.com/ut5/ut-tools/commit/2276bda))
+
+
+
 <a name="1.0.18"></a>
 ## [1.0.18](https://git.softwaregroup-bg.com/release/ut-tools/compare/v1.0.17...v1.0.18) (2016-03-24)
 
