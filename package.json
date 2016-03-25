@@ -1,6 +1,6 @@
 {
   "name": "ut-tools",
-  "version": "1.0.19",
+  "version": "5.3.0",
   "description": "Build and Release management automation package.",
   "dependencies": {
     "babel-cli": "6.6.5",
@@ -32,21 +32,19 @@
     "write-json-file": "1.2.0"
   },
   "scripts": {
-    "changelog": "ut-changelog",
-    "check": "ut-check",
-    "cover": "ut-cover",
-    "lint": "ut-lint .",
-    "postversion": "ut-postversion",
-    "precommit": "ut-precommit",
-    "prepublish": "ut-prepublish",
-    "prepush": "ut-prepush",
-    "pretest": "ut-pretest",
-    "preversion": "ut-preversion",
-    "release": "ut-release",
-    "test": "ut-test",
-    "version": "ut-version",
-    "lint-js": "ut-lint-js .",
-    "postpublish": "ut-postpublish"
+    "changelog": "./bin/ut-changelog",
+    "check": "./bin/ut-check",
+    "cover": "./bin/ut-cover",
+    "lint": "./bin/ut-lint-js .",
+    "postversion": "./bin/ut-postversion",
+    "precommit": "./bin/ut-precommit",
+    "prepublish": "./bin/ut-prepublish",
+    "prepush": "./bin/ut-prepush",
+    "pretest": "./bin/ut-pretest",
+    "preversion": "./bin/ut-preversion",
+    "release": "./bin/ut-release",
+    "test": "./bin/ut-test",
+    "version": "./bin/ut-version"
   },
   "publishConfig": {
     "registry": "https://nexus.softwaregroup-bg.com/repository/npm-internal"
@@ -81,8 +79,5 @@
     "Continuous"
   ],
   "author": "Build and Release Engeneering team",
-  "license": "ISC",
-  "devDependencies": {
-    "ut-tools": "~1.0.18"
-  }
+  "license": "ISC"
 }
