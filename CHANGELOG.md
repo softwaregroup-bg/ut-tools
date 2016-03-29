@@ -1,3 +1,17 @@
+<a name="5.3.2"></a>
+## [5.3.2](https://git.softwaregroup-bg.com/ut5/ut-tools/compare/v5.3.1...v5.3.2) (2016-03-29)
+
+
+### Bug Fixes
+
+* use ^ dependency to ut-tools ([b229cb8](https://git.softwaregroup-bg.com/ut5/ut-tools/commit/b229cb8))
+
+### Features
+
+* support optionalDependencies ([054b452](https://git.softwaregroup-bg.com/ut5/ut-tools/commit/054b452))
+
+
+
 <a name="5.3.1"></a>
 ## [5.3.1](https://git.softwaregroup-bg.com/ut5/ut-tools/compare/v1.0.19...v5.3.1) (2016-03-25)
 
