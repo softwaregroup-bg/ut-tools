@@ -1,3 +1,13 @@
+<a name="5.3.3"></a>
+## [5.3.3](https://git.softwaregroup-bg.com/ut5/ut-tools/compare/v5.3.2...v5.3.3) (2016-03-31)
+
+
+### Bug Fixes
+
+* allow exists rule to not fail on peerDependency ([65e5876](https://git.softwaregroup-bg.com/ut5/ut-tools/commit/65e5876))
+
+
+
 <a name="5.3.2"></a>
 ## [5.3.2](https://git.softwaregroup-bg.com/ut5/ut-tools/compare/v5.3.1...v5.3.2) (2016-03-29)
 
