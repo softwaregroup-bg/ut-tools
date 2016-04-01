@@ -15,6 +15,7 @@
     "indent": [2, 4, {"SwitchCase": 1}],
     "semi": [2, "always"],
     "space-before-function-paren": [2, "never"],
+    "react/jsx-indent": 0,
     "require-path-exists/notEmpty": 2,
     "require-path-exists/tooManyArguments": 2,
     "require-path-exists/exists": 0,
