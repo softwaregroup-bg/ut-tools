@@ -1,3 +1,14 @@
+<a name="5.3.6"></a>
+## [5.3.6](https://git.softwaregroup-bg.com/ut5/ut-tools/compare/v5.3.5...v5.3.6) (2016-04-01)
+
+
+### Bug Fixes
+
+* disable jsx-indent, as it does not allow 4 spaces ([0f16d1a](https://git.softwaregroup-bg.com/ut5/ut-tools/commit/0f16d1a))
+* upgrade nsp ([785eeb6](https://git.softwaregroup-bg.com/ut5/ut-tools/commit/785eeb6))
+
+
+
 <a name="5.3.5"></a>
 ## [5.3.5](https://git.softwaregroup-bg.com/ut5/ut-tools/compare/v5.3.4...v5.3.5) (2016-03-31)
 
