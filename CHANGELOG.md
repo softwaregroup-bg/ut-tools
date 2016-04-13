@@ -1,3 +1,14 @@
+<a name="5.3.11"></a>
+## [5.3.11](https://git.softwaregroup-bg.com/ut5/ut-tools/compare/v5.3.9...v5.3.11) (2016-04-13)
+
+
+### Bug Fixes
+
+* no more bash scripts ([f0b3cad](https://git.softwaregroup-bg.com/ut5/ut-tools/commit/f0b3cad))
+* remove unused scripts ([eb15d3d](https://git.softwaregroup-bg.com/ut5/ut-tools/commit/eb15d3d))
+
+
+
 <a name="5.3.9"></a>
 ## [5.3.9](https://git.softwaregroup-bg.com/ut5/ut-tools/compare/v5.3.7...v5.3.9) (2016-04-13)
 
