@@ -1,3 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env node
 
-git push && git push origin --tags
+require('../lib/exec')('git', ['push']);
+require('../lib/exec')('git', ['push', 'origin', '--tags']);
