@@ -1,2 +1,4 @@
 #!/bin/sh
-git push --follow-tags
+
+git push
+git push origin --tags
