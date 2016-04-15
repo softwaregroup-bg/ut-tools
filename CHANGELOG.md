@@ -1,3 +1,13 @@
+<a name="5.3.15"></a>
+## [5.3.15](https://git.softwaregroup-bg.com/ut5/ut-tools/compare/v5.3.14...v5.3.15) (2016-04-15)
+
+
+### Features
+
+* upgrade to npm@3 ([9a2e881](https://git.softwaregroup-bg.com/ut5/ut-tools/commit/9a2e881))
+
+
+
 <a name="5.3.14"></a>
 ## [5.3.14](https://git.softwaregroup-bg.com/ut5/ut-tools/compare/v5.3.13...v5.3.14) (2016-04-15)
 
