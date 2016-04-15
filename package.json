@@ -84,6 +84,10 @@
     "Integration",
     "Continuous"
   ],
+  "engines": {
+    "node": "^4.4.3",
+    "npm": "^3.8.6"
+  },
   "author": "Build and Release Engeneering team",
   "license": "ISC"
 }
