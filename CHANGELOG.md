@@ -1,3 +1,17 @@
+<a name="5.3.16"></a>
+## [5.3.16](https://git.softwaregroup-bg.com/ut5/ut-tools/compare/v5.3.15...v5.3.16) (2016-04-15)
+
+
+### Bug Fixes
+
+* fix typos ([7c7d443](https://git.softwaregroup-bg.com/ut5/ut-tools/commit/7c7d443))
+
+### Features
+
+* handle all jenkins jobs ([8dd3f17](https://git.softwaregroup-bg.com/ut5/ut-tools/commit/8dd3f17))
+
+
+
 <a name="5.3.15"></a>
 ## [5.3.15](https://git.softwaregroup-bg.com/ut5/ut-tools/compare/v5.3.14...v5.3.15) (2016-04-15)
 
