@@ -47,7 +47,7 @@
     "preversion": "./bin/ut-preversion.js",
     "release": "./bin/ut-release.js",
     "test": "./bin/ut-test.js",
-    "version": "./bin/ut-versio.jsn"
+    "version": "./bin/ut-version.js"
   },
   "publishConfig": {
     "registry": "https://nexus.softwaregroup-bg.com/repository/npm-internal"
@@ -74,7 +74,7 @@
     "ut-preversion": "./bin/ut-preversion.js",
     "ut-release": "./bin/ut-release.js",
     "ut-test": "./bin/ut-test.js",
-    "ut-version": "./bin/ut-versio.jsn"
+    "ut-version": "./bin/ut-version.js"
   },
   "keywords": [
     "build",
