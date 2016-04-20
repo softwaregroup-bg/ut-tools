@@ -1,3 +1,13 @@
+<a name="5.3.18"></a>
+## [5.3.18](https://git.softwaregroup-bg.com/ut5/ut-tools/compare/v5.3.17...v5.3.18) (2016-04-20)
+
+
+### Bug Fixes
+
+* remove presets, as they should be in module's package.json ([57d6a6b](https://git.softwaregroup-bg.com/ut5/ut-tools/commit/57d6a6b))
+
+
+
 <a name="5.3.17"></a>
 ## [5.3.17](https://git.softwaregroup-bg.com/ut5/ut-tools/compare/v5.3.16...v5.3.17) (2016-04-20)
 
