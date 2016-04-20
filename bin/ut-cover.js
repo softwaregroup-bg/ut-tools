@@ -2,9 +2,6 @@
 
 require('../lib/exec')('node', [
     require('../lib/babelNodePath'),
-    '--presets',
-    'es2015,react,stage-0',
-    '--',
     require('../lib/ispartaPath'),
     'cover',
     '--report',
