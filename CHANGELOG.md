@@ -1,3 +1,13 @@
+<a name="5.3.17"></a>
+## [5.3.17](https://git.softwaregroup-bg.com/ut5/ut-tools/compare/v5.3.16...v5.3.17) (2016-04-20)
+
+
+### Features
+
+* properly execute babel-node ([f7800a0](https://git.softwaregroup-bg.com/ut5/ut-tools/commit/f7800a0))
+
+
+
 <a name="5.3.16"></a>
 ## [5.3.16](https://git.softwaregroup-bg.com/ut5/ut-tools/compare/v5.3.15...v5.3.16) (2016-04-15)
 
