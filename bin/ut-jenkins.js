@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 /*eslint no-process-env:0*/
+require('../lib/setEnv');
+
 var command;
 var jobname = process.env.JOB_NAME || '';
 
