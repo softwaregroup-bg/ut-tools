@@ -1,3 +1,13 @@
+<a name="5.3.20"></a>
+## [5.3.20](https://git.softwaregroup-bg.com/ut5/ut-tools/compare/v5.3.19...v5.3.20) (2016-04-22)
+
+
+### Bug Fixes
+
+* fix params passing order ([5a93fac](https://git.softwaregroup-bg.com/ut5/ut-tools/commit/5a93fac))
+
+
+
 <a name="5.3.19"></a>
 ## [5.3.19](https://git.softwaregroup-bg.com/ut5/ut-tools/compare/v5.3.18...v5.3.19) (2016-04-22)
 
