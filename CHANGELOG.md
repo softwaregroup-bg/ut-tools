@@ -1,3 +1,13 @@
+<a name="5.3.19"></a>
+## [5.3.19](https://git.softwaregroup-bg.com/ut5/ut-tools/compare/v5.3.18...v5.3.19) (2016-04-22)
+
+
+### Features
+
+* add support for auto db creation ([acb153b](https://git.softwaregroup-bg.com/ut5/ut-tools/commit/acb153b))
+
+
+
 <a name="5.3.18"></a>
 ## [5.3.18](https://git.softwaregroup-bg.com/ut5/ut-tools/compare/v5.3.17...v5.3.18) (2016-04-20)
 
