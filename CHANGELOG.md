@@ -1,3 +1,13 @@
+<a name="5.3.22"></a>
+## [5.3.22](https://git.softwaregroup-bg.com/ut5/ut-tools/compare/v5.3.21...v5.3.22) (2016-04-25)
+
+
+### Bug Fixes
+
+* set proper env keys ([7dd77aa](https://git.softwaregroup-bg.com/ut5/ut-tools/commit/7dd77aa))
+
+
+
 <a name="5.3.21"></a>
 ## [5.3.21](https://git.softwaregroup-bg.com/ut5/ut-tools/compare/v5.3.20...v5.3.21) (2016-04-22)
 
