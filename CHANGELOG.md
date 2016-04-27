@@ -1,3 +1,13 @@
+<a name="5.3.23"></a>
+## [5.3.23](https://git.softwaregroup-bg.com/ut5/ut-tools/compare/v5.3.22...v5.3.23) (2016-04-27)
+
+
+### Bug Fixes
+
+* parse module from gitlab repo ([388acb0](https://git.softwaregroup-bg.com/ut5/ut-tools/commit/388acb0))
+
+
+
 <a name="5.3.22"></a>
 ## [5.3.22](https://git.softwaregroup-bg.com/ut5/ut-tools/compare/v5.3.21...v5.3.22) (2016-04-25)
 
