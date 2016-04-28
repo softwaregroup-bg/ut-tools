@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 /*eslint no-process-env:0*/
-require('../lib/setEnv');
 
-var module = (process.env.gitlabSourceRepoName || '').match(/^.*\/.*-(.*)$/);
-process.env.UT_MODULE = module && module[1];
+var utModule = (process.env.gitlabSourceRepoName || '').match(/^.*\/.*-(.*)$/);
+process.env.UT_MODULE = utModule && utModule[1];
+require('../lib/setEnv');
 
 var command;
 var jobname = process.env.JOB_NAME || '';
