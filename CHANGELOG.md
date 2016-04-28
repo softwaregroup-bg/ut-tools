@@ -1,3 +1,13 @@
+<a name="5.3.24"></a>
+## [5.3.24](https://git.softwaregroup-bg.com/ut5/ut-tools/compare/v5.3.23...v5.3.24) (2016-04-28)
+
+
+### Bug Fixes
+
+* extract UT_MODULE before setEnv([d39127e](https://git.softwaregroup-bg.com/ut5/ut-tools/commit/d39127e))
+
+
+
 <a name="5.3.23"></a>
 ## [5.3.23](https://git.softwaregroup-bg.com/ut5/ut-tools/compare/v5.3.22...v5.3.23) (2016-04-27)
 
