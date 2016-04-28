@@ -1,8 +1,12 @@
 #!/usr/bin/env node
 /*eslint no-process-env:0*/
 
-var utModule = (process.env.gitlabSourceRepoName || '').match(/^.*\/.*-(.*)$/);
-process.env.UT_MODULE = utModule && utModule[1];
+if (!process.env.UT_MODULE) {
+    var utModule = (process.env.GIT_URL || '').match(/^.*\/.*-(.*)\.git$/);
+    if (utModule) {
+        process.env.UT_MODULE = utModule[1];
+    }
+}
 require('../lib/setEnv');
 
 var command;
