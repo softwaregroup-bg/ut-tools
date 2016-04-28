@@ -1,3 +1,13 @@
+<a name="5.3.25"></a>
+## [5.3.25](https://git.softwaregroup-bg.com/ut5/ut-tools/compare/v5.3.24...v5.3.25) (2016-04-28)
+
+
+### Features
+
+* set workDir to be the current dir([02379fb](https://git.softwaregroup-bg.com/ut5/ut-tools/commit/02379fb))
+
+
+
 <a name="5.3.24"></a>
 ## [5.3.24](https://git.softwaregroup-bg.com/ut5/ut-tools/compare/v5.3.23...v5.3.24) (2016-04-28)
 
