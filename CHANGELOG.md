@@ -1,3 +1,13 @@
+<a name="5.3.26"></a>
+## [5.3.26](https://git.softwaregroup-bg.com/ut5/ut-tools/compare/v5.3.25...v5.3.26) (2016-04-28)
+
+
+### Bug Fixes
+
+* extract module from env.GIT_URL([1dc7c4d](https://git.softwaregroup-bg.com/ut5/ut-tools/commit/1dc7c4d))
+
+
+
 <a name="5.3.25"></a>
 ## [5.3.25](https://git.softwaregroup-bg.com/ut5/ut-tools/compare/v5.3.24...v5.3.25) (2016-04-28)
 
