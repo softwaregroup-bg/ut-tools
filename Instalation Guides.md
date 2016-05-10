@@ -19,13 +19,13 @@
   - install eslint `npm install eslint -g`
 
 ## Visual studio code linting + ut-tools
-  - set local npm registry to be used with executing in cmd `npm set registry http://npm.softwaregroup-bg.com:5001`
+  - set local npm registry to be used with executing in cmd `npm set registry https://nexus.softwaregroup-bg.com/repository/npm-all/`
   - Install ut tools `npm install ut-tools -g`
   - install eslint extension in visual studio code
     - ctrl+shift+p and type `install` then select "Extension: Install extensions"
     - in the newly opened fast search start typing `eslint` and install it
     - restart VSC
-  - Install all required packages for linting `npm install -g eslint-config-standard-react`, `npm install -g eslint-config-standard`, `npm install -g eslint-plugin-standard`, `npm install -g eslint-plugin-react`, 
+  - Install all required packages for linting based on error codes returned from ide, 
   - File > Preferences > user settings
   - on the right pane paste 
   ```json
