@@ -1,3 +1,13 @@
+<a name="5.3.27"></a>
+## [5.3.27](https://git.softwaregroup-bg.com/ut5/ut-tools/compare/v5.3.26...v5.3.27) (2016-05-10)
+
+
+### Bug Fixes
+
+* **md:** eslint in vscode install([6673801](https://git.softwaregroup-bg.com/ut5/ut-tools/commit/6673801))
+
+
+
 <a name="5.3.26"></a>
 ## [5.3.26](https://git.softwaregroup-bg.com/ut5/ut-tools/compare/v5.3.25...v5.3.26) (2016-04-28)
 
