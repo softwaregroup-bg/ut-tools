@@ -1,3 +1,15 @@
+<a name="5.3.29"></a>
+## [5.3.29](https://git.softwaregroup-bg.com/ut5/ut-tools/compare/v5.3.27...v5.3.29) (2016-06-08)
+
+
+### Bug Fixes
+
+* fix lint error ([ce5d243](https://git.softwaregroup-bg.com/ut5/ut-tools/commit/ce5d243))
+* update dependencies ([79f5ac6](https://git.softwaregroup-bg.com/ut5/ut-tools/commit/79f5ac6))
+* upgrade lodash ([aff936d](https://git.softwaregroup-bg.com/ut5/ut-tools/commit/aff936d))
+
+
+
 <a name="5.3.27"></a>
 ## [5.3.27](https://git.softwaregroup-bg.com/ut5/ut-tools/compare/v5.3.26...v5.3.27) (2016-05-10)
 
