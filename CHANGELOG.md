@@ -1,3 +1,13 @@
+<a name="5.3.33"></a>
+## [5.3.33](https://git.softwaregroup-bg.com/ut5/ut-tools/compare/v5.3.32...v5.3.33) (2016-06-17)
+
+
+### Bug Fixes
+
+* workaround for https://github.com/npm/npm/issues/9863 ([723b9dd](https://git.softwaregroup-bg.com/ut5/ut-tools/commit/723b9dd))
+
+
+
 <a name="5.3.32"></a>
 ## [5.3.32](https://git.softwaregroup-bg.com/ut5/ut-tools/compare/v5.3.31...v5.3.32) (2016-06-17)
 
