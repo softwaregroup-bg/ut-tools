@@ -1,3 +1,13 @@
+<a name="5.3.31"></a>
+## [5.3.31](https://git.softwaregroup-bg.com/ut5/ut-tools/compare/v5.3.30...v5.3.31) (2016-06-17)
+
+
+### Bug Fixes
+
+* fix error ([ba41415](https://git.softwaregroup-bg.com/ut5/ut-tools/commit/ba41415))
+
+
+
 <a name="5.3.30"></a>
 ## [5.3.30](https://git.softwaregroup-bg.com/ut5/ut-tools/compare/v5.3.29...v5.3.30) (2016-06-17)
 
