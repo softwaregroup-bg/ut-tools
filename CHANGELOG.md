@@ -1,3 +1,13 @@
+<a name="5.3.32"></a>
+## [5.3.32](https://git.softwaregroup-bg.com/ut5/ut-tools/compare/v5.3.31...v5.3.32) (2016-06-17)
+
+
+### Features
+
+* add cache volume ([45dbf22](https://git.softwaregroup-bg.com/ut5/ut-tools/commit/45dbf22))
+
+
+
 <a name="5.3.31"></a>
 ## [5.3.31](https://git.softwaregroup-bg.com/ut5/ut-tools/compare/v5.3.30...v5.3.31) (2016-06-17)
 
