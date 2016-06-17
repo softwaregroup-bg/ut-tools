@@ -1,3 +1,13 @@
+<a name="5.3.30"></a>
+## [5.3.30](https://git.softwaregroup-bg.com/ut5/ut-tools/compare/v5.3.29...v5.3.30) (2016-06-17)
+
+
+### Features
+
+* add support for prefetch.json ([beff782](https://git.softwaregroup-bg.com/ut5/ut-tools/commit/beff782))
+
+
+
 <a name="5.3.29"></a>
 ## [5.3.29](https://git.softwaregroup-bg.com/ut5/ut-tools/compare/v5.3.27...v5.3.29) (2016-06-08)
 
