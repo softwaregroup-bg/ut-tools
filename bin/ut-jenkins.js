@@ -12,7 +12,7 @@ require('../lib/setEnv');
 var command;
 var jobname = process.env.JOB_NAME || '';
 
-if ((process.env.BUILD_CAUSE === 'SCMTRIGGER' && process.env.gitlabSourceBranch === 'master') || (process.env.BUILD_CAUSE === 'MANUALTRIGGER' && jobname.match(/ut-.+_cr$/))) {
+if ((process.env.BUILD_CAUSE === 'SCMTRIGGER' && process.env.gitlabSourceBranch === 'master') || (process.env.BUILD_CAUSE === 'MANUALTRIGGER' && jobname.match(/((ut)|(impl))-.+_cr$/))) {
     command = 'release';
 } else {
     command = 'test';
