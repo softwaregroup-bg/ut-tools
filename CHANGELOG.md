@@ -1,3 +1,13 @@
+<a name="5.3.34"></a>
+## [5.3.34](https://git.softwaregroup-bg.com/ut5/ut-tools/compare/v5.3.33...v5.3.34) (2016-06-20)
+
+
+### Features
+
+* support publishing an implemenation as a package ([b88f818](https://git.softwaregroup-bg.com/ut5/ut-tools/commit/b88f818))
+
+
+
 <a name="5.3.33"></a>
 ## [5.3.33](https://git.softwaregroup-bg.com/ut5/ut-tools/compare/v5.3.32...v5.3.33) (2016-06-17)
 
