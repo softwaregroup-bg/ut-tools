@@ -1,6 +1,6 @@
 {
   "name": "ut-tools",
-  "version": "5.3.34",
+  "version": "5.3.35",
   "description": "Build and Release management automation package.",
   "dependencies": {
     "babel-cli": "6.9.0",

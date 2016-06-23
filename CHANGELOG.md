@@ -1,3 +1,13 @@
+<a name="5.3.35"></a>
+## [5.3.35](https://git.softwaregroup-bg.com/ut5/ut-tools/compare/v5.3.34...v5.3.35) (2016-06-23)
+
+
+### Bug Fixes
+
+* ignore dist folder ([e351c8f](https://git.softwaregroup-bg.com/ut5/ut-tools/commit/e351c8f))
+
+
+
 <a name="5.3.34"></a>
 ## [5.3.34](https://git.softwaregroup-bg.com/ut5/ut-tools/compare/v5.3.33...v5.3.34) (2016-06-20)
 
