@@ -1,3 +1,18 @@
+<a name="5.4.1"></a>
+## [5.4.1](https://git.softwaregroup-bg.com/ut5/ut-tools/compare/v5.3.35...v5.4.1) (2016-07-11)
+
+
+### Bug Fixes
+
+* dependency still not published ([131555b](https://git.softwaregroup-bg.com/ut5/ut-tools/commit/131555b))
+
+
+### Features
+
+* upgrade dependencies ([9da1a00](https://git.softwaregroup-bg.com/ut5/ut-tools/commit/9da1a00))
+
+
+
 <a name="5.3.35"></a>
 ## [5.3.35](https://git.softwaregroup-bg.com/ut5/ut-tools/compare/v5.3.34...v5.3.35) (2016-06-23)
 
