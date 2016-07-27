@@ -1,3 +1,16 @@
+<a name="5.5.0"></a>
+# [5.5.0](https://git.softwaregroup-bg.com/ut5/ut-tools/compare/v5.4.4...v5.5.0) (2016-07-27)
+
+
+### Features
+
+* add css linting ([cc64c89](https://git.softwaregroup-bg.com/ut5/ut-tools/commit/cc64c89))
+* add support for start/stop scripts ([7c52423](https://git.softwaregroup-bg.com/ut5/ut-tools/commit/7c52423))
+* automate minor and major versions ([d63f22d](https://git.softwaregroup-bg.com/ut5/ut-tools/commit/d63f22d))
+* improve github support ([81acfff](https://git.softwaregroup-bg.com/ut5/ut-tools/commit/81acfff))
+
+
+
 <a name="5.4.4"></a>
 ## [5.4.4](https://git.softwaregroup-bg.com/ut5/ut-tools/compare/v5.4.3...v5.4.4) (2016-07-26)
 
