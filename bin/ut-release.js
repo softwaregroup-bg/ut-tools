@@ -1,4 +1,15 @@
 #!/usr/bin/env node
 
-require('../lib/exec')('npm', ['version', 'patch', '--silent', '-m', '[ci-skip][ci skip] version incremented to %s']);
-require('../lib/exec')('npm', ['publish', '--silent']);
+var conventionalRecommendedBump = require('conventional-recommended-bump');
+
+conventionalRecommendedBump({
+    preset: 'angular'
+}, function(err, result) {
+    if (err) {
+        throw err;
+    } else {
+        require('../lib/exec')('npm', ['version', result.releaseAs, '--silent', '-m', '[ci-skip][ci skip] version incremented to %s']);
+        require('../lib/exec')('npm', ['publish', '--silent']);
+    };
+});
+
