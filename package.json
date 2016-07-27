@@ -29,6 +29,7 @@
     "nsp": "2.6.0",
     "resolve": "1.1.7",
     "semver": "5.2.0",
+    "stylelint": "7.0.3",
     "sync-request": "3.0.1",
     "which": "1.2.10",
     "write-json-file": "2.0.0"
@@ -40,6 +41,7 @@
     "gitlab": "./bin/ut-gitlab.js",
     "jenkins": "./bin/ut-jenkins.js",
     "lint": "./bin/ut-lint-js.js .",
+    "lintcss": "./bin/ut-lint-css.js .",
     "postversion": "./bin/ut-postversion.js",
     "precommit": "./bin/ut-precommit.js",
     "prepublish": "./bin/ut-prepublish.js",
