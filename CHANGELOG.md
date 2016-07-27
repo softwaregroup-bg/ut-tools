@@ -1,3 +1,13 @@
+<a name="5.5.1"></a>
+## [5.5.1](https://github.com/softwaregroup-bg/ut-tools/compare/v5.5.0...v5.5.1) (2016-07-27)
+
+
+### Bug Fixes
+
+* fix repo URL ([0b47bd3](https://github.com/softwaregroup-bg/ut-tools/commit/0b47bd3))
+
+
+
 <a name="5.5.0"></a>
 # [5.5.0](https://git.softwaregroup-bg.com/ut5/ut-tools/compare/v5.4.4...v5.5.0) (2016-07-27)
 
