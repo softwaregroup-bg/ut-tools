@@ -68,6 +68,7 @@
     "ut-jenkins": "./bin/ut-jenkins.js",
     "ut-lint": "./bin/ut-lint.js",
     "ut-lint-js": "./bin/ut-lint-js.js",
+    "ut-lint-css": "./bin/ut-lint-css.js",
     "ut-postpublish": "./bin/ut-postpublish.js",
     "ut-postversion": "./bin/ut-postversion.js",
     "ut-precommit": "./bin/ut-precommit.js",
