@@ -1,3 +1,13 @@
+<a name="5.5.3"></a>
+## [5.5.3](https://github.com/softwaregroup-bg/ut-tools/compare/v5.5.2...v5.5.3) (2016-08-08)
+
+
+### Bug Fixes
+
+* improve env var compatibility ([1c5e9e8](https://github.com/softwaregroup-bg/ut-tools/commit/1c5e9e8))
+
+
+
 <a name="5.5.2"></a>
 ## [5.5.2](https://github.com/softwaregroup-bg/ut-tools/compare/v5.5.1...v5.5.2) (2016-08-02)
 
