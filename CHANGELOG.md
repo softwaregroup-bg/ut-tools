@@ -1,3 +1,13 @@
+<a name="5.6.0"></a>
+# [5.6.0](https://github.com/softwaregroup-bg/ut-tools/compare/v5.5.3...v5.6.0) (2016-08-12)
+
+
+### Features
+
+* suppor publishing to npm ([ea2babe](https://github.com/softwaregroup-bg/ut-tools/commit/ea2babe))
+
+
+
 <a name="5.5.3"></a>
 ## [5.5.3](https://github.com/softwaregroup-bg/ut-tools/compare/v5.5.2...v5.5.3) (2016-08-08)
 
