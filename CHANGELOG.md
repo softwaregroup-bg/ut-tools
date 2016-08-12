@@ -1,3 +1,13 @@
+<a name="5.6.1"></a>
+## [5.6.1](https://github.com/softwaregroup-bg/ut-tools/compare/v5.6.0...v5.6.1) (2016-08-12)
+
+
+### Bug Fixes
+
+* do not crash when missing publishConfig ([f0f885a](https://github.com/softwaregroup-bg/ut-tools/commit/f0f885a))
+
+
+
 <a name="5.6.0"></a>
 # [5.6.0](https://github.com/softwaregroup-bg/ut-tools/compare/v5.5.3...v5.6.0) (2016-08-12)
 
