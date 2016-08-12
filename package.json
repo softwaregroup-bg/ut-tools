@@ -52,9 +52,6 @@
     "test": "./bin/ut-test.js",
     "version": "./bin/ut-version.js"
   },
-  "publishConfig": {
-    "registry": "https://nexus.softwaregroup-bg.com/repository/npm-internal"
-  },
   "repository": {
     "type": "git",
     "url": "git@github.com:softwaregroup-bg/ut-tools.git"
@@ -93,5 +90,5 @@
     "npm": "^3.10.5"
   },
   "author": "Build and Release Engeneering team",
-  "license": "ISC"
+  "license": "Apache-2.0"
 }
