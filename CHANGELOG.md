@@ -1,3 +1,13 @@
+<a name="5.7.0"></a>
+# [5.7.0](https://github.com/softwaregroup-bg/ut-tools/compare/v5.6.2...v5.7.0) (2016-08-14)
+
+
+### Features
+
+* use standard linting for l1p ([41a884e](https://github.com/softwaregroup-bg/ut-tools/commit/41a884e))
+
+
+
 <a name="5.6.2"></a>
 ## [5.6.2](https://github.com/softwaregroup-bg/ut-tools/compare/v5.6.1...v5.6.2) (2016-08-12)
 
