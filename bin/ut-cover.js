@@ -9,4 +9,4 @@ require('../lib/exec')('node', [
     '--report',
     'lcov',
     'test/cover.js'
-]);
+].concat(process.argv.slice(2)));
