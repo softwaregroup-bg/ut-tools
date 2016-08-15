@@ -1,3 +1,13 @@
+<a name="5.8.0"></a>
+# [5.8.0](https://github.com/softwaregroup-bg/ut-tools/compare/v5.7.1...v5.8.0) (2016-08-15)
+
+
+### Features
+
+* support passing parameters to ut-cover ([2531b52](https://github.com/softwaregroup-bg/ut-tools/commit/2531b52))
+
+
+
 <a name="5.7.1"></a>
 ## [5.7.1](https://github.com/softwaregroup-bg/ut-tools/compare/v5.7.0...v5.7.1) (2016-08-14)
 
