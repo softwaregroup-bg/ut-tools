@@ -8,8 +8,8 @@ conventionalRecommendedBump({
     if (err) {
         throw err;
     } else {
-        require('../lib/exec')('npm', ['version', result.releaseAs, '--silent', '-m', '[ci-skip][ci skip] version incremented to %s']);
-        require('../lib/exec')('npm', ['publish', '--silent']);
+        require('../lib/exec')('npm', ['version', result.releaseAs, '-m', '[ci-skip][ci skip] version incremented to %s']);
+        require('../lib/exec')('npm', ['publish']);
     };
 });
 
