@@ -1,3 +1,13 @@
+<a name="5.8.1"></a>
+## [5.8.1](https://github.com/softwaregroup-bg/ut-tools/compare/v5.8.0...v5.8.1) (2016-08-24)
+
+
+### Bug Fixes
+
+* do not try to publish in merge jobs ([25bc940](https://github.com/softwaregroup-bg/ut-tools/commit/25bc940))
+
+
+
 <a name="5.8.0"></a>
 # [5.8.0](https://github.com/softwaregroup-bg/ut-tools/compare/v5.7.1...v5.8.0) (2016-08-15)
 
