@@ -1,3 +1,13 @@
+<a name="5.9.1"></a>
+## [5.9.1](https://github.com/softwaregroup-bg/ut-tools/compare/v5.9.0...v5.9.1) (2016-10-10)
+
+
+### Bug Fixes
+
+* do not remove intermediate containers ([ce84a27](https://github.com/softwaregroup-bg/ut-tools/commit/ce84a27))
+
+
+
 <a name="5.9.0"></a>
 # [5.9.0](https://github.com/softwaregroup-bg/ut-tools/compare/v5.8.2...v5.9.0) (2016-10-10)
 
