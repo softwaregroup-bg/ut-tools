@@ -1,3 +1,13 @@
+<a name="5.9.0"></a>
+# [5.9.0](https://github.com/softwaregroup-bg/ut-tools/compare/v5.8.2...v5.9.0) (2016-10-10)
+
+
+### Features
+
+* add circleci support ([b738a8b](https://github.com/softwaregroup-bg/ut-tools/commit/b738a8b))
+
+
+
 <a name="5.8.2"></a>
 ## [5.8.2](https://github.com/softwaregroup-bg/ut-tools/compare/v5.8.1...v5.8.2) (2016-09-20)
 
