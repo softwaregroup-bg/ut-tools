@@ -1,3 +1,13 @@
+<a name="5.9.4"></a>
+## [5.9.4](https://github.com/softwaregroup-bg/ut-tools/compare/v5.9.3...v5.9.4) (2016-10-10)
+
+
+### Bug Fixes
+
+* remove forgotten code ([60b138d](https://github.com/softwaregroup-bg/ut-tools/commit/60b138d))
+
+
+
 <a name="5.9.3"></a>
 ## [5.9.3](https://github.com/softwaregroup-bg/ut-tools/compare/v5.9.2...v5.9.3) (2016-10-10)
 
