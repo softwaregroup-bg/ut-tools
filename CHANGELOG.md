@@ -1,3 +1,13 @@
+<a name="5.9.2"></a>
+## [5.9.2](https://github.com/softwaregroup-bg/ut-tools/compare/v5.9.1...v5.9.2) (2016-10-10)
+
+
+### Bug Fixes
+
+* fix stdout piping ([96febbc](https://github.com/softwaregroup-bg/ut-tools/commit/96febbc))
+
+
+
 <a name="5.9.1"></a>
 ## [5.9.1](https://github.com/softwaregroup-bg/ut-tools/compare/v5.9.0...v5.9.1) (2016-10-10)
 
