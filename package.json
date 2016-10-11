@@ -61,7 +61,7 @@
     "ut-changelog": "./bin/ut-changelog.js",
     "ut-check": "./bin/ut-check.js",
     "ut-circleci-build": "./bin/ut-circleci-build.js",
-    "ut-circleci-test": "./bin/ut-circleci-test",
+    "ut-circleci-test": "./bin/ut-circleci-test.js",
     "ut-circleci-push": "./bin/ut-circleci-push.js",
     "ut-cover": "./bin/ut-cover.js",
     "ut-gitlab": "./bin/ut-gitlab.js",
