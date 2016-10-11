@@ -1,3 +1,13 @@
+<a name="5.9.9"></a>
+## [5.9.9](https://github.com/softwaregroup-bg/ut-tools/compare/v5.9.8...v5.9.9) (2016-10-11)
+
+
+### Bug Fixes
+
+* **circleci:** fix tagging ([199883a](https://github.com/softwaregroup-bg/ut-tools/commit/199883a))
+
+
+
 <a name="5.9.8"></a>
 ## [5.9.8](https://github.com/softwaregroup-bg/ut-tools/compare/v5.9.7...v5.9.8) (2016-10-11)
 
