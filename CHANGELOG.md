@@ -1,3 +1,13 @@
+<a name="5.9.6"></a>
+## [5.9.6](https://github.com/softwaregroup-bg/ut-tools/compare/v5.9.5...v5.9.6) (2016-10-11)
+
+
+### Bug Fixes
+
+* **circleci:** bump version only on master branch ([c12c286](https://github.com/softwaregroup-bg/ut-tools/commit/c12c286))
+
+
+
 <a name="5.9.5"></a>
 ## [5.9.5](https://github.com/softwaregroup-bg/ut-tools/compare/v5.9.4...v5.9.5) (2016-10-11)
 
