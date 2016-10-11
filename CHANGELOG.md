@@ -1,3 +1,13 @@
+<a name="5.9.7"></a>
+## [5.9.7](https://github.com/softwaregroup-bg/ut-tools/compare/v5.9.6...v5.9.7) (2016-10-11)
+
+
+### Bug Fixes
+
+* change base image ([765f2d0](https://github.com/softwaregroup-bg/ut-tools/commit/765f2d0))
+
+
+
 <a name="5.9.6"></a>
 ## [5.9.6](https://github.com/softwaregroup-bg/ut-tools/compare/v5.9.5...v5.9.6) (2016-10-11)
 
