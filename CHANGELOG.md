@@ -1,3 +1,13 @@
+<a name="5.9.10"></a>
+## [5.9.10](https://github.com/softwaregroup-bg/ut-tools/compare/v5.9.9...v5.9.10) (2016-10-12)
+
+
+### Bug Fixes
+
+* fix docker command ([94dc62f](https://github.com/softwaregroup-bg/ut-tools/commit/94dc62f))
+
+
+
 <a name="5.9.9"></a>
 ## [5.9.9](https://github.com/softwaregroup-bg/ut-tools/compare/v5.9.8...v5.9.9) (2016-10-11)
 
