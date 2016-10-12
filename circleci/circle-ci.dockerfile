@@ -3,4 +3,4 @@ COPY .npmrc .npmrc
 COPY package.json package.json
 RUN npm update
 COPY . .
-CMD ["npm", "run"]
+CMD ["npm", "start"]
