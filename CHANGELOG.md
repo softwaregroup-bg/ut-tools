@@ -1,3 +1,20 @@
+<a name="5.10.0"></a>
+# [5.10.0](https://github.com/softwaregroup-bg/ut-tools/compare/v5.9.10...v5.10.0) (2016-10-14)
+
+
+### Bug Fixes
+
+* fix downstream breaking change ([a7d2ced](https://github.com/softwaregroup-bg/ut-tools/commit/a7d2ced))
+* fix linting ([2a00a0d](https://github.com/softwaregroup-bg/ut-tools/commit/2a00a0d))
+* fix linting ([6dff1e2](https://github.com/softwaregroup-bg/ut-tools/commit/6dff1e2))
+
+
+### Features
+
+* update dependencies ([bd160b1](https://github.com/softwaregroup-bg/ut-tools/commit/bd160b1))
+
+
+
 <a name="5.9.10"></a>
 ## [5.9.10](https://github.com/softwaregroup-bg/ut-tools/compare/v5.9.9...v5.9.10) (2016-10-12)
 
