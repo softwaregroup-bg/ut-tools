@@ -1,3 +1,13 @@
+<a name="5.10.2"></a>
+## [5.10.2](https://github.com/softwaregroup-bg/ut-tools/compare/v5.10.1...v5.10.2) (2016-10-14)
+
+
+### Bug Fixes
+
+* switch to bash ([0f1a91b](https://github.com/softwaregroup-bg/ut-tools/commit/0f1a91b))
+
+
+
 <a name="5.10.1"></a>
 ## [5.10.1](https://github.com/softwaregroup-bg/ut-tools/compare/v5.10.0...v5.10.1) (2016-10-14)
 
