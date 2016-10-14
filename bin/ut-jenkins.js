@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-/*eslint no-process-env:0*/
+/* eslint no-process-env:0 */
 
 if (!process.env.UT_MODULE) {
     var utModule = (process.env.GIT_URL || '').match(/^.*\/.*-(.*)\.git$/);
