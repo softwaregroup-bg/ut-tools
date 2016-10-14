@@ -1,3 +1,13 @@
+<a name="5.10.1"></a>
+## [5.10.1](https://github.com/softwaregroup-bg/ut-tools/compare/v5.10.0...v5.10.1) (2016-10-14)
+
+
+### Bug Fixes
+
+* fix bash syntax ([c56c1b9](https://github.com/softwaregroup-bg/ut-tools/commit/c56c1b9))
+
+
+
 <a name="5.10.0"></a>
 # [5.10.0](https://github.com/softwaregroup-bg/ut-tools/compare/v5.9.10...v5.10.0) (2016-10-14)
 
