@@ -3,12 +3,15 @@
   "plugins": [
     "require-path-exists",
     "no-require-lodash",
+    "promise",
     "disallow-methods"
   ],
   "rules": {
     "no-console": 1,
     "no-alert": 1,
     "no-debugger": 1,
+    "promise/catch-or-return": 1,
+    "promise/always-return": 1,
     "no-process-env": 2,
     "no-process-exit": 2,
     "no-restricted-modules": [2, "express", "underscore", "stream", "wire", "nconf", "superagent", "errno", "marko", "moment", "ut-front/react", "ut-port-smtp"],
