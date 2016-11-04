@@ -1,3 +1,14 @@
+<a name="5.10.5"></a>
+## [5.10.5](https://github.com/softwaregroup-bg/ut-tools/compare/v5.10.4...v5.10.5) (2016-11-04)
+
+
+### Bug Fixes
+
+* add branch name to the database name ([#3](https://github.com/softwaregroup-bg/ut-tools/issues/3)) ([9c62a02](https://github.com/softwaregroup-bg/ut-tools/commit/9c62a02))
+* change release trigger logic ([#2](https://github.com/softwaregroup-bg/ut-tools/issues/2)) ([9f1d05b](https://github.com/softwaregroup-bg/ut-tools/commit/9f1d05b))
+
+
+
 <a name="5.10.4"></a>
 ## [5.10.4](https://github.com/softwaregroup-bg/ut-tools/compare/v5.10.3...v5.10.4) (2016-10-24)
 
