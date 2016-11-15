@@ -1,3 +1,13 @@
+<a name="5.10.6"></a>
+## [5.10.6](https://github.com/softwaregroup-bg/ut-tools/compare/v5.10.5...v5.10.6) (2016-11-15)
+
+
+### Bug Fixes
+
+* license should now say 'see license in license' ([61867c5](https://github.com/softwaregroup-bg/ut-tools/commit/61867c5))
+
+
+
 <a name="5.10.5"></a>
 ## [5.10.5](https://github.com/softwaregroup-bg/ut-tools/compare/v5.10.4...v5.10.5) (2016-11-04)
 
