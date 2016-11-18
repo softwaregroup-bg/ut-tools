@@ -1,3 +1,13 @@
+<a name="5.10.7"></a>
+## [5.10.7](https://github.com/softwaregroup-bg/ut-tools/compare/v5.10.6...v5.10.7) (2016-11-18)
+
+
+### Bug Fixes
+
+* create git tag if there none exists ([#5](https://github.com/softwaregroup-bg/ut-tools/issues/5)) ([31534c3](https://github.com/softwaregroup-bg/ut-tools/commit/31534c3))
+
+
+
 <a name="5.10.6"></a>
 ## [5.10.6](https://github.com/softwaregroup-bg/ut-tools/compare/v5.10.5...v5.10.6) (2016-11-15)
 
