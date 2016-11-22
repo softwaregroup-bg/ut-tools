@@ -1,3 +1,13 @@
+<a name="5.10.8"></a>
+## [5.10.8](https://github.com/softwaregroup-bg/ut-tools/compare/v5.10.7...v5.10.8) (2016-11-22)
+
+
+### Bug Fixes
+
+* improve error logging ([e65df3d](https://github.com/softwaregroup-bg/ut-tools/commit/e65df3d))
+
+
+
 <a name="5.10.7"></a>
 ## [5.10.7](https://github.com/softwaregroup-bg/ut-tools/compare/v5.10.6...v5.10.7) (2016-11-18)
 
