@@ -27,7 +27,7 @@
     "lodash.isarray": "4.0.0",
     "meow": "3.7.0",
     "nsp": "2.6.2",
-    "resolve": "1.1.7",
+    "resolve": "1.2.0",
     "semver": "5.3.0",
     "stylelint": "7.7.0",
     "sync-request": "3.0.1",
