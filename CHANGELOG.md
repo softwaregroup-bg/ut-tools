@@ -1,3 +1,14 @@
+<a name="5.11.0"></a>
+# [5.11.0](https://github.com/softwaregroup-bg/ut-tools/compare/v5.10.8...v5.11.0) (2016-12-21)
+
+
+### Features
+
+* update dependencies ([f0fa9db](https://github.com/softwaregroup-bg/ut-tools/commit/f0fa9db))
+* update dependencies ([fbdf5cb](https://github.com/softwaregroup-bg/ut-tools/commit/fbdf5cb))
+
+
+
 <a name="5.10.8"></a>
 ## [5.10.8](https://github.com/softwaregroup-bg/ut-tools/compare/v5.10.7...v5.10.8) (2016-11-22)
 
