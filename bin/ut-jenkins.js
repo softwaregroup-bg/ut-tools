@@ -12,7 +12,11 @@ require('../lib/setEnv');
 var command;
 var jobname = process.env.JOB_NAME || '';
 
-if (jobname.match(/((ut)|(impl))-.+_cr$/) && process.env.BUILD_CAUSE === 'SCMTRIGGER' && (process.env.gitlabSourceBranch === 'master' || process.env.GIT_BRANCH === 'origin/master')) {
+if (
+    /((ut)|(impl))-.+_cr$/.test(jobname) &&
+    process.env.BUILD_CAUSE === 'SCMTRIGGER' &&
+    (/(^master$)|(^ci_.*)/.test(process.env.gitlabSourceBranch) || /(^origin\/master$)|(^origin\/ci_.*)/.test(process.env.GIT_BRANCH))
+) {
     command = 'release';
 } else {
     command = 'test';
