@@ -1,12 +1,7 @@
 #!/usr/bin/env node
 
-require('../lib/exec')('node', [
+require('../lib/exec')(require.resolve('nyc/bin/nyc'), [
+    'node',
     require('../lib/babelNodePath'),
-    require('../lib/ispartaPath'),
-    'cover',
-    '--report',
-    'cobertura',
-    '--report',
-    'lcov',
-    'test/cover.js'
-].concat(process.argv.slice(2)));
+    require.resolve('blue-tape/bin/blue-tape'),
+    'test/**/start*.js', 'test/**/test*.js', 'test/**/stop*.js']);

@@ -1,6 +1,6 @@
 {
   "name": "ut-tools",
-  "version": "5.11.1",
+  "version": "5.11.2",
   "description": "Build and Release management automation package.",
   "dependencies": {
     "babel-cli": "6.18.0",
@@ -32,7 +32,8 @@
     "stylelint": "7.7.0",
     "sync-request": "3.0.1",
     "which": "1.2.12",
-    "write-json-file": "2.0.0"
+    "write-json-file": "2.0.0",
+    "nyc": "10.0.0"
   },
   "scripts": {
     "changelog": "./bin/ut-changelog.js",
