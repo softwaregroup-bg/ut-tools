@@ -1,3 +1,13 @@
+<a name="5.11.2"></a>
+## [5.11.2](https://github.com/softwaregroup-bg/ut-tools/compare/v5.11.1...v5.11.2) (2017-01-23)
+
+
+### Bug Fixes
+
+* fix circleci.js to test, build and push images for branches starting with ci_ ([2a148f9](https://github.com/softwaregroup-bg/ut-tools/commit/2a148f9))
+
+
+
 <a name="5.11.1"></a>
 ## [5.11.1](https://github.com/softwaregroup-bg/ut-tools/compare/v5.11.0...v5.11.1) (2016-12-22)
 
