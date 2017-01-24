@@ -1,3 +1,13 @@
+<a name="5.12.0"></a>
+# [5.12.0](https://github.com/softwaregroup-bg/ut-tools/compare/v5.11.3...v5.12.0) (2017-01-24)
+
+
+### Features
+
+* turn on code coverage ([cb4da46](https://github.com/softwaregroup-bg/ut-tools/commit/cb4da46))
+
+
+
 <a name="5.11.3"></a>
 ## [5.11.3](https://github.com/softwaregroup-bg/ut-tools/compare/v5.11.2...v5.11.3) (2017-01-23)
 
