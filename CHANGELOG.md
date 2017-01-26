@@ -1,3 +1,13 @@
+<a name="5.13.0"></a>
+# [5.13.0](https://github.com/softwaregroup-bg/ut-tools/compare/v5.12.0...v5.13.0) (2017-01-26)
+
+
+### Features
+
+* add code coverage step in circleci ([64763aa](https://github.com/softwaregroup-bg/ut-tools/commit/64763aa))
+
+
+
 <a name="5.12.0"></a>
 # [5.12.0](https://github.com/softwaregroup-bg/ut-tools/compare/v5.11.3...v5.12.0) (2017-01-24)
 
