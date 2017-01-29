@@ -92,7 +92,7 @@
     "Continuous"
   ],
   "engines": {
-    "node": "^4.4.7",
+    "node": "^4.4.7 || ^6.9.4",
     "npm": "^3.10.5"
   },
   "author": "Build and Release Engeneering team",
