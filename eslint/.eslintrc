@@ -28,7 +28,8 @@
         "object": "when",
         "method": "defer"
       }
-    ]]
+    ]],
+    "react/no-unused-prop-types": 1
   },
   "globals": {
     "isc": true
