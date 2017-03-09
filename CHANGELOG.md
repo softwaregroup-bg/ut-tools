@@ -1,3 +1,18 @@
+<a name="5.14.0"></a>
+# [5.14.0](https://github.com/softwaregroup-bg/ut-tools/compare/v5.13.5...v5.14.0) (2017-03-09)
+
+
+### Bug Fixes
+
+* lint errors ([8cf1a3e](https://github.com/softwaregroup-bg/ut-tools/commit/8cf1a3e))
+
+
+### Features
+
+* update dependencies ([6f0bfb8](https://github.com/softwaregroup-bg/ut-tools/commit/6f0bfb8))
+
+
+
 <a name="5.13.5"></a>
 ## [5.13.5](https://github.com/softwaregroup-bg/ut-tools/compare/v5.13.4...v5.13.5) (2017-01-29)
 
