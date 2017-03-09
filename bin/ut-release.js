@@ -12,4 +12,3 @@ conventionalRecommendedBump({
         require('../lib/exec')('npm', ['publish']);
     };
 });
-
