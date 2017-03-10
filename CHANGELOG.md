@@ -1,3 +1,13 @@
+<a name="5.14.1"></a>
+## [5.14.1](https://github.com/softwaregroup-bg/ut-tools/compare/v5.14.0...v5.14.1) (2017-03-10)
+
+
+### Bug Fixes
+
+* change react/no-unused-prop-types to be warning not error ([#16](https://github.com/softwaregroup-bg/ut-tools/issues/16)) ([9b00a86](https://github.com/softwaregroup-bg/ut-tools/commit/9b00a86))
+
+
+
 <a name="5.14.0"></a>
 # [5.14.0](https://github.com/softwaregroup-bg/ut-tools/compare/v5.13.5...v5.14.0) (2017-03-09)
 
