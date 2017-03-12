@@ -59,6 +59,7 @@
   },
   "main": "lib/index.js",
   "bin": {
+    "ut": "./bin/ut.js",
     "ut-changelog": "./bin/ut-changelog.js",
     "ut-check": "./bin/ut-check.js",
     "ut-circleci-build": "./bin/ut-circleci-build.js",
