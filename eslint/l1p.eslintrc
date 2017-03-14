@@ -22,6 +22,7 @@
         "object": "when",
         "method": "defer"
       }
-    ]]
+    ]],
+    "react/no-unused-prop-types": 1
   }
 }
