@@ -1,3 +1,13 @@
+<a name="5.14.4"></a>
+## [5.14.4](https://github.com/softwaregroup-bg/ut-tools/compare/v5.14.3...v5.14.4) (2017-03-14)
+
+
+### Bug Fixes
+
+* change react/no-unused-prop-types to be warning not error for l1p ([f8ea70c](https://github.com/softwaregroup-bg/ut-tools/commit/f8ea70c))
+
+
+
 <a name="5.14.3"></a>
 ## [5.14.3](https://github.com/softwaregroup-bg/ut-tools/compare/v5.14.2...v5.14.3) (2017-03-13)
 
