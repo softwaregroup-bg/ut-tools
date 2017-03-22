@@ -1,3 +1,13 @@
+<a name="5.15.0"></a>
+# [5.15.0](https://github.com/softwaregroup-bg/ut-tools/compare/v5.14.4...v5.15.0) (2017-03-22)
+
+
+### Features
+
+* add script for updating versions in package.json to latest ([#21](https://github.com/softwaregroup-bg/ut-tools/issues/21)) ([ee7c6a4](https://github.com/softwaregroup-bg/ut-tools/commit/ee7c6a4))
+
+
+
 <a name="5.14.4"></a>
 ## [5.14.4](https://github.com/softwaregroup-bg/ut-tools/compare/v5.14.3...v5.14.4) (2017-03-14)
 
