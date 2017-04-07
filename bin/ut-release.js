@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+/* eslint no-process-env:0 */
 
 var conventionalRecommendedBump = require('conventional-recommended-bump');
 
