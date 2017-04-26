@@ -24,6 +24,8 @@ conventionalRecommendedBump({
             tokens = process.env.gitlabSourceBranch.split('/');
         } else if (process.env.GIT_BRANCH) {
             tokens = process.env.GIT_BRANCH.split('/').slice(1); // remove origin
+        } else {
+            throw new Error('Branch name could not be detected!');
         }
         var versionToRelease;
         if (tokens.length === 2 && buildableBranches[tokens[0]] && tokens[1]) {
@@ -37,11 +39,13 @@ conventionalRecommendedBump({
                     releaseType = 'prerelease';
                 } else {
                     if (!semver.prerelease(currentVersion + '-' + tokens[1])) {
-                        throw new Error(`incorrect branch name! ${tokens[1]} MUST comprise only [0-9A-Za-z-]`);
+                        throw new Error(`incorrect branch name: ${tokens.join('/')}! ${tokens[1]} MUST comprise only [0-9A-Za-z-]`);
                     }
                     versionToRelease = semver.inc(currentVersion, releaseType, tokens[1]);
                 }
             }
+        } else if (tokens.length > 1 || (tokens.length === 1 && tokens[0] !== 'master')) {
+            throw new Error(`incorrect branch name: ${tokens.join('/')}! Allowed branch names: master, feat/*, fix/*`);
         }
         if (!versionToRelease) {
             versionToRelease = semver.inc(currentVersion, releaseType);
