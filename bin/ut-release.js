@@ -5,6 +5,7 @@ var path = require('path');
 var conventionalRecommendedBump = require('conventional-recommended-bump');
 var semver = require('semver');
 var packageJson = require(path.join(process.cwd(), 'package.json'));
+var pkgVersions = require('pkg-versions');
 var exec = require('../lib/exec');
 var buildableBranches = {
     fix: 'patch',
@@ -25,13 +26,19 @@ conventionalRecommendedBump({
             tokens = process.env.GIT_BRANCH.split('/').slice(1); // remove origin
         }
         var versionToRelease;
-        if (tokens.length === 2 && buildableBranches[tokens[0]]) {
+        if (tokens.length === 2 && buildableBranches[tokens[0]] && tokens[1]) {
             releaseType = buildableBranches[tokens[0]];
             if (releaseType === 'preminor') {
-                if (semver.prerelease(currentVersion)) {
-                    // TO DO - check if the prerelease component in the current version is the same as that in the branch name
+                var prereleaseTokens = semver.prerelease(currentVersion);
+                if (prereleaseTokens) {
+                    if (prereleaseTokens[0] !== tokens[1]) {
+                        throw new Error(`Release version mismatch: Version ${prereleaseTokens[0]} can't be released from version ${tokens[1]}`);
+                    }
                     releaseType = 'prerelease';
                 } else {
+                    if (!semver.prerelease(currentVersion + '-' + tokens[1])) {
+                        throw new Error(`incorrect branch name! ${tokens[1]} MUST comprise only [0-9A-Za-z-]`);
+                    }
                     versionToRelease = semver.inc(currentVersion, releaseType, tokens[1]);
                 }
             }
@@ -39,21 +46,23 @@ conventionalRecommendedBump({
         if (!versionToRelease) {
             versionToRelease = semver.inc(currentVersion, releaseType);
         }
-        var publishedVersions = JSON.parse(exec('npm', ['show', packageJson.name, 'versions', '--json'], 'pipe'));
-        var conflictingSemverDiff = releaseType.startsWith('pre') ? 'prerelease' : releaseType;
-        var conflictingVersions = publishedVersions.filter((version) => {
-            if (
-                semver.eq(versionToRelease, version) ||
-                (semver.lte(versionToRelease, version) && semver.diff(versionToRelease, version) === conflictingSemverDiff)
-            ) {
-                return true;
+        return pkgVersions(packageJson.name).then(function(versions) {
+            var conflictingSemverDiff = releaseType.startsWith('pre') ? 'prerelease' : releaseType;
+            var conflictingVersions = Array.from(versions).filter((version) => {
+                if (
+                    semver.eq(versionToRelease, version) ||
+                    (semver.lte(versionToRelease, version) && semver.diff(versionToRelease, version) === conflictingSemverDiff)
+                ) {
+                    return true;
+                }
+                return false;
+            });
+            if (conflictingVersions.length) {
+                throw new Error(`${releaseType} version ${versionToRelease} coudn't be published! Conflicting versions: ${conflictingVersions.join(', ')}`);
             }
-            return false;
+            exec('npm', ['version', releaseType, '-m', '[ci-skip][ci skip] version incremented to %s']);
+            exec('npm', ['publish']);
+            return true;
         });
-        if (conflictingVersions.length) {
-            throw new Error(`${releaseType} version ${versionToRelease} coudn't be published! Conflicting versions: ${conflictingVersions.join(', ')}`);
-        }
-        exec('npm', ['version', releaseType, '-m', '[ci-skip][ci skip] version incremented to %s']);
-        exec('npm', ['publish']);
-    };
+    }
 });
