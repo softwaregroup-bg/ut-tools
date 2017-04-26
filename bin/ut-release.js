@@ -64,7 +64,7 @@ conventionalRecommendedBump({
             if (conflictingVersions.length) {
                 throw new Error(`${releaseType} version ${versionToRelease} coudn't be published! Conflicting versions: ${conflictingVersions.join(', ')}`);
             }
-            exec('npm', ['version', releaseType, '-m', '[ci-skip][ci skip] version incremented to %s']);
+            exec('npm', ['version', versionToRelease, '-m', '[ci-skip][ci skip] version incremented to %s']);
             exec('npm', ['publish']);
             return true;
         });
