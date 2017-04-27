@@ -20,6 +20,7 @@ conventionalRecommendedBump({
         var releaseType = result.releaseType;
         var currentVersion = packageJson.version;
         var tokens = [];
+        var setTag = false;
         if (process.env.gitlabSourceBranch) {
             tokens = process.env.gitlabSourceBranch.split('/');
         } else if (process.env.GIT_BRANCH) {
@@ -48,6 +49,9 @@ conventionalRecommendedBump({
             throw new Error(`incorrect branch name: ${tokens.join('/')}! Allowed branch names: master, feat/*, fix/*`);
         }
         if (!versionToRelease) {
+            if (tokens[0] === 'master') {
+                setTag = true;
+            }
             versionToRelease = semver.inc(currentVersion, releaseType);
         }
         return pkgVersions(packageJson.name).then(function(versions) {
@@ -64,7 +68,11 @@ conventionalRecommendedBump({
             if (conflictingVersions.length) {
                 throw new Error(`${releaseType} version ${versionToRelease} coudn't be published! Conflicting versions: ${conflictingVersions.join(', ')}`);
             }
-            exec('npm', ['version', versionToRelease, '-m', '[ci-skip][ci skip] version incremented to %s']);
+            var versionArgs = ['version', versionToRelease, '-m', '[ci-skip][ci skip] version incremented to %s'];
+            if (!setTag) {
+                versionArgs.unshift('--no-git-tag-version');
+            }
+            exec('npm', versionArgs);
             exec('npm', ['publish']);
             return true;
         });
