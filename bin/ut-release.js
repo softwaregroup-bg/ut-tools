@@ -8,8 +8,10 @@ var packageJson = require(path.join(process.cwd(), 'package.json'));
 var pkgVersions = require('pkg-versions');
 var exec = require('../lib/exec');
 var buildableBranches = {
-    fix: 'patch',
-    feat: 'preminor'
+    hotfix: 'patch',
+    major: 'premajor',
+    minor: 'preminor',
+    patch: 'prepatch'
 };
 conventionalRecommendedBump({
     preset: 'angular'
@@ -31,7 +33,7 @@ conventionalRecommendedBump({
         var versionToRelease;
         if (tokens.length === 2 && buildableBranches[tokens[0]] && tokens[1]) {
             releaseType = buildableBranches[tokens[0]];
-            if (releaseType === 'preminor') {
+            if (releaseType.startsWith('pre')) {
                 var prereleaseTokens = semver.prerelease(currentVersion);
                 if (prereleaseTokens) {
                     if (prereleaseTokens[0] !== tokens[1]) {

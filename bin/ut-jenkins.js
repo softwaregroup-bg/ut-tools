@@ -16,8 +16,8 @@ if (
     /^(ut|impl)-.+?(_cr|_post-commit)$/.test(jobname) &&
     process.env.BUILD_CAUSE === 'SCMTRIGGER' &&
     (
-        /^(master|(fix|feat)\/[^/]+)$/.test(process.env.gitlabSourceBranch) ||
-        /^origin\/(master|(fix|feat)\/[^/]+)$/.test(process.env.GIT_BRANCH)
+        /^(master|(hotfix|major|minor|patch)\/[^/]+)$/.test(process.env.gitlabSourceBranch) ||
+        /^origin\/(master|(hotfix|major|minor|patch)\/[^/]+)$/.test(process.env.GIT_BRANCH)
     )
 ) {
     command = 'release';
