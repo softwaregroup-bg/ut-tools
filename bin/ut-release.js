@@ -48,7 +48,7 @@ conventionalRecommendedBump({
                 }
             }
         } else if (tokens.length > 1 || (tokens.length === 1 && tokens[0] !== 'master')) {
-            throw new Error(`incorrect branch name: ${tokens.join('/')}! Allowed branch names: master, feat/*, fix/*`);
+            throw new Error(`incorrect branch name: ${tokens.join('/')}! Allowed branch names: master, hotfix/*, major/*, minor/*, patch/*`);
         }
         if (!versionToRelease) {
             if (tokens[0] === 'master') {
