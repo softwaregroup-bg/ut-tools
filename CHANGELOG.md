@@ -1,3 +1,13 @@
+<a name="5.16.0"></a>
+# [5.16.0](https://github.com/softwaregroup-bg/ut-tools/compare/v5.15.0...v5.16.0) (2017-05-02)
+
+
+### Features
+
+* **ut-release:** publish versions from hotfix, patch, minor and major branches ([#24](https://github.com/softwaregroup-bg/ut-tools/issues/24)) ([6cc9924](https://github.com/softwaregroup-bg/ut-tools/commit/6cc9924))
+
+
+
 <a name="5.15.0"></a>
 # [5.15.0](https://github.com/softwaregroup-bg/ut-tools/compare/v5.14.4...v5.15.0) (2017-03-22)
 
