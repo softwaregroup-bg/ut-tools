@@ -13,9 +13,12 @@ var command;
 var jobname = process.env.JOB_NAME || '';
 
 if (
-    /((ut)|(impl))-.+_cr$/.test(jobname) &&
+    /^(ut|impl)-.+?(_cr|_post-commit)$/.test(jobname) &&
     process.env.BUILD_CAUSE === 'SCMTRIGGER' &&
-    (/(^master$)|(^ci_.*)/.test(process.env.gitlabSourceBranch) || /(^origin\/master$)|(^origin\/ci_.*)/.test(process.env.GIT_BRANCH))
+    (
+        /^(master|(hotfix|major|minor|patch)\/[^/]+)$/.test(process.env.gitlabSourceBranch) ||
+        /^origin\/(master|(hotfix|major|minor|patch)\/[^/]+)$/.test(process.env.GIT_BRANCH)
+    )
 ) {
     command = 'release';
 } else {
