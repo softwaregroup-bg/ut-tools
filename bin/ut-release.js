@@ -25,6 +25,8 @@ conventionalRecommendedBump({
         var setTag = false;
         if (process.env.gitlabSourceBranch) {
             tokens = process.env.gitlabSourceBranch.split('/');
+        } else if (process.env.CIRCLE_BRANCH) {
+            tokens = process.env.CIRCLE_BRANCH.split('/');
         } else if (process.env.GIT_BRANCH) {
             tokens = process.env.GIT_BRANCH.split('/').slice(1); // remove origin
         } else {
