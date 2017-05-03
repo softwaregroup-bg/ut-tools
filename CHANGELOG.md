@@ -1,3 +1,13 @@
+<a name="5.16.2"></a>
+## [5.16.2](https://github.com/softwaregroup-bg/ut-tools/compare/v5.16.1...v5.16.2) (2017-05-03)
+
+
+### Bug Fixes
+
+* fix build for Cicle CI ([decf2c9](https://github.com/softwaregroup-bg/ut-tools/commit/decf2c9))
+
+
+
 <a name="5.16.1"></a>
 ## [5.16.1](https://github.com/softwaregroup-bg/ut-tools/compare/v5.16.0...v5.16.1) (2017-05-03)
 
