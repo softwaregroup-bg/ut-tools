@@ -1,3 +1,13 @@
+<a name="5.16.1"></a>
+## [5.16.1](https://github.com/softwaregroup-bg/ut-tools/compare/v5.16.0...v5.16.1) (2017-05-03)
+
+
+### Bug Fixes
+
+* dont force tools update when major version is bumped ([#25](https://github.com/softwaregroup-bg/ut-tools/issues/25)) ([6e72c12](https://github.com/softwaregroup-bg/ut-tools/commit/6e72c12))
+
+
+
 <a name="5.16.0"></a>
 # [5.16.0](https://github.com/softwaregroup-bg/ut-tools/compare/v5.15.0...v5.16.0) (2017-05-02)
 
