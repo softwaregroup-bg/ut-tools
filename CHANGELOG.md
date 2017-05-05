@@ -1,3 +1,16 @@
+<a name="5.16.4"></a>
+## [5.16.4](https://github.com/softwaregroup-bg/ut-tools/compare/v5.16.3...v5.16.4) (2017-05-05)
+
+
+### Bug Fixes
+
+* commit after npm version ([8ebc854](https://github.com/softwaregroup-bg/ut-tools/commit/8ebc854))
+* commit msg ([62888c7](https://github.com/softwaregroup-bg/ut-tools/commit/62888c7))
+* commit msg ([ad16780](https://github.com/softwaregroup-bg/ut-tools/commit/ad16780))
+* correct commit-push order ([dc78d2f](https://github.com/softwaregroup-bg/ut-tools/commit/dc78d2f))
+
+
+
 <a name="5.16.3"></a>
 ## [5.16.3](https://github.com/softwaregroup-bg/ut-tools/compare/v5.16.2...v5.16.3) (2017-05-03)
 
