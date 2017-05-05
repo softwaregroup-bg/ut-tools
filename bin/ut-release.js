@@ -77,6 +77,9 @@ conventionalRecommendedBump({
                 versionArgs.unshift('--no-git-tag-version');
             }
             exec('npm', versionArgs);
+            if (!setTag) {
+                exec('git', ['commit', '-am', '"[skip tag version]"']);
+            }
             exec('npm', ['publish']);
             return true;
         });
