@@ -1,3 +1,13 @@
+<a name="5.17.0"></a>
+# [5.17.0](https://github.com/softwaregroup-bg/ut-tools/compare/v5.16.4...v5.17.0) (2017-05-05)
+
+
+### Features
+
+* allow passing arguments to ut-test ([#29](https://github.com/softwaregroup-bg/ut-tools/issues/29)) ([9d24793](https://github.com/softwaregroup-bg/ut-tools/commit/9d24793))
+
+
+
 <a name="5.17.0-passArgv.1"></a>
 # [5.17.0-passArgv.1](https://github.com/softwaregroup-bg/ut-tools/compare/v5.16.4...v5.17.0-passArgv.1) (2017-05-05)
 
