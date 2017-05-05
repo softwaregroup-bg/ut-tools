@@ -70,7 +70,7 @@ conventionalRecommendedBump({
                 return false;
             });
             if (conflictingVersions.length) {
-                throw new Error(`${releaseType} version ${versionToRelease} coudn't be published! Conflicting versions: ${conflictingVersions.join(', ')}`);
+                throw new Error(`${releaseType} version ${versionToRelease} couldn't be published! Conflicting versions: ${conflictingVersions.join(', ')}`);
             }
             var versionArgs = ['version', versionToRelease, '-m', '[ci-skip][ci skip] version incremented to %s'];
             if (!setTag) {
