@@ -1,3 +1,13 @@
+<a name="5.17.1"></a>
+## [5.17.1](https://github.com/softwaregroup-bg/ut-tools/compare/v5.17.0...v5.17.1) (2017-05-05)
+
+
+### Bug Fixes
+
+* dont make changelog if pkg version is prerelease ([#30](https://github.com/softwaregroup-bg/ut-tools/issues/30)) ([0ac7c9a](https://github.com/softwaregroup-bg/ut-tools/commit/0ac7c9a))
+
+
+
 <a name="5.17.0"></a>
 # [5.17.0](https://github.com/softwaregroup-bg/ut-tools/compare/v5.16.4...v5.17.0) (2017-05-05)
 
