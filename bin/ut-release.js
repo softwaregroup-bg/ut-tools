@@ -78,7 +78,7 @@ conventionalRecommendedBump({
             }
             exec('npm', versionArgs);
             if (!setTag) {
-                exec('git', ['commit', '-am', '"[skip tag version]"']);
+                exec('git', ['commit', '-am', `"[ci-skip][ci skip] version incremented to ${versionToRelease}"`]);
             }
             exec('npm', ['publish']);
             return true;
