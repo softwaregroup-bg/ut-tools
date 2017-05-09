@@ -1,3 +1,13 @@
+<a name="5.17.3"></a>
+## [5.17.3](https://github.com/softwaregroup-bg/ut-tools/compare/v5.17.2...v5.17.3) (2017-05-09)
+
+
+### Bug Fixes
+
+* replace slash in branch name only ([a091477](https://github.com/softwaregroup-bg/ut-tools/commit/a091477))
+
+
+
 <a name="5.17.2"></a>
 ## [5.17.2](https://github.com/softwaregroup-bg/ut-tools/compare/v5.17.1...v5.17.2) (2017-05-09)
 
