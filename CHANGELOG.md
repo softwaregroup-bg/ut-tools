@@ -1,3 +1,13 @@
+<a name="5.17.2"></a>
+## [5.17.2](https://github.com/softwaregroup-bg/ut-tools/compare/v5.17.1...v5.17.2) (2017-05-09)
+
+
+### Bug Fixes
+
+* replace slash with underscore in order to be able to build docker images ([a5c6eee](https://github.com/softwaregroup-bg/ut-tools/commit/a5c6eee))
+
+
+
 <a name="5.17.1"></a>
 ## [5.17.1](https://github.com/softwaregroup-bg/ut-tools/compare/v5.17.0...v5.17.1) (2017-05-05)
 
