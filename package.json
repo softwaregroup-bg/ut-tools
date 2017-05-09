@@ -33,7 +33,8 @@
     "stylelint": "7.9.0",
     "sync-request": "4.0.1",
     "which": "1.2.12",
-    "write-json-file": "2.0.0"
+    "write-json-file": "2.0.0",
+    "nyc": "10.0.0"
   },
   "scripts": {
     "changelog": "./bin/ut-changelog.js",
