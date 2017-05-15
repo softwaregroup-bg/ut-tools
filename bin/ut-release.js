@@ -58,7 +58,13 @@ conventionalRecommendedBump({
             }
             versionToRelease = semver.inc(currentVersion, releaseType);
         }
-        return pkgVersions(packageJson.name).then(function(versions) {
+        return pkgVersions(packageJson.name)
+        .catch(function() {
+            // return empty array in case a list of current versions could not be obtained.
+            // This is needed when publishing for the first time.
+            return [];
+        })
+        .then(function(versions) {
             var conflictingSemverDiff = releaseType.startsWith('pre') ? 'prerelease' : releaseType;
             var conflictingVersions = Array.from(versions).filter((version) => {
                 if (
