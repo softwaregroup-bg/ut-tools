@@ -1,3 +1,13 @@
+<a name="5.17.4"></a>
+## [5.17.4](https://github.com/softwaregroup-bg/ut-tools/compare/v5.17.3...v5.17.4) (2017-05-15)
+
+
+### Bug Fixes
+
+* fix error that gets thrown when publishing a module for the first time ([#33](https://github.com/softwaregroup-bg/ut-tools/issues/33)) ([3c892e8](https://github.com/softwaregroup-bg/ut-tools/commit/3c892e8))
+
+
+
 <a name="5.17.3"></a>
 ## [5.17.3](https://github.com/softwaregroup-bg/ut-tools/compare/v5.17.2...v5.17.3) (2017-05-09)
 
