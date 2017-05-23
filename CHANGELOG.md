@@ -1,3 +1,13 @@
+<a name="5.17.10"></a>
+## [5.17.10](https://github.com/softwaregroup-bg/ut-tools/compare/v5.17.9...v5.17.10) (2017-05-23)
+
+
+### Bug Fixes
+
+* set node env correctly for multiple paths ([4cec1e9](https://github.com/softwaregroup-bg/ut-tools/commit/4cec1e9))
+
+
+
 <a name="5.17.9"></a>
 ## [5.17.9](https://github.com/softwaregroup-bg/ut-tools/compare/v5.17.8...v5.17.9) (2017-05-22)
 
