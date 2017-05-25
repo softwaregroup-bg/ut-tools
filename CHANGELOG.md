@@ -1,3 +1,15 @@
+<a name="5.17.12"></a>
+## [5.17.12](https://github.com/softwaregroup-bg/ut-tools/compare/v5.17.11...v5.17.12) (2017-05-25)
+
+
+### Bug Fixes
+
+* spaw execSync with spawnSync ([7b45379](https://github.com/softwaregroup-bg/ut-tools/commit/7b45379))
+* tee ([973b880](https://github.com/softwaregroup-bg/ut-tools/commit/973b880))
+* tee tap ([b454784](https://github.com/softwaregroup-bg/ut-tools/commit/b454784))
+
+
+
 <a name="5.17.11"></a>
 ## [5.17.11](https://github.com/softwaregroup-bg/ut-tools/compare/v5.17.10...v5.17.11) (2017-05-25)
 
