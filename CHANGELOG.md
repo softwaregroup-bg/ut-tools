@@ -1,3 +1,8 @@
+<a name="5.17.11"></a>
+## [5.17.11](https://github.com/softwaregroup-bg/ut-tools/compare/v5.17.10...v5.17.11) (2017-05-25)
+
+
+
 <a name="5.17.10"></a>
 ## [5.17.10](https://github.com/softwaregroup-bg/ut-tools/compare/v5.17.9...v5.17.10) (2017-05-23)
 
