@@ -1,3 +1,13 @@
+<a name="5.17.16"></a>
+## [5.17.16](https://github.com/softwaregroup-bg/ut-tools/compare/v5.17.15...v5.17.16) (2017-05-26)
+
+
+### Bug Fixes
+
+* circleci tests path ([8b2e6d7](https://github.com/softwaregroup-bg/ut-tools/commit/8b2e6d7))
+
+
+
 <a name="5.17.15"></a>
 ## [5.17.15](https://github.com/softwaregroup-bg/ut-tools/compare/v5.17.14...v5.17.15) (2017-05-26)
 
