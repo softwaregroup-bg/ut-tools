@@ -15,7 +15,7 @@ in various environments like Jenkins, Circle CI, Gitlab CI, etc.
   AWS_SECRET_ACCESS_KEY # secret access key of AWS ECS credentials for push
   AWS_ACCOUNT_ID # account ID, used for ECS Docker registry
   ```
-  
+
 * ut-circleci-test: run tests and code coverage in CircleCI. In case of success, publish to npm and push to git.
 
   ```bash
@@ -43,4 +43,3 @@ in various environments like Jenkins, Circle CI, Gitlab CI, etc.
 * ut-preversion: run tests before incrementing the version
 * ut-release: increment the version and publish to npm
 * ut-test: run all tests with blue-tape
-
