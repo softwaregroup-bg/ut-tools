@@ -1,3 +1,13 @@
+<a name="5.17.15"></a>
+## [5.17.15](https://github.com/softwaregroup-bg/ut-tools/compare/v5.17.14...v5.17.15) (2017-05-26)
+
+
+### Bug Fixes
+
+* cover dir ([580f9a7](https://github.com/softwaregroup-bg/ut-tools/commit/580f9a7))
+
+
+
 <a name="5.17.14"></a>
 ## [5.17.14](https://github.com/softwaregroup-bg/ut-tools/compare/v5.17.13...v5.17.14) (2017-05-26)
 
