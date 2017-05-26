@@ -1,3 +1,13 @@
+<a name="5.17.13"></a>
+## [5.17.13](https://github.com/softwaregroup-bg/ut-tools/compare/v5.17.12...v5.17.13) (2017-05-26)
+
+
+### Bug Fixes
+
+* use bash ([96890d4](https://github.com/softwaregroup-bg/ut-tools/commit/96890d4))
+
+
+
 <a name="5.17.12"></a>
 ## [5.17.12](https://github.com/softwaregroup-bg/ut-tools/compare/v5.17.11...v5.17.12) (2017-05-25)
 
