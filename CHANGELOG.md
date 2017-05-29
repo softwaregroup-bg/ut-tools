@@ -1,3 +1,13 @@
+<a name="5.17.17"></a>
+## [5.17.17](https://github.com/softwaregroup-bg/ut-tools/compare/v5.17.16...v5.17.17) (2017-05-29)
+
+
+### Bug Fixes
+
+* circleci coverage path ([1513397](https://github.com/softwaregroup-bg/ut-tools/commit/1513397))
+
+
+
 <a name="5.17.16"></a>
 ## [5.17.16](https://github.com/softwaregroup-bg/ut-tools/compare/v5.17.15...v5.17.16) (2017-05-26)
 
