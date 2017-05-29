@@ -1,3 +1,14 @@
+<a name="5.17.22"></a>
+## [5.17.22](https://github.com/softwaregroup-bg/ut-tools/compare/v5.17.21...v5.17.22) (2017-05-29)
+
+
+### Bug Fixes
+
+* avoid changing latest tag in npm for prereleases ([5c26c8b](https://github.com/softwaregroup-bg/ut-tools/commit/5c26c8b))
+* fail properly ([44f149a](https://github.com/softwaregroup-bg/ut-tools/commit/44f149a))
+
+
+
 <a name="5.17.21"></a>
 ## [5.17.21](https://github.com/softwaregroup-bg/ut-tools/compare/v5.17.20...v5.17.21) (2017-05-29)
 
