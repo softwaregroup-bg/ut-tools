@@ -88,7 +88,7 @@ conventionalRecommendedBump({
             }
             exec('git', ['push']);
             exec('git', ['push', 'origin', '--tags']);
-            exec('npm', ['publish']);
+            exec('npm', setTag ? ['publish'] : ['publish', '--tag', 'ci']);
             return true;
         })
         .catch(function(e) {
