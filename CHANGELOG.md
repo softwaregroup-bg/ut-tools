@@ -1,3 +1,13 @@
+<a name="5.17.19"></a>
+## [5.17.19](https://github.com/softwaregroup-bg/ut-tools/compare/v5.17.18...v5.17.19) (2017-05-29)
+
+
+### Bug Fixes
+
+* create reports dir ([44a56b3](https://github.com/softwaregroup-bg/ut-tools/commit/44a56b3))
+
+
+
 <a name="5.17.18"></a>
 ## [5.17.18](https://github.com/softwaregroup-bg/ut-tools/compare/v5.17.17...v5.17.18) (2017-05-29)
 
