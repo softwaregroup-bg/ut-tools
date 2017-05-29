@@ -1,3 +1,13 @@
+<a name="5.17.20"></a>
+## [5.17.20](https://github.com/softwaregroup-bg/ut-tools/compare/v5.17.19...v5.17.20) (2017-05-29)
+
+
+### Bug Fixes
+
+* pass the coverage in volume ([c783a45](https://github.com/softwaregroup-bg/ut-tools/commit/c783a45))
+
+
+
 <a name="5.17.19"></a>
 ## [5.17.19](https://github.com/softwaregroup-bg/ut-tools/compare/v5.17.18...v5.17.19) (2017-05-29)
 
