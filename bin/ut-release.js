@@ -92,7 +92,7 @@ conventionalRecommendedBump({
             return true;
         })
         .catch(function(e) {
-            console.log(e);
+            console.error(e);
             return process.exit(1);
         });
     }
