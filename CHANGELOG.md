@@ -1,3 +1,14 @@
+<a name="5.17.21"></a>
+## [5.17.21](https://github.com/softwaregroup-bg/ut-tools/compare/v5.17.20...v5.17.21) (2017-05-29)
+
+
+### Bug Fixes
+
+* log error in catch and make process to exit ([#38](https://github.com/softwaregroup-bg/ut-tools/issues/38)) ([a4cc533](https://github.com/softwaregroup-bg/ut-tools/commit/a4cc533))
+* replace paths in coverage ([dc30c5c](https://github.com/softwaregroup-bg/ut-tools/commit/dc30c5c))
+
+
+
 <a name="5.17.20"></a>
 ## [5.17.20](https://github.com/softwaregroup-bg/ut-tools/compare/v5.17.19...v5.17.20) (2017-05-29)
 
