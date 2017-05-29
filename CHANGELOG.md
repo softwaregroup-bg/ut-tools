@@ -1,3 +1,13 @@
+<a name="5.17.18"></a>
+## [5.17.18](https://github.com/softwaregroup-bg/ut-tools/compare/v5.17.17...v5.17.18) (2017-05-29)
+
+
+### Bug Fixes
+
+* add xunit ([af6b7c4](https://github.com/softwaregroup-bg/ut-tools/commit/af6b7c4))
+
+
+
 <a name="5.17.17"></a>
 ## [5.17.17](https://github.com/softwaregroup-bg/ut-tools/compare/v5.17.16...v5.17.17) (2017-05-29)
 
