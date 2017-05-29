@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-/* eslint no-process-env:0 */
+/* eslint no-process-env:0, no-console:0, no-process-exit:0 */
 
 var path = require('path');
 var conventionalRecommendedBump = require('conventional-recommended-bump');
@@ -90,6 +90,10 @@ conventionalRecommendedBump({
             exec('git', ['push', 'origin', '--tags']);
             exec('npm', ['publish']);
             return true;
+        })
+        .catch(function(e) {
+            console.log(e);
+            return process.exit(1);
         });
     }
 });
