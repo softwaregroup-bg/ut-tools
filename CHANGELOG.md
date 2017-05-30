@@ -1,3 +1,13 @@
+<a name="5.17.24"></a>
+## [5.17.24](https://github.com/softwaregroup-bg/ut-tools/compare/v5.17.23...v5.17.24) (2017-05-30)
+
+
+### Bug Fixes
+
+* lint ([bb4cb58](https://github.com/softwaregroup-bg/ut-tools/commit/bb4cb58))
+
+
+
 <a name="5.17.23"></a>
 ## [5.17.23](https://github.com/softwaregroup-bg/ut-tools/compare/v5.17.22...v5.17.23) (2017-05-30)
 
