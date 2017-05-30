@@ -3,11 +3,6 @@
 var exec = require('../lib/exec');
 var gitLog = exec('git', ['log', '-1', '--oneline'], 'pipe', false);
 
-if (gitLog.match(/\[ci-skip]/)) {
-    console.error('SHOULD NOT BE RUN IN CI', gitLog);
-    process.exit(1);
-}
-
 if (!process.env.UT_MODULE) {
     var utModule = (process.env.GIT_URL || '').match(/^.*\/.*-(.*)\.git$/);
     if (utModule) {
@@ -27,6 +22,10 @@ if (
         /^origin\/(master|(hotfix|major|minor|patch)\/[^/]+)$/.test(process.env.GIT_BRANCH)
     )
 ) {
+    if (gitLog.match(/\[ci-skip]/)) {
+        console.error('SHOULD NOT BE RUN IN CI', gitLog);
+        process.exit(1);
+    }
     command = 'release';
 } else {
     command = 'test';
