@@ -1,3 +1,14 @@
+<a name="5.17.25"></a>
+## [5.17.25](https://github.com/softwaregroup-bg/ut-tools/compare/v5.17.24...v5.17.25) (2017-05-30)
+
+
+### Bug Fixes
+
+* only abort releases when on ci-skip commit ([2e3f1a6](https://github.com/softwaregroup-bg/ut-tools/commit/2e3f1a6))
+* remove log ([857498e](https://github.com/softwaregroup-bg/ut-tools/commit/857498e))
+
+
+
 <a name="5.17.24"></a>
 ## [5.17.24](https://github.com/softwaregroup-bg/ut-tools/compare/v5.17.23...v5.17.24) (2017-05-30)
 
