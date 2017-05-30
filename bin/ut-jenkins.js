@@ -1,5 +1,11 @@
 #!/usr/bin/env node
-/* eslint no-process-env:0 */
+/* eslint no-process-env:0,no-process-exit:0 */
+var exec = require('../lib/exec');
+var gitLog = exec('git', ['log', '-1', '--oneline'], 'pipe', false);
+
+if (gitLog.match('[ci-skip]')) {
+    process.exit(1);
+}
 
 if (!process.env.UT_MODULE) {
     var utModule = (process.env.GIT_URL || '').match(/^.*\/.*-(.*)\.git$/);
@@ -25,4 +31,4 @@ if (
     command = 'test';
 }
 
-require('../lib/exec')('npm', ['run', command]);
+exec('npm', ['run', command]);
