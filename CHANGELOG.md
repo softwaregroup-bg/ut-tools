@@ -1,3 +1,14 @@
+<a name="5.17.23"></a>
+## [5.17.23](https://github.com/softwaregroup-bg/ut-tools/compare/v5.17.22...v5.17.23) (2017-05-30)
+
+
+### Bug Fixes
+
+* no more CI recursion ([#39](https://github.com/softwaregroup-bg/ut-tools/issues/39)) ([a3e39b4](https://github.com/softwaregroup-bg/ut-tools/commit/a3e39b4))
+* use proper regex ([6a14f1d](https://github.com/softwaregroup-bg/ut-tools/commit/6a14f1d))
+
+
+
 <a name="5.17.22"></a>
 ## [5.17.22](https://github.com/softwaregroup-bg/ut-tools/compare/v5.17.21...v5.17.22) (2017-05-29)
 
