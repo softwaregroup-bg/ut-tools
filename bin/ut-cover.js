@@ -8,6 +8,7 @@ require('../lib/exec')(require.resolve('nyc/bin/nyc'), [
     '--exclude=**/ut-tools/**/*.js',
     '--exclude=!node_modules/ut-*/**/*.js',
     '--exclude=node_modules/!(ut-*)/**/*.js',
+    '--exclude=**/*marko.js',
     '--exclude=**/test/**'].concat(
         process.env.UT_COVER_DIR ? [`--report-dir=${process.env.UT_COVER_DIR}`] : []
     ).concat([
