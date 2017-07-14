@@ -43,3 +43,11 @@ in various environments like Jenkins, Circle CI, Gitlab CI, etc.
 * ut-preversion: run tests before incrementing the version
 * ut-release: increment the version and publish to npm
 * ut-test: run all tests with blue-tape
+
+* ut command with arguments. Arguments can be one of the following 'status', 'hooks', 'update', 'branches', 'usedev', 'versionsup'.
+  * ut status - checks status for current implementation and all projects in dev directory. This is usefull when you work on many modules and you are not sure where you made changes and what should be pushed to remote.
+  * ut branches - This command is scanning current implementation and all subdirectories of dev, runs git branch and get the current branch.
+  * ut usedev - When running npm install you receive latest versions from nexus, but when you work on some modules you prefer to use them only from dev directory. This command scans all subdirectories of dev and deletes the directory with the same name in node_modules.
+  * ut update - Runs git pull for current implementatation and all subdirectories in dev in parallel.
+  * ut hooks - The script goes through current implementation and all subdirectories in dev and creates pre commit hook which runs npm run lint.
+  * ut versionsup - Update all versions of ut-* modules in implementation package.json.
