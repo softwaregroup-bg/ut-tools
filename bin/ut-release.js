@@ -2,6 +2,7 @@
 /* eslint no-process-env:0, no-console:0, no-process-exit:0 */
 
 var path = require('path');
+var obfuscator = require('../lib/obfuscator');
 var conventionalRecommendedBump = require('conventional-recommended-bump');
 var semver = require('semver');
 var packageJson = require(path.join(process.cwd(), 'package.json'));
@@ -88,6 +89,7 @@ conventionalRecommendedBump({
             }
             exec('git', ['push']);
             exec('git', ['push', 'origin', '--tags']);
+            obfuscator.obfuscate();
             exec('npm', setTag ? ['publish'] : ['publish', '--tag', 'ci']);
             return true;
         })
