@@ -1,3 +1,13 @@
+<a name="5.17.28"></a>
+## [5.17.28](https://github.com/softwaregroup-bg/ut-tools/compare/v5.17.27...v5.17.28) (2017-08-02)
+
+
+### Bug Fixes
+
+* improve conflicting versions logic to handle prereleases ([#44](https://github.com/softwaregroup-bg/ut-tools/issues/44)) ([661f809](https://github.com/softwaregroup-bg/ut-tools/commit/661f809))
+
+
+
 <a name="5.17.27"></a>
 ## [5.17.27](https://github.com/softwaregroup-bg/ut-tools/compare/v5.17.26...v5.17.27) (2017-07-14)
 
