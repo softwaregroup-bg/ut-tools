@@ -65,11 +65,22 @@ conventionalRecommendedBump({
             return [];
         })
         .then(function(versions) {
-            var conflictingSemverDiff = releaseType.startsWith('pre') ? 'prerelease' : releaseType;
+            var conflictingSemverDiff = releaseType;
+            var prereleaseName = '';
+            if (releaseType.startsWith('pre')) {
+                conflictingSemverDiff = 'prerelease';
+                prereleaseName = semver.prerelease(versionToRelease)[0];
+            }
             var conflictingVersions = Array.from(versions).filter((version) => {
+                let diff = semver.diff(versionToRelease, version);
                 if (
-                    semver.eq(versionToRelease, version) ||
-                    (semver.lte(versionToRelease, version) && semver.diff(versionToRelease, version) === conflictingSemverDiff)
+                    !diff ||
+                    (
+                        semver.lte(versionToRelease, version) &&
+                        diff === conflictingSemverDiff &&
+                        prereleaseName &&
+                        prereleaseName === (semver.prerelease(version) || [])[0]
+                    )
                 ) {
                     return true;
                 }
