@@ -1,3 +1,13 @@
+<a name="5.18.0"></a>
+# [5.18.0](https://github.com/softwaregroup-bg/ut-tools/compare/v5.17.28...v5.18.0) (2017-08-03)
+
+
+### Features
+
+* code obfuscator ([#43](https://github.com/softwaregroup-bg/ut-tools/issues/43)) ([88be638](https://github.com/softwaregroup-bg/ut-tools/commit/88be638))
+
+
+
 <a name="5.17.28"></a>
 ## [5.17.28](https://github.com/softwaregroup-bg/ut-tools/compare/v5.17.27...v5.17.28) (2017-08-02)
 
