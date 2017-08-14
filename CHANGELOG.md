@@ -1,3 +1,13 @@
+<a name="5.18.2"></a>
+## [5.18.2](https://github.com/softwaregroup-bg/ut-tools/compare/v5.18.1...v5.18.2) (2017-08-14)
+
+
+### Bug Fixes
+
+* ut versionsup command ([#46](https://github.com/softwaregroup-bg/ut-tools/issues/46)) ([bc4a0bd](https://github.com/softwaregroup-bg/ut-tools/commit/bc4a0bd))
+
+
+
 <a name="5.18.1"></a>
 ## [5.18.1](https://github.com/softwaregroup-bg/ut-tools/compare/v5.18.0...v5.18.1) (2017-08-04)
 
