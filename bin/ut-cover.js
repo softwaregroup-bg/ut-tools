@@ -21,13 +21,11 @@ require('../lib/exec')(require.resolve('nyc/bin/nyc'), [
         'test/**/test*.js',
         'test/**/stop*.js'
     ]));
-try {
-    require('../lib/exec')(require.resolve('jest/bin/jest'), [
+require('../lib/exec')(require.resolve('jest/bin/jest'), [
         '--coverage'
     ].concat(
         process.env.UT_COVER_DIR ? [`--coverageDirectory=${process.env.UT_COVER_DIR}_ui`] : []
     ));
+if (process.env.UT_COVER_DIR) {
     fs.appendFileSync(`${process.env.UT_COVER_DIR}/lcov.info`, fs.readFileSync(`${process.env.UT_COVER_DIR}_ui/lcov.info`));
-} catch (e) {
-    console.error('No ui tests')
 }
