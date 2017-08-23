@@ -1,3 +1,13 @@
+<a name="5.19.0"></a>
+# [5.19.0](https://github.com/softwaregroup-bg/ut-tools/compare/v5.18.2...v5.19.0) (2017-08-23)
+
+
+### Features
+
+* run ui tests and generate coverage report based on both integration and ui tests ([#47](https://github.com/softwaregroup-bg/ut-tools/issues/47)) ([b95562e](https://github.com/softwaregroup-bg/ut-tools/commit/b95562e))
+
+
+
 <a name="5.18.2"></a>
 ## [5.18.2](https://github.com/softwaregroup-bg/ut-tools/compare/v5.18.1...v5.18.2) (2017-08-14)
 
