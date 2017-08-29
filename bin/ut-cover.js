@@ -22,7 +22,8 @@ require('../lib/exec')(require.resolve('nyc/bin/nyc'), [
         'test/**/stop*.js'
     ]));
 require('../lib/exec')(require.resolve('jest/bin/jest'), [
-    '--coverage'
+    '--coverage',
+    '--testMatch=\'**/__tests__/**/*.js?(x)\''
 ].concat(
     process.env.UT_COVER_DIR ? [`--coverageDirectory=${process.env.UT_COVER_DIR}_ui`] : []
 ));
