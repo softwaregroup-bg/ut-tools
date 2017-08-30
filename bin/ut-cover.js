@@ -2,8 +2,7 @@
 /* eslint no-process-env:0 */
 var fs = require('fs');
 
-require('../lib/exec')('node', [
-    require.resolve('nyc/bin/nyc'),
+require('../lib/exec')(require.resolve('nyc/bin/nyc'), [
     '--reporter=lcov',
     '--reporter=text',
     '--reporter=cobertura',
@@ -25,7 +24,8 @@ require('../lib/exec')('node', [
 require('../lib/exec')('node', [
     require.resolve('jest/bin/jest'),
     '--coverage',
-    '--testMatch=**/__tests__/**/*.js?(x)'
+    '--testMatch=**/__tests__/**/*.js?(x)',
+    '--maxWorkers=2'
 ].concat(
     process.env.UT_COVER_DIR ? [`--coverageDirectory=${process.env.UT_COVER_DIR}_ui`] : []
 ));

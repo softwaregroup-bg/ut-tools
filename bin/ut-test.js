@@ -8,5 +8,6 @@ require('../lib/exec')('node', [
 
 require('../lib/exec')('node', [
     require.resolve('jest/bin/jest'),
-    '--testMatch=**/__tests__/**/*.js?(x)'
+    '--testMatch=**/__tests__/**/*.js?(x)',
+    '--maxWorkers=2'
 ]);
