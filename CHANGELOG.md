@@ -1,3 +1,13 @@
+<a name="5.19.2"></a>
+## [5.19.2](https://github.com/softwaregroup-bg/ut-tools/compare/v5.19.1...v5.19.2) (2017-08-30)
+
+
+### Bug Fixes
+
+* set maxWorkers flag for jest ([874a410](https://github.com/softwaregroup-bg/ut-tools/commit/874a410))
+
+
+
 <a name="5.19.1"></a>
 ## [5.19.1](https://github.com/softwaregroup-bg/ut-tools/compare/v5.19.0...v5.19.1) (2017-08-30)
 
