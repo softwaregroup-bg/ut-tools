@@ -1,3 +1,13 @@
+<a name="5.19.1"></a>
+## [5.19.1](https://github.com/softwaregroup-bg/ut-tools/compare/v5.19.0...v5.19.1) (2017-08-30)
+
+
+### Bug Fixes
+
+* jest to run tests only if they are located in __test__ folder ([613debf](https://github.com/softwaregroup-bg/ut-tools/commit/613debf))
+
+
+
 <a name="5.19.0"></a>
 # [5.19.0](https://github.com/softwaregroup-bg/ut-tools/compare/v5.18.2...v5.19.0) (2017-08-23)
 
