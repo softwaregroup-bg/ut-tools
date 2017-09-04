@@ -51,3 +51,15 @@ in various environments like Jenkins, Circle CI, Gitlab CI, etc.
   * ut update - Runs git pull for current implementatation and all subdirectories in dev in parallel.
   * ut hooks - The script goes through current implementation and all subdirectories in dev and creates pre commit hook which runs npm run lint.
   * ut versionsup - Update all versions of ut-* modules in implementation package.json.
+
+## Code obfuscating
+  code obfuscation is running per module, depending on configuration file in the module
+  example configuration file
+  ```
+  ./index.js
+  ./validations/**/*.js
+  ./api/**/*.js
+  ```
+
+  * configuration file name `.obfuscate` - should exist in root folder of the module
+  * configuration in file are [glob](https://github.com/isaacs/node-glob) rules
