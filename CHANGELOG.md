@@ -1,3 +1,13 @@
+<a name="5.20.0"></a>
+# [5.20.0](https://github.com/softwaregroup-bg/ut-tools/compare/v5.19.2...v5.20.0) (2017-09-05)
+
+
+### Bug Fixes
+
+* helps maiking babelrc file obsolete ([#49](https://github.com/softwaregroup-bg/ut-tools/issues/49)) ([91ed0a9](https://github.com/softwaregroup-bg/ut-tools/commit/91ed0a9))
+
+
+
 <a name="5.19.2"></a>
 ## [5.19.2](https://github.com/softwaregroup-bg/ut-tools/compare/v5.19.1...v5.19.2) (2017-08-30)
 

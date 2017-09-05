@@ -1,6 +1,6 @@
 {
   "name": "ut-tools",
-  "version": "5.20.0-jest-trasnformer.1",
+  "version": "5.20.0",
   "description": "Build and Release management automation package.",
   "dependencies": {
     "babel-cli": "6.23.0",
