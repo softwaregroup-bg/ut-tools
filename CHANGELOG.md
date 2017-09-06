@@ -1,3 +1,13 @@
+<a name="5.21.0"></a>
+# [5.21.0](https://github.com/softwaregroup-bg/ut-tools/compare/v5.20.0...v5.21.0) (2017-09-06)
+
+
+### Features
+
+* add ut ls and ut foreach commands ([ffe7201](https://github.com/softwaregroup-bg/ut-tools/commit/ffe7201))
+
+
+
 <a name="5.20.0"></a>
 # [5.20.0](https://github.com/softwaregroup-bg/ut-tools/compare/v5.19.2...v5.20.0) (2017-09-05)
 
