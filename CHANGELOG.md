@@ -1,3 +1,13 @@
+<a name="5.21.1"></a>
+## [5.21.1](https://github.com/softwaregroup-bg/ut-tools/compare/v5.21.0...v5.21.1) (2017-09-07)
+
+
+### Bug Fixes
+
+* improved output ([2ad460d](https://github.com/softwaregroup-bg/ut-tools/commit/2ad460d))
+
+
+
 <a name="5.21.0"></a>
 # [5.21.0](https://github.com/softwaregroup-bg/ut-tools/compare/v5.20.0...v5.21.0) (2017-09-06)
 
