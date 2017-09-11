@@ -1,3 +1,73 @@
+<a name="5.21.1"></a>
+## [5.21.1](https://github.com/softwaregroup-bg/ut-tools/compare/v5.21.0...v5.21.1) (2017-09-07)
+
+
+### Bug Fixes
+
+* improved output ([2ad460d](https://github.com/softwaregroup-bg/ut-tools/commit/2ad460d))
+
+
+
+<a name="5.21.0"></a>
+# [5.21.0](https://github.com/softwaregroup-bg/ut-tools/compare/v5.20.0...v5.21.0) (2017-09-06)
+
+
+### Features
+
+* add ut ls and ut foreach commands ([ffe7201](https://github.com/softwaregroup-bg/ut-tools/commit/ffe7201))
+
+
+
+<a name="5.20.0"></a>
+# [5.20.0](https://github.com/softwaregroup-bg/ut-tools/compare/v5.19.2...v5.20.0) (2017-09-05)
+
+
+### Bug Fixes
+
+* helps maiking babelrc file obsolete ([#49](https://github.com/softwaregroup-bg/ut-tools/issues/49)) ([91ed0a9](https://github.com/softwaregroup-bg/ut-tools/commit/91ed0a9))
+
+
+
+<a name="5.19.2"></a>
+## [5.19.2](https://github.com/softwaregroup-bg/ut-tools/compare/v5.19.1...v5.19.2) (2017-08-30)
+
+
+### Bug Fixes
+
+* set maxWorkers flag for jest ([874a410](https://github.com/softwaregroup-bg/ut-tools/commit/874a410))
+
+
+
+<a name="5.19.1"></a>
+## [5.19.1](https://github.com/softwaregroup-bg/ut-tools/compare/v5.19.0...v5.19.1) (2017-08-30)
+
+
+### Bug Fixes
+
+* jest to run tests only if they are located in __test__ folder ([613debf](https://github.com/softwaregroup-bg/ut-tools/commit/613debf))
+
+
+
+<a name="5.19.0"></a>
+# [5.19.0](https://github.com/softwaregroup-bg/ut-tools/compare/v5.18.2...v5.19.0) (2017-08-23)
+
+
+### Features
+
+* run ui tests and generate coverage report based on both integration and ui tests ([#47](https://github.com/softwaregroup-bg/ut-tools/issues/47)) ([b95562e](https://github.com/softwaregroup-bg/ut-tools/commit/b95562e))
+
+
+
+<a name="5.18.2"></a>
+## [5.18.2](https://github.com/softwaregroup-bg/ut-tools/compare/v5.18.1...v5.18.2) (2017-08-14)
+
+
+### Bug Fixes
+
+* ut versionsup command ([#46](https://github.com/softwaregroup-bg/ut-tools/issues/46)) ([bc4a0bd](https://github.com/softwaregroup-bg/ut-tools/commit/bc4a0bd))
+
+
+
 <a name="5.18.1"></a>
 ## [5.18.1](https://github.com/softwaregroup-bg/ut-tools/compare/v5.18.0...v5.18.1) (2017-08-04)
 
