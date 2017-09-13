@@ -1,3 +1,13 @@
+<a name="5.22.0"></a>
+# [5.22.0](https://github.com/softwaregroup-bg/ut-tools/compare/v5.21.1...v5.22.0) (2017-09-13)
+
+
+### Features
+
+* change parser ([#51](https://github.com/softwaregroup-bg/ut-tools/issues/51)) ([4ba22fc](https://github.com/softwaregroup-bg/ut-tools/commit/4ba22fc))
+
+
+
 <a name="5.21.1"></a>
 ## [5.21.1](https://github.com/softwaregroup-bg/ut-tools/compare/v5.21.0...v5.21.1) (2017-09-07)
 
