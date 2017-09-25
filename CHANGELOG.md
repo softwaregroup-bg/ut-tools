@@ -1,3 +1,13 @@
+<a name="5.23.0"></a>
+# [5.23.0](https://github.com/softwaregroup-bg/ut-tools/compare/v5.22.0...v5.23.0) (2017-09-25)
+
+
+### Features
+
+* add command for getting latest rc versions ([371a0c2](https://github.com/softwaregroup-bg/ut-tools/commit/371a0c2))
+
+
+
 <a name="5.22.0"></a>
 # [5.22.0](https://github.com/softwaregroup-bg/ut-tools/compare/v5.21.1...v5.22.0) (2017-09-13)
 
