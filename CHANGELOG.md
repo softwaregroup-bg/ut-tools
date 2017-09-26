@@ -1,3 +1,13 @@
+<a name="5.23.1"></a>
+## [5.23.1](https://github.com/softwaregroup-bg/ut-tools/compare/v5.23.0...v5.23.1) (2017-09-26)
+
+
+### Bug Fixes
+
+* properly handle fullpath ([70ab0bd](https://github.com/softwaregroup-bg/ut-tools/commit/70ab0bd))
+
+
+
 <a name="5.23.0"></a>
 # [5.23.0](https://github.com/softwaregroup-bg/ut-tools/compare/v5.22.0...v5.23.0) (2017-09-25)
 
