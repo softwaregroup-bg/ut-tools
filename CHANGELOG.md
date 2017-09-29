@@ -1,3 +1,13 @@
+<a name="5.23.2"></a>
+## [5.23.2](https://github.com/softwaregroup-bg/ut-tools/compare/v5.23.1...v5.23.2) (2017-09-29)
+
+
+### Bug Fixes
+
+* do not delete the wrong folder ([abb62e4](https://github.com/softwaregroup-bg/ut-tools/commit/abb62e4))
+
+
+
 <a name="5.23.1"></a>
 ## [5.23.1](https://github.com/softwaregroup-bg/ut-tools/compare/v5.23.0...v5.23.1) (2017-09-26)
 
