@@ -1,3 +1,13 @@
+<a name="5.23.3"></a>
+## [5.23.3](https://github.com/softwaregroup-bg/ut-tools/compare/v5.23.2...v5.23.3) (2017-10-30)
+
+
+### Bug Fixes
+
+* workaround for gitlabSourceBranch issue ([bec5460](https://github.com/softwaregroup-bg/ut-tools/commit/bec5460))
+
+
+
 <a name="5.23.2"></a>
 ## [5.23.2](https://github.com/softwaregroup-bg/ut-tools/compare/v5.23.1...v5.23.2) (2017-09-29)
 
