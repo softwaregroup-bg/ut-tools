@@ -18,7 +18,7 @@ if (
     /^(ut|impl)-.+?(_cr|_post-commit)$/.test(jobname) &&
     process.env.BUILD_CAUSE === 'SCMTRIGGER' &&
     (
-        /^(master|(hotfix|major|minor|patch)\/[^/]+)$/.test(process.env.gitlabSourceBranch) ||
+        // /^(master|(hotfix|major|minor|patch)\/[^/]+)$/.test(process.env.gitlabSourceBranch) ||
         /^origin\/(master|(hotfix|major|minor|patch)\/[^/]+)$/.test(process.env.GIT_BRANCH)
     )
 ) {
