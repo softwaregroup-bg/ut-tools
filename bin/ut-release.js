@@ -92,13 +92,13 @@ conventionalRecommendedBump({
                 throw new Error(`${releaseType} version ${versionToRelease} couldn't be published! Conflicting versions: ${conflictingVersions.join(', ')}`);
             }
             var versionArgs = ['version', versionToRelease, '-m', '[ci-skip][ci skip] version incremented to %s'];
-            if (!setTag) {
-                versionArgs.unshift('--no-git-tag-version');
-            }
+            // if (!setTag) {
+            //     versionArgs.unshift('--no-git-tag-version');
+            // }
             exec('npm', versionArgs);
-            if (!setTag) {
-                exec('git', ['commit', '-am', `[ci-skip][ci skip] version incremented to ${versionToRelease}`]);
-            }
+            // if (!setTag) {
+            //     exec('git', ['commit', '-am', `[ci-skip][ci skip] version incremented to ${versionToRelease}`]);
+            // }
             exec('git', ['push']);
             exec('git', ['push', 'origin', '--tags']);
             obfuscator.obfuscate();
