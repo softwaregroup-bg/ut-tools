@@ -1,3 +1,13 @@
+<a name="5.24.0"></a>
+# [5.24.0](https://github.com/softwaregroup-bg/ut-tools/compare/v5.23.3...v5.24.0) (2017-10-31)
+
+
+### Features
+
+* prerelease tags ([ebc5d3e](https://github.com/softwaregroup-bg/ut-tools/commit/ebc5d3e))
+
+
+
 <a name="5.23.3"></a>
 ## [5.23.3](https://github.com/softwaregroup-bg/ut-tools/compare/v5.23.2...v5.23.3) (2017-10-30)
 
