@@ -1,3 +1,13 @@
+<a name="5.25.0"></a>
+# [5.25.0](https://github.com/softwaregroup-bg/ut-tools/compare/v5.24.0...v5.25.0) (2017-11-01)
+
+
+### Features
+
+* parallel tests ([1111f2f](https://github.com/softwaregroup-bg/ut-tools/commit/1111f2f))
+
+
+
 <a name="5.24.0"></a>
 # [5.24.0](https://github.com/softwaregroup-bg/ut-tools/compare/v5.23.3...v5.24.0) (2017-10-31)
 
