@@ -8,7 +8,9 @@ require('../lib/exec')('node', [
 require('../lib/exec')('node', [
     require('../lib/babelNodePath'),
     require.resolve('tap/bin/run'),
-    'test/integration', '-J', '-T'].concat(process.argv.slice(2)));
+    '-J',
+    '-T',
+    'test/integration'].concat(process.argv.slice(2)));
 
 require('../lib/exec')('node', [
     require.resolve('jest/bin/jest'),
