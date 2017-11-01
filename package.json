@@ -88,6 +88,7 @@
     "ut-preversion": "./bin/ut-preversion.js",
     "ut-release": "./bin/ut-release.js",
     "ut-test": "./bin/ut-test.js",
+    "ut-test-parallel": "./bin/ut-test-parallel.js",
     "ut-version": "./bin/ut-version.js"
   },
   "keywords": [
