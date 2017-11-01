@@ -1,3 +1,13 @@
+<a name="5.25.2"></a>
+## [5.25.2](https://github.com/softwaregroup-bg/ut-tools/compare/v5.25.1...v5.25.2) (2017-11-01)
+
+
+### Bug Fixes
+
+* tap reorder arguments ([5eb0fc9](https://github.com/softwaregroup-bg/ut-tools/commit/5eb0fc9))
+
+
+
 <a name="5.25.1"></a>
 ## [5.25.1](https://github.com/softwaregroup-bg/ut-tools/compare/v5.25.0...v5.25.1) (2017-11-01)
 
