@@ -1,3 +1,13 @@
+<a name="5.26.0"></a>
+# [5.26.0](https://github.com/softwaregroup-bg/ut-tools/compare/v5.25.2...v5.26.0) (2017-11-02)
+
+
+### Features
+
+* add defaults for audit and history db ([77dabdb](https://github.com/softwaregroup-bg/ut-tools/commit/77dabdb))
+
+
+
 <a name="5.25.2"></a>
 ## [5.25.2](https://github.com/softwaregroup-bg/ut-tools/compare/v5.25.1...v5.25.2) (2017-11-01)
 
