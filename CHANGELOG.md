@@ -1,3 +1,13 @@
+<a name="5.27.4"></a>
+## [5.27.4](https://github.com/softwaregroup-bg/ut-tools/compare/v5.27.3...v5.27.4) (2017-11-03)
+
+
+### Bug Fixes
+
+* use 8 parallel jobs ([c8a5df0](https://github.com/softwaregroup-bg/ut-tools/commit/c8a5df0))
+
+
+
 <a name="5.27.3"></a>
 ## [5.27.3](https://github.com/softwaregroup-bg/ut-tools/compare/v5.27.2...v5.27.3) (2017-11-03)
 
