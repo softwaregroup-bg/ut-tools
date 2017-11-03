@@ -1,3 +1,14 @@
+<a name="5.27.2"></a>
+## [5.27.2](https://github.com/softwaregroup-bg/ut-tools/compare/v5.27.1...v5.27.2) (2017-11-03)
+
+
+### Bug Fixes
+
+* exec mode ([6afc7d5](https://github.com/softwaregroup-bg/ut-tools/commit/6afc7d5))
+* make executable ([c1f3486](https://github.com/softwaregroup-bg/ut-tools/commit/c1f3486))
+
+
+
 <a name="5.27.1"></a>
 ## [5.27.1](https://github.com/softwaregroup-bg/ut-tools/compare/v5.27.0...v5.27.1) (2017-11-03)
 
