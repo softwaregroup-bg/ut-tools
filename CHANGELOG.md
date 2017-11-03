@@ -1,3 +1,13 @@
+<a name="5.27.1"></a>
+## [5.27.1](https://github.com/softwaregroup-bg/ut-tools/compare/v5.27.0...v5.27.1) (2017-11-03)
+
+
+### Bug Fixes
+
+* add reporters ([09c76db](https://github.com/softwaregroup-bg/ut-tools/commit/09c76db))
+
+
+
 <a name="5.27.0"></a>
 # [5.27.0](https://github.com/softwaregroup-bg/ut-tools/compare/v5.26.0...v5.27.0) (2017-11-03)
 
