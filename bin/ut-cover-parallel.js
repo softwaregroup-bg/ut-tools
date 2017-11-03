@@ -9,6 +9,9 @@ require('../lib/exec')('node', [
     require('../lib/babelNodePath'),
     require.resolve('tap/bin/run'),
     '--cov',
+    '--coverage-report=text',
+    '--coverage-report=lcov',
+    '--coverage-report=cobertura',
     '-J',
     '-T',
     'test/integration'].concat(process.argv.slice(2)));
