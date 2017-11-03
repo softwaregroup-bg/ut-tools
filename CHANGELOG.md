@@ -1,3 +1,13 @@
+<a name="5.27.0"></a>
+# [5.27.0](https://github.com/softwaregroup-bg/ut-tools/compare/v5.26.0...v5.27.0) (2017-11-03)
+
+
+### Features
+
+* parallel coverage ([c51f6d7](https://github.com/softwaregroup-bg/ut-tools/commit/c51f6d7))
+
+
+
 <a name="5.26.0"></a>
 # [5.26.0](https://github.com/softwaregroup-bg/ut-tools/compare/v5.25.2...v5.26.0) (2017-11-02)
 
