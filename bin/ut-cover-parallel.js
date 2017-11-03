@@ -10,7 +10,7 @@ require('../lib/exec')(process.execPath, [
     '--coverage-report=text',
     '--coverage-report=lcov',
     '--coverage-report=cobertura',
-    '-J',
+    '-j8',
     '-T',
     'test/integration'].concat(process.argv.slice(2)));
 
