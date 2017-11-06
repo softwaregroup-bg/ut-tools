@@ -47,6 +47,7 @@ RUN apk add --no-cache curl make gcc g++ python linux-headers binutils-gold gnup
     /root/.npm /root/.node-gyp /root/.gnupg /usr/lib/node_modules/npm/man \
     /usr/lib/node_modules/npm/doc /usr/lib/node_modules/npm/html /usr/lib/node_modules/npm/scripts
 
+RUN apk add --no-cache git
 COPY .npmrc .npmrc
 COPY prefetch.json package.json
 RUN yarn
