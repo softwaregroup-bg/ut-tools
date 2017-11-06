@@ -103,6 +103,7 @@ conventionalRecommendedBump({
             exec('git', ['push', 'origin', '--tags']);
             obfuscator.obfuscate();
             exec('npm', setTag ? ['publish'] : ['publish', '--tag', 'ci']);
+            exec('npm', setTag ? ['publish'] : ['publish', '--tag', tokens[1]]);
             return true;
         })
         .catch(function(e) {
