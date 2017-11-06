@@ -1,3 +1,13 @@
+<a name="5.29.4"></a>
+## [5.29.4](https://github.com/softwaregroup-bg/ut-tools/compare/v5.29.3...v5.29.4) (2017-11-06)
+
+
+### Bug Fixes
+
+* add git ([d368b92](https://github.com/softwaregroup-bg/ut-tools/commit/d368b92))
+
+
+
 <a name="5.29.3"></a>
 ## [5.29.3](https://github.com/softwaregroup-bg/ut-tools/compare/v5.29.2...v5.29.3) (2017-11-06)
 
