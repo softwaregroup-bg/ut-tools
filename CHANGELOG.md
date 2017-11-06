@@ -1,3 +1,13 @@
+<a name="5.29.2"></a>
+## [5.29.2](https://github.com/softwaregroup-bg/ut-tools/compare/v5.29.1...v5.29.2) (2017-11-06)
+
+
+### Bug Fixes
+
+* add missing then ([f41a7f8](https://github.com/softwaregroup-bg/ut-tools/commit/f41a7f8))
+
+
+
 <a name="5.29.1"></a>
 ## [5.29.1](https://github.com/softwaregroup-bg/ut-tools/compare/v5.29.0...v5.29.1) (2017-11-06)
 
