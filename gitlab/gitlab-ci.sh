@@ -4,6 +4,7 @@ if [[ $CI_BUILD_REPO =~ $re ]]
 then
   echo building ${BASH_REMATCH[1]}
   if [ -f yarnPrefetch.json ]
+  then
       wget https://git.softwaregroup-bg.com/ut5/ut-tools/raw/master/gitlab/gitlab-ci-yarn.dockerfile -O gitlab-ci.dockerfile && \
       docker build -t ${BASH_REMATCH[1]} -f gitlab-ci.dockerfile . && \
       docker run -i --rm -v /srv/npm:/root/.npm -e CI_BUILD_ID -e UT_ENV -e UT_DB_PASS -e UT_MODULE=${BASH_REMATCH[5]} ${BASH_REMATCH[1]} npm run gitlab
