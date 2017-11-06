@@ -1,3 +1,13 @@
+<a name="5.29.0"></a>
+# [5.29.0](https://github.com/softwaregroup-bg/ut-tools/compare/v5.28.0...v5.29.0) (2017-11-06)
+
+
+### Features
+
+* publish release branch as tag and pass tag parameter in latestrc command ([0fc5dd0](https://github.com/softwaregroup-bg/ut-tools/commit/0fc5dd0))
+
+
+
 <a name="5.28.0"></a>
 # [5.28.0](https://github.com/softwaregroup-bg/ut-tools/compare/v5.27.5...v5.28.0) (2017-11-06)
 
