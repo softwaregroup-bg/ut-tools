@@ -1,3 +1,13 @@
+<a name="5.27.5"></a>
+## [5.27.5](https://github.com/softwaregroup-bg/ut-tools/compare/v5.27.4...v5.27.5) (2017-11-06)
+
+
+### Bug Fixes
+
+* latestrc command to recognize release codename branches ([#53](https://github.com/softwaregroup-bg/ut-tools/issues/53)) ([b78bb0b](https://github.com/softwaregroup-bg/ut-tools/commit/b78bb0b))
+
+
+
 <a name="5.27.4"></a>
 ## [5.27.4](https://github.com/softwaregroup-bg/ut-tools/compare/v5.27.3...v5.27.4) (2017-11-03)
 
