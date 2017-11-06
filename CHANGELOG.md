@@ -1,3 +1,13 @@
+<a name="5.29.1"></a>
+## [5.29.1](https://github.com/softwaregroup-bg/ut-tools/compare/v5.29.0...v5.29.1) (2017-11-06)
+
+
+### Bug Fixes
+
+* publish two tags with one publish command ([caa2b48](https://github.com/softwaregroup-bg/ut-tools/commit/caa2b48))
+
+
+
 <a name="5.29.0"></a>
 # [5.29.0](https://github.com/softwaregroup-bg/ut-tools/compare/v5.28.0...v5.29.0) (2017-11-06)
 
