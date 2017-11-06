@@ -1,3 +1,13 @@
+<a name="5.29.3"></a>
+## [5.29.3](https://github.com/softwaregroup-bg/ut-tools/compare/v5.29.2...v5.29.3) (2017-11-06)
+
+
+### Bug Fixes
+
+* change URL ([57c0f6e](https://github.com/softwaregroup-bg/ut-tools/commit/57c0f6e))
+
+
+
 <a name="5.29.2"></a>
 ## [5.29.2](https://github.com/softwaregroup-bg/ut-tools/compare/v5.29.1...v5.29.2) (2017-11-06)
 
