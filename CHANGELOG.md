@@ -1,3 +1,13 @@
+<a name="5.28.0"></a>
+# [5.28.0](https://github.com/softwaregroup-bg/ut-tools/compare/v5.27.5...v5.28.0) (2017-11-06)
+
+
+### Features
+
+* test with yarn ([560749e](https://github.com/softwaregroup-bg/ut-tools/commit/560749e))
+
+
+
 <a name="5.27.5"></a>
 ## [5.27.5](https://github.com/softwaregroup-bg/ut-tools/compare/v5.27.4...v5.27.5) (2017-11-06)
 
