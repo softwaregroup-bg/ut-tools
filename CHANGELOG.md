@@ -1,3 +1,13 @@
+<a name="5.29.6"></a>
+## [5.29.6](https://github.com/softwaregroup-bg/ut-tools/compare/v5.29.5...v5.29.6) (2017-11-07)
+
+
+### Bug Fixes
+
+* do not run integration/db twice ([17465e9](https://github.com/softwaregroup-bg/ut-tools/commit/17465e9))
+
+
+
 <a name="5.29.5"></a>
 ## [5.29.5](https://github.com/softwaregroup-bg/ut-tools/compare/v5.29.4...v5.29.5) (2017-11-07)
 
