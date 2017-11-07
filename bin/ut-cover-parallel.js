@@ -5,7 +5,6 @@ require('../lib/exec')(process.execPath, [
     require.resolve('tap/bin/run'),
     '--cov',
     '-j8',
-    '-T',
     'test/integration'].concat(process.argv.slice(2)));
 
 require('../lib/exec')(process.execPath, [
