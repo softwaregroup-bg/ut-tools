@@ -1,3 +1,13 @@
+<a name="5.29.8"></a>
+## [5.29.8](https://github.com/softwaregroup-bg/ut-tools/compare/v5.29.7...v5.29.8) (2017-11-07)
+
+
+### Bug Fixes
+
+* timeout based on variable ([acd0b9c](https://github.com/softwaregroup-bg/ut-tools/commit/acd0b9c))
+
+
+
 <a name="5.29.7"></a>
 ## [5.29.7](https://github.com/softwaregroup-bg/ut-tools/compare/v5.29.6...v5.29.7) (2017-11-07)
 
