@@ -2,9 +2,6 @@
 /* eslint no-process-env:0 */
 
 require('../lib/exec')(process.execPath, [
-    'test/integration/db'].concat(process.argv.slice(2)));
-
-require('../lib/exec')(process.execPath, [
     require.resolve('tap/bin/run'),
     '-j8',
     '-T',
