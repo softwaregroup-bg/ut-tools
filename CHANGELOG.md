@@ -1,3 +1,14 @@
+<a name="5.29.5"></a>
+## [5.29.5](https://github.com/softwaregroup-bg/ut-tools/compare/v5.29.4...v5.29.5) (2017-11-07)
+
+
+### Bug Fixes
+
+* set workdir ([8407b56](https://github.com/softwaregroup-bg/ut-tools/commit/8407b56))
+* support Windows path with spaces ([b04f1e1](https://github.com/softwaregroup-bg/ut-tools/commit/b04f1e1))
+
+
+
 <a name="5.29.4"></a>
 ## [5.29.4](https://github.com/softwaregroup-bg/ut-tools/compare/v5.29.3...v5.29.4) (2017-11-06)
 
