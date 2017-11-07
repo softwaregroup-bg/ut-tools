@@ -1,3 +1,13 @@
+<a name="5.29.9"></a>
+## [5.29.9](https://github.com/softwaregroup-bg/ut-tools/compare/v5.29.8...v5.29.9) (2017-11-07)
+
+
+### Bug Fixes
+
+* TAP variables ([caeb183](https://github.com/softwaregroup-bg/ut-tools/commit/caeb183))
+
+
+
 <a name="5.29.8"></a>
 ## [5.29.8](https://github.com/softwaregroup-bg/ut-tools/compare/v5.29.7...v5.29.8) (2017-11-07)
 
