@@ -1,3 +1,13 @@
+<a name="5.29.12"></a>
+## [5.29.12](https://github.com/softwaregroup-bg/ut-tools/compare/v5.29.11...v5.29.12) (2017-11-08)
+
+
+### Bug Fixes
+
+* yarn cache dir ([341b0ac](https://github.com/softwaregroup-bg/ut-tools/commit/341b0ac))
+
+
+
 <a name="5.29.11"></a>
 ## [5.29.11](https://github.com/softwaregroup-bg/ut-tools/compare/v5.29.10...v5.29.11) (2017-11-08)
 
