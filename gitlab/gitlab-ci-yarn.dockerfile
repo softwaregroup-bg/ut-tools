@@ -50,7 +50,7 @@ RUN apk add --no-cache curl make gcc g++ python linux-headers binutils-gold gnup
 RUN apk add --no-cache git
 WORKDIR /app
 COPY .npmrc .npmrc
-COPY prefetch.json package.json
+COPY yarnPrefetch.json package.json
 RUN yarn
 
 COPY package.json package.json
