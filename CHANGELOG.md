@@ -1,3 +1,13 @@
+<a name="5.29.11"></a>
+## [5.29.11](https://github.com/softwaregroup-bg/ut-tools/compare/v5.29.10...v5.29.11) (2017-11-08)
+
+
+### Bug Fixes
+
+* remove deprecated module ([01b2ca4](https://github.com/softwaregroup-bg/ut-tools/commit/01b2ca4))
+
+
+
 <a name="5.29.10"></a>
 ## [5.29.10](https://github.com/softwaregroup-bg/ut-tools/compare/v5.29.9...v5.29.10) (2017-11-08)
 
