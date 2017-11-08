@@ -1,3 +1,13 @@
+<a name="5.29.10"></a>
+## [5.29.10](https://github.com/softwaregroup-bg/ut-tools/compare/v5.29.9...v5.29.10) (2017-11-08)
+
+
+### Bug Fixes
+
+* use yarnPrefetch.json ([47ae036](https://github.com/softwaregroup-bg/ut-tools/commit/47ae036))
+
+
+
 <a name="5.29.9"></a>
 ## [5.29.9](https://github.com/softwaregroup-bg/ut-tools/compare/v5.29.8...v5.29.9) (2017-11-07)
 
