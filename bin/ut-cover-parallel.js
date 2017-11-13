@@ -3,7 +3,6 @@
 
 require('../lib/exec')(process.execPath, [
     require.resolve('tap/bin/run'),
-    '--node-arg=--expose-internals',
     '--cov',
     '-j8',
     'test/integration'].concat(process.argv.slice(2)));
