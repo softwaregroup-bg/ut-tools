@@ -1,3 +1,13 @@
+<a name="5.29.14"></a>
+## [5.29.14](https://github.com/softwaregroup-bg/ut-tools/compare/v5.29.13...v5.29.14) (2017-11-13)
+
+
+### Bug Fixes
+
+* test coverage ([feb7551](https://github.com/softwaregroup-bg/ut-tools/commit/feb7551))
+
+
+
 <a name="5.29.13"></a>
 ## [5.29.13](https://github.com/softwaregroup-bg/ut-tools/compare/v5.29.12...v5.29.13) (2017-11-13)
 
