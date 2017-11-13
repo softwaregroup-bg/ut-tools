@@ -1,3 +1,13 @@
+<a name="5.29.13"></a>
+## [5.29.13](https://github.com/softwaregroup-bg/ut-tools/compare/v5.29.12...v5.29.13) (2017-11-13)
+
+
+### Bug Fixes
+
+* upgrade to node 6.12 ([a02374a](https://github.com/softwaregroup-bg/ut-tools/commit/a02374a))
+
+
+
 <a name="5.29.12"></a>
 ## [5.29.12](https://github.com/softwaregroup-bg/ut-tools/compare/v5.29.11...v5.29.12) (2017-11-08)
 
