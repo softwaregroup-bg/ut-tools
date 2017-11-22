@@ -28,7 +28,7 @@ if (
     }
     command = 'release';
 } else {
-    command = 'test';
+    command = 'cover';
 }
 
 exec('npm', ['run', command]);
