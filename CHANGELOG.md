@@ -1,3 +1,13 @@
+<a name="5.30.0"></a>
+# [5.30.0](https://github.com/softwaregroup-bg/ut-tools/compare/v5.29.14...v5.30.0) (2017-11-23)
+
+
+### Features
+
+* improve ls format ([1d244c7](https://github.com/softwaregroup-bg/ut-tools/commit/1d244c7))
+
+
+
 <a name="5.29.14"></a>
 ## [5.29.14](https://github.com/softwaregroup-bg/ut-tools/compare/v5.29.13...v5.29.14) (2017-11-13)
 
