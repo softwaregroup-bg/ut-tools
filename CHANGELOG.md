@@ -1,3 +1,14 @@
+<a name="5.31.1"></a>
+## [5.31.1](https://github.com/softwaregroup-bg/ut-tools/compare/v5.31.0...v5.31.1) (2017-12-22)
+
+
+### Bug Fixes
+
+* add ut-precover ([4e6b0b5](https://github.com/softwaregroup-bg/ut-tools/commit/4e6b0b5))
+* change mode ([3a726fd](https://github.com/softwaregroup-bg/ut-tools/commit/3a726fd))
+
+
+
 <a name="5.31.0"></a>
 # [5.31.0](https://github.com/softwaregroup-bg/ut-tools/compare/v5.30.0...v5.31.0) (2017-12-22)
 
