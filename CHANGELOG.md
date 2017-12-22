@@ -1,3 +1,13 @@
+<a name="5.31.0"></a>
+# [5.31.0](https://github.com/softwaregroup-bg/ut-tools/compare/v5.30.0...v5.31.0) (2017-12-22)
+
+
+### Features
+
+* initial dev of SQL linter ([d5720e6](https://github.com/softwaregroup-bg/ut-tools/commit/d5720e6))
+
+
+
 <a name="5.30.0"></a>
 # [5.30.0](https://github.com/softwaregroup-bg/ut-tools/compare/v5.29.14...v5.30.0) (2017-11-23)
 
