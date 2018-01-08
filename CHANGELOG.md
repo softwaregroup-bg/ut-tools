@@ -1,3 +1,13 @@
+<a name="5.32.0"></a>
+# [5.32.0](https://github.com/softwaregroup-bg/ut-tools/compare/v5.31.1...v5.32.0) (2018-01-08)
+
+
+### Features
+
+* put npm versioning logic in a separate file so that it can be used as a standalone command ([#59](https://github.com/softwaregroup-bg/ut-tools/issues/59)) ([1ac70ca](https://github.com/softwaregroup-bg/ut-tools/commit/1ac70ca))
+
+
+
 <a name="5.31.1"></a>
 ## [5.31.1](https://github.com/softwaregroup-bg/ut-tools/compare/v5.31.0...v5.31.1) (2017-12-22)
 
