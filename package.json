@@ -38,7 +38,8 @@
     "tap-xunit": "1.7.0",
     "which": "1.2.12",
     "write-json-file": "2.0.0",
-    "babel-jest": "20.0.3"
+    "babel-jest": "20.0.3",
+    "ut-tsql-lexer": "^1.0.6"
   },
   "scripts": {
     "changelog": "./bin/ut-changelog.js",
