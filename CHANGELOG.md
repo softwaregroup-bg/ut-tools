@@ -1,3 +1,13 @@
+<a name="5.32.1"></a>
+## [5.32.1](https://github.com/softwaregroup-bg/ut-tools/compare/v5.32.0...v5.32.1) (2018-01-15)
+
+
+### Bug Fixes
+
+* move SQL lexer in module ([484dae1](https://github.com/softwaregroup-bg/ut-tools/commit/484dae1))
+
+
+
 <a name="5.32.0"></a>
 # [5.32.0](https://github.com/softwaregroup-bg/ut-tools/compare/v5.31.1...v5.32.0) (2018-01-08)
 
