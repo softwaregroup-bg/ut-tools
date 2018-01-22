@@ -1,3 +1,13 @@
+<a name="5.32.2"></a>
+## [5.32.2](https://github.com/softwaregroup-bg/ut-tools/compare/v5.32.1...v5.32.2) (2018-01-22)
+
+
+### Bug Fixes
+
+* add ut-versionbump in bin ([46d8e94](https://github.com/softwaregroup-bg/ut-tools/commit/46d8e94))
+
+
+
 <a name="5.32.1"></a>
 ## [5.32.1](https://github.com/softwaregroup-bg/ut-tools/compare/v5.32.0...v5.32.1) (2018-01-15)
 
