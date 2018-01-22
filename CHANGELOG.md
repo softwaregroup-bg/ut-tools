@@ -1,3 +1,13 @@
+<a name="5.32.4"></a>
+## [5.32.4](https://github.com/softwaregroup-bg/ut-tools/compare/v5.32.3...v5.32.4) (2018-01-22)
+
+
+### Bug Fixes
+
+* Convert file bin/ut-versionbump.js to Unix format ([e860c76](https://github.com/softwaregroup-bg/ut-tools/commit/e860c76))
+
+
+
 <a name="5.32.3"></a>
 ## [5.32.3](https://github.com/softwaregroup-bg/ut-tools/compare/v5.32.2...v5.32.3) (2018-01-22)
 
