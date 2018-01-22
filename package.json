@@ -58,7 +58,8 @@
     "preversion": "./bin/ut-preversion.js",
     "release": "./bin/ut-release.js",
     "test": "./bin/ut-test.js",
-    "version": "./bin/ut-version.js"
+    "version": "./bin/ut-version.js",
+    "versionbump": "./bin/ut-versionbump.js"
   },
   "repository": {
     "type": "git",
@@ -93,7 +94,8 @@
     "ut-release": "./bin/ut-release.js",
     "ut-test": "./bin/ut-test.js",
     "ut-test-parallel": "./bin/ut-test-parallel.js",
-    "ut-version": "./bin/ut-version.js"
+    "ut-version": "./bin/ut-version.js",
+    "ut-versionbump": "./bin/ut-versionbump.js"
   },
   "keywords": [
     "build",
