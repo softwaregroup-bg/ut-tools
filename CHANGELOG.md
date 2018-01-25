@@ -1,3 +1,13 @@
+<a name="5.32.5"></a>
+## [5.32.5](https://github.com/softwaregroup-bg/ut-tools/compare/v5.32.4...v5.32.5) (2018-01-25)
+
+
+### Bug Fixes
+
+* do not mutate dependencies ([5df9ea4](https://github.com/softwaregroup-bg/ut-tools/commit/5df9ea4))
+
+
+
 <a name="5.32.4"></a>
 ## [5.32.4](https://github.com/softwaregroup-bg/ut-tools/compare/v5.32.3...v5.32.4) (2018-01-22)
 
