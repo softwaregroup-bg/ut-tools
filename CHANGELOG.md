@@ -1,3 +1,14 @@
+<a name="5.32.6"></a>
+## [5.32.6](https://github.com/softwaregroup-bg/ut-tools/compare/v5.32.5...v5.32.6) (2018-02-16)
+
+
+### Bug Fixes
+
+* support upgrades within multiple major versions ([d788db4](https://github.com/softwaregroup-bg/ut-tools/commit/d788db4))
+* undo versions change ([ac256b2](https://github.com/softwaregroup-bg/ut-tools/commit/ac256b2))
+
+
+
 <a name="5.32.5"></a>
 ## [5.32.5](https://github.com/softwaregroup-bg/ut-tools/compare/v5.32.4...v5.32.5) (2018-01-25)
 
