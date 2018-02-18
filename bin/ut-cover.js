@@ -11,9 +11,11 @@ require('../lib/exec')(require.resolve('nyc/bin/nyc'), [
     '--exclude=!node_modules/ut-*/**/*.js',
     '--exclude=node_modules/!(ut-*)/**/*.js',
     '--exclude=**/*marko.js',
-    '--exclude=**/test/**'].concat(
+    '--exclude=**/test/**']
+    .concat(
         process.env.UT_COVER_DIR ? [`--report-dir=${process.env.UT_COVER_DIR}`] : []
-    ).concat([
+    )
+    .concat([
         'node',
         require('../lib/babelNodePath'),
         require.resolve('blue-tape/bin/blue-tape'),
@@ -25,10 +27,10 @@ require('../lib/exec')('node', [
     require.resolve('jest/bin/jest'),
     '--coverage',
     '--testMatch=**/__tests__/**/*.js?(x)',
-    '--maxWorkers=2'
-].concat(
-    process.env.UT_COVER_DIR ? [`--coverageDirectory=${process.env.UT_COVER_DIR}_ui`] : []
-));
+    '--maxWorkers=2']
+    .concat(
+        process.env.UT_COVER_DIR ? [`--coverageDirectory=${process.env.UT_COVER_DIR}_ui`] : []
+    ));
 if (process.env.UT_COVER_DIR) {
     fs.appendFileSync(`${process.env.UT_COVER_DIR}/lcov.info`, fs.readFileSync(`${process.env.UT_COVER_DIR}_ui/lcov.info`));
 }
