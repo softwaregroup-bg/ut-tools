@@ -1,6 +1,6 @@
 {
   "name": "ut-tools",
-  "version": "6.0.0-rc-cubalibre.5",
+  "version": "6.0.0-rc-cubalibre.6",
   "description": "Build and Release management automation package.",
   "dependencies": {
     "babel-cli": "6.26.0",
