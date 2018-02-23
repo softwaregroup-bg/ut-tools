@@ -1,3 +1,13 @@
+<a name="5.32.7"></a>
+## [5.32.7](https://github.com/softwaregroup-bg/ut-tools/compare/v5.32.6...v5.32.7) (2018-02-23)
+
+
+### Bug Fixes
+
+* fix SQL lint line and column ([19df892](https://github.com/softwaregroup-bg/ut-tools/commit/19df892))
+
+
+
 <a name="5.32.6"></a>
 ## [5.32.6](https://github.com/softwaregroup-bg/ut-tools/compare/v5.32.5...v5.32.6) (2018-02-16)
 
