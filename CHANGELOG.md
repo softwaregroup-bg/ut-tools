@@ -1,3 +1,13 @@
+<a name="5.32.8"></a>
+## [5.32.8](https://github.com/softwaregroup-bg/ut-tools/compare/v5.32.7...v5.32.8) (2018-03-28)
+
+
+### Bug Fixes
+
+* check precover script ([4decf21](https://github.com/softwaregroup-bg/ut-tools/commit/4decf21))
+
+
+
 <a name="5.32.7"></a>
 ## [5.32.7](https://github.com/softwaregroup-bg/ut-tools/compare/v5.32.6...v5.32.7) (2018-02-23)
 
