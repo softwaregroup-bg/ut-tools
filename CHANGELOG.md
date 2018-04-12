@@ -1,3 +1,13 @@
+<a name="5.32.10"></a>
+## [5.32.10](https://github.com/softwaregroup-bg/ut-tools/compare/v5.32.9...v5.32.10) (2018-04-12)
+
+
+### Bug Fixes
+
+* cover-paralel unit tests ([#65](https://github.com/softwaregroup-bg/ut-tools/issues/65)) ([c2bbbaa](https://github.com/softwaregroup-bg/ut-tools/commit/c2bbbaa))
+
+
+
 <a name="5.32.9"></a>
 ## [5.32.9](https://github.com/softwaregroup-bg/ut-tools/compare/v5.32.8...v5.32.9) (2018-04-10)
 
