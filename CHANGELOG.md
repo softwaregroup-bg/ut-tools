@@ -1,3 +1,55 @@
+<a name="5.32.10"></a>
+## [5.32.10](https://github.com/softwaregroup-bg/ut-tools/compare/v5.32.9...v5.32.10) (2018-04-12)
+
+
+### Bug Fixes
+
+* cover-paralel unit tests ([#65](https://github.com/softwaregroup-bg/ut-tools/issues/65)) ([c2bbbaa](https://github.com/softwaregroup-bg/ut-tools/commit/c2bbbaa))
+
+
+
+<a name="5.32.9"></a>
+## [5.32.9](https://github.com/softwaregroup-bg/ut-tools/compare/v5.32.8...v5.32.9) (2018-04-10)
+
+
+### Bug Fixes
+
+* add command for unit tests ([#64](https://github.com/softwaregroup-bg/ut-tools/issues/64)) ([b8fb478](https://github.com/softwaregroup-bg/ut-tools/commit/b8fb478))
+* add ignore paths ([#63](https://github.com/softwaregroup-bg/ut-tools/issues/63)) ([4dc642b](https://github.com/softwaregroup-bg/ut-tools/commit/4dc642b))
+
+
+
+<a name="5.32.8"></a>
+## [5.32.8](https://github.com/softwaregroup-bg/ut-tools/compare/v5.32.7...v5.32.8) (2018-03-28)
+
+
+### Bug Fixes
+
+* check precover script ([4decf21](https://github.com/softwaregroup-bg/ut-tools/commit/4decf21))
+
+
+
+<a name="5.32.7"></a>
+## [5.32.7](https://github.com/softwaregroup-bg/ut-tools/compare/v5.32.6...v5.32.7) (2018-02-23)
+
+
+### Bug Fixes
+
+* fix SQL lint line and column ([19df892](https://github.com/softwaregroup-bg/ut-tools/commit/19df892))
+
+
+
+<a name="5.32.6"></a>
+## [5.32.6](https://github.com/softwaregroup-bg/ut-tools/compare/v5.32.5...v5.32.6) (2018-02-16)
+
+
+### Bug Fixes
+
+* support upgrades within multiple major versions ([d788db4](https://github.com/softwaregroup-bg/ut-tools/commit/d788db4))
+* undo versions change ([ac256b2](https://github.com/softwaregroup-bg/ut-tools/commit/ac256b2))
+
+
+
 <a name="5.32.5"></a>
 ## [5.32.5](https://github.com/softwaregroup-bg/ut-tools/compare/v5.32.4...v5.32.5) (2018-01-25)
 
