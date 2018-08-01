@@ -1,3 +1,13 @@
+<a name="6.0.1"></a>
+## [6.0.1](https://github.com/softwaregroup-bg/ut-tools/compare/v6.0.0...v6.0.1) (2018-08-01)
+
+
+### Bug Fixes
+
+* allow dashes in implementation name ([#67](https://github.com/softwaregroup-bg/ut-tools/issues/67)) ([df3a874](https://github.com/softwaregroup-bg/ut-tools/commit/df3a874))
+
+
+
 <a name="6.0.0"></a>
 # [6.0.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.0.0-rc-cubalibre.12...v6.0.0) (2018-04-18)
 
