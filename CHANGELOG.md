@@ -1,3 +1,13 @@
+<a name="6.0.3"></a>
+## [6.0.3](https://github.com/softwaregroup-bg/ut-tools/compare/v6.0.2...v6.0.3) (2018-10-15)
+
+
+### Bug Fixes
+
+* improve version range validation ([b2906ac](https://github.com/softwaregroup-bg/ut-tools/commit/b2906ac))
+
+
+
 <a name="6.0.2"></a>
 ## [6.0.2](https://github.com/softwaregroup-bg/ut-tools/compare/v6.0.1...v6.0.2) (2018-10-11)
 
