@@ -1,3 +1,13 @@
+<a name="6.1.0"></a>
+# [6.1.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.0.3...v6.1.0) (2018-10-18)
+
+
+### Features
+
+* upgrade eslint ([287005d](https://github.com/softwaregroup-bg/ut-tools/commit/287005d))
+
+
+
 <a name="6.0.3"></a>
 ## [6.0.3](https://github.com/softwaregroup-bg/ut-tools/compare/v6.0.2...v6.0.3) (2018-10-15)
 
