@@ -9,5 +9,6 @@ require('../lib/exec')('node', [
 require('../lib/exec')('node', [
     require.resolve('jest/bin/jest'),
     '--testMatch=**/__tests__/**/*.js?(x)',
+    '--passWithNoTests',
     '--maxWorkers=2'
 ]);
