@@ -1,3 +1,19 @@
+<a name="6.2.0"></a>
+# [6.2.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.1.0...v6.2.0) (2018-10-19)
+
+
+### Bug Fixes
+
+* lint ([d88ea09](https://github.com/softwaregroup-bg/ut-tools/commit/d88ea09))
+* pass with no tests ([b415b7d](https://github.com/softwaregroup-bg/ut-tools/commit/b415b7d))
+
+
+### Features
+
+* update dependencies ([ebe3547](https://github.com/softwaregroup-bg/ut-tools/commit/ebe3547))
+
+
+
 <a name="6.1.0"></a>
 # [6.1.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.0.3...v6.1.0) (2018-10-18)
 
