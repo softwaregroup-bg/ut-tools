@@ -1,3 +1,13 @@
+<a name="6.2.1"></a>
+## [6.2.1](https://github.com/softwaregroup-bg/ut-tools/compare/v6.2.0...v6.2.1) (2018-10-19)
+
+
+### Bug Fixes
+
+* remove nsp ([c61ec5e](https://github.com/softwaregroup-bg/ut-tools/commit/c61ec5e))
+
+
+
 <a name="6.2.0"></a>
 # [6.2.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.1.0...v6.2.0) (2018-10-19)
 
