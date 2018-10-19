@@ -193,6 +193,7 @@
       "ut-customer": "^6.28.0",
       "ut-document": "^6.7.0",
       "ut-error": "^5.4.9",
+      "ut-history": "^1.3.0",
       "ut-front-react": "^10.0.0",
       "ut-front": "^8.0.0",
       "ut-ledger": "^1.33.0",
