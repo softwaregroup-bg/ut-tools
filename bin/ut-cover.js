@@ -26,6 +26,7 @@ require('../lib/exec')(require.resolve('nyc/bin/nyc'), [
 require('../lib/exec')('node', [
     require.resolve('jest/bin/jest'),
     '--coverage',
+    '--passWithNoTests',
     '--testMatch=**/__tests__/**/*.js?(x)',
     '--maxWorkers=2']
     .concat(
