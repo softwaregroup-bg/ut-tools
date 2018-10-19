@@ -1,3 +1,13 @@
+<a name="6.2.3"></a>
+## [6.2.3](https://github.com/softwaregroup-bg/ut-tools/compare/v6.2.2...v6.2.3) (2018-10-19)
+
+
+### Bug Fixes
+
+* allow ut-history ([723452f](https://github.com/softwaregroup-bg/ut-tools/commit/723452f))
+
+
+
 <a name="6.2.2"></a>
 ## [6.2.2](https://github.com/softwaregroup-bg/ut-tools/compare/v6.2.1...v6.2.2) (2018-10-19)
 
