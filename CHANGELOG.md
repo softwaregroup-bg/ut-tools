@@ -1,3 +1,13 @@
+<a name="6.2.2"></a>
+## [6.2.2](https://github.com/softwaregroup-bg/ut-tools/compare/v6.2.1...v6.2.2) (2018-10-19)
+
+
+### Bug Fixes
+
+* pass with no jest tests ([ec1e166](https://github.com/softwaregroup-bg/ut-tools/commit/ec1e166))
+
+
+
 <a name="6.2.1"></a>
 ## [6.2.1](https://github.com/softwaregroup-bg/ut-tools/compare/v6.2.0...v6.2.1) (2018-10-19)
 
