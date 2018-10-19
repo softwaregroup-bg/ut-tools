@@ -7,7 +7,8 @@ Circle CI, Gitlab CI, etc.
 ## Available scripts
 
 * ut-changelog: generate or update CHANGELOG.MD, based on [conventional-changelog](https://www.npmjs.com/package/conventional-changelog)
-* ut-check: run tests and [nsp](https://www.npmjs.com/package/nsp) security checks
+* ut-check: run tests and [npm audit](https://docs.npmjs.com/cli/audit) security
+  checks
 * ut-circleci-build: build docker images in CircleCI
 * ut-circleci-push: push docker images from CircleCI to Amazon ECS registry.
   The following variables are required to be set:
