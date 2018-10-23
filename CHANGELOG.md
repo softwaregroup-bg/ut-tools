@@ -1,3 +1,13 @@
+<a name="6.3.0"></a>
+# [6.3.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.2.3...v6.3.0) (2018-10-23)
+
+
+### Features
+
+* add ut-unittest ([5eb86df](https://github.com/softwaregroup-bg/ut-tools/commit/5eb86df))
+
+
+
 <a name="6.2.3"></a>
 ## [6.2.3](https://github.com/softwaregroup-bg/ut-tools/compare/v6.2.2...v6.2.3) (2018-10-19)
 
