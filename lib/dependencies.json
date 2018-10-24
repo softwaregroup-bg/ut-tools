@@ -3,7 +3,7 @@
       "abstract-leveldown": "2.6.1",
       "adm-zip": "0.4.7",
       "babylon": "6.14.1",
-      "boom": "7.1.1",
+      "boom": "7.2.0",
       "browser-process-hrtime": "0.1.2",
       "browser-request": "0.3.3",
       "buffer-more-ints": "0.0.2",
