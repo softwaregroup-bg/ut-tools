@@ -1,3 +1,13 @@
+<a name="6.3.3"></a>
+## [6.3.3](https://github.com/softwaregroup-bg/ut-tools/compare/v6.3.2...v6.3.3) (2018-10-24)
+
+
+### Bug Fixes
+
+* upgrade boom ([43f6519](https://github.com/softwaregroup-bg/ut-tools/commit/43f6519))
+
+
+
 <a name="6.3.2"></a>
 ## [6.3.2](https://github.com/softwaregroup-bg/ut-tools/compare/v6.3.1...v6.3.2) (2018-10-24)
 
