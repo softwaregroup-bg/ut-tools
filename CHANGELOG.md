@@ -1,3 +1,14 @@
+<a name="6.3.2"></a>
+## [6.3.2](https://github.com/softwaregroup-bg/ut-tools/compare/v6.3.1...v6.3.2) (2018-10-24)
+
+
+### Bug Fixes
+
+* remove package-lock ([ef36660](https://github.com/softwaregroup-bg/ut-tools/commit/ef36660))
+* upgrade joi ([a30be77](https://github.com/softwaregroup-bg/ut-tools/commit/a30be77))
+
+
+
 <a name="6.3.1"></a>
 ## [6.3.1](https://github.com/softwaregroup-bg/ut-tools/compare/v6.3.0...v6.3.1) (2018-10-23)
 
