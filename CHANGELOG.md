@@ -1,3 +1,14 @@
+<a name="6.3.4"></a>
+## [6.3.4](https://github.com/softwaregroup-bg/ut-tools/compare/v6.3.3...v6.3.4) (2018-10-25)
+
+
+### Bug Fixes
+
+* add md exceptions ([3b1bc68](https://github.com/softwaregroup-bg/ut-tools/commit/3b1bc68))
+* dependencies ([14be112](https://github.com/softwaregroup-bg/ut-tools/commit/14be112))
+
+
+
 <a name="6.3.3"></a>
 ## [6.3.3](https://github.com/softwaregroup-bg/ut-tools/compare/v6.3.2...v6.3.3) (2018-10-24)
 
