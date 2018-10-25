@@ -1,3 +1,13 @@
+<a name="6.3.7"></a>
+## [6.3.7](https://github.com/softwaregroup-bg/ut-tools/compare/v6.3.6...v6.3.7) (2018-10-25)
+
+
+### Bug Fixes
+
+* dependencies ([6856cad](https://github.com/softwaregroup-bg/ut-tools/commit/6856cad))
+
+
+
 <a name="6.3.6"></a>
 ## [6.3.6](https://github.com/softwaregroup-bg/ut-tools/compare/v6.3.5...v6.3.6) (2018-10-25)
 
