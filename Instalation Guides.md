@@ -45,7 +45,13 @@
         "eslint.options": {
             "configFile": "C:/Users/<user home dir>/AppData/Roaming/npm/node_modules/ut-tools/eslint/.eslintrc"
         },
-        "stylelint.enable": true
+        "stylelint.enable": true,
+        "markdownlint.config": {
+            "MD013": {
+                "tables": false,
+                "headings": false
+            }
+        },
     }
   ```
 
