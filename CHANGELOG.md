@@ -1,3 +1,13 @@
+<a name="6.3.5"></a>
+## [6.3.5](https://github.com/softwaregroup-bg/ut-tools/compare/v6.3.4...v6.3.5) (2018-10-25)
+
+
+### Bug Fixes
+
+* dependencies ([ea0210d](https://github.com/softwaregroup-bg/ut-tools/commit/ea0210d))
+
+
+
 <a name="6.3.4"></a>
 ## [6.3.4](https://github.com/softwaregroup-bg/ut-tools/compare/v6.3.3...v6.3.4) (2018-10-25)
 
