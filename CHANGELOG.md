@@ -1,3 +1,13 @@
+<a name="6.3.6"></a>
+## [6.3.6](https://github.com/softwaregroup-bg/ut-tools/compare/v6.3.5...v6.3.6) (2018-10-25)
+
+
+### Bug Fixes
+
+* upgrade mssql ([7c39ada](https://github.com/softwaregroup-bg/ut-tools/commit/7c39ada))
+
+
+
 <a name="6.3.5"></a>
 ## [6.3.5](https://github.com/softwaregroup-bg/ut-tools/compare/v6.3.4...v6.3.5) (2018-10-25)
 
