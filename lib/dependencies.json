@@ -234,7 +234,7 @@
       "babel-preset-react": "^6.24.1",
       "babel-preset-stage-0": "^6.24.1",
       "bell-on-bundler-error-plugin": "^2.0.0",
-      "bootstrap": "^4.0.0-alpha.2",
+      "bootstrap": "^4.1.3",
       "classnames": "^2.2.5",
       "croppie": "^2.4.0",
       "css-loader": "^0.28.7",
