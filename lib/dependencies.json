@@ -223,7 +223,7 @@
       "ut-rule": "^9.19.1",
       "ut-run": "^9.1.0",
       "ut-transfer": "^6.27.0",
-      "ut-user": "^7.36.0"
+      "ut-user": "^7.35.4"
     },
     "peerDevDependencies": {
       "babel-loader": "^7.1.2",
