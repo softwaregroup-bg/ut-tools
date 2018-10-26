@@ -1,3 +1,20 @@
+<a name="6.4.0"></a>
+# [6.4.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.3.8...v6.4.0) (2018-10-26)
+
+
+### Bug Fixes
+
+* remove unneeded export ([a725fc1](https://github.com/softwaregroup-bg/ut-tools/commit/a725fc1))
+* upgrade bootstrap ([de1954d](https://github.com/softwaregroup-bg/ut-tools/commit/de1954d))
+
+
+### Features
+
+* allow ignoring for lintMd ([1419f0b](https://github.com/softwaregroup-bg/ut-tools/commit/1419f0b))
+* support all eslint command line arguments for ut-lint ([4500ebb](https://github.com/softwaregroup-bg/ut-tools/commit/4500ebb))
+
+
+
 <a name="6.3.8"></a>
 ## [6.3.8](https://github.com/softwaregroup-bg/ut-tools/compare/v6.3.7...v6.3.8) (2018-10-25)
 
