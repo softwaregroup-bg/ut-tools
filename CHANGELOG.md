@@ -1,3 +1,13 @@
+<a name="6.4.1"></a>
+## [6.4.1](https://github.com/softwaregroup-bg/ut-tools/compare/v6.4.0...v6.4.1) (2018-10-26)
+
+
+### Bug Fixes
+
+* make bootstrap optional ([ae65838](https://github.com/softwaregroup-bg/ut-tools/commit/ae65838))
+
+
+
 <a name="6.4.0"></a>
 # [6.4.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.3.8...v6.4.0) (2018-10-26)
 
