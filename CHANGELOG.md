@@ -1,3 +1,13 @@
+<a name="6.4.2"></a>
+## [6.4.2](https://github.com/softwaregroup-bg/ut-tools/compare/v6.4.1...v6.4.2) (2018-10-26)
+
+
+### Bug Fixes
+
+* ut-user ([b5616b3](https://github.com/softwaregroup-bg/ut-tools/commit/b5616b3))
+
+
+
 <a name="6.4.1"></a>
 ## [6.4.1](https://github.com/softwaregroup-bg/ut-tools/compare/v6.4.0...v6.4.1) (2018-10-26)
 
