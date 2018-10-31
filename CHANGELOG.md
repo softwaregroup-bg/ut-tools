@@ -1,3 +1,13 @@
+<a name="6.4.4"></a>
+## [6.4.4](https://github.com/softwaregroup-bg/ut-tools/compare/v6.4.3...v6.4.4) (2018-10-31)
+
+
+### Bug Fixes
+
+* simplify path ([5ab978c](https://github.com/softwaregroup-bg/ut-tools/commit/5ab978c))
+
+
+
 <a name="6.4.3"></a>
 ## [6.4.3](https://github.com/softwaregroup-bg/ut-tools/compare/v6.4.2...v6.4.3) (2018-10-31)
 
