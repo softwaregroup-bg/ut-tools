@@ -1,3 +1,13 @@
+<a name="6.4.3"></a>
+## [6.4.3](https://github.com/softwaregroup-bg/ut-tools/compare/v6.4.2...v6.4.3) (2018-10-31)
+
+
+### Bug Fixes
+
+* add ut-crypt ([9022abf](https://github.com/softwaregroup-bg/ut-tools/commit/9022abf))
+
+
+
 <a name="6.4.2"></a>
 ## [6.4.2](https://github.com/softwaregroup-bg/ut-tools/compare/v6.4.1...v6.4.2) (2018-10-26)
 
