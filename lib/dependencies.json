@@ -112,7 +112,7 @@
       "ut-codec-ndc": "^6.1.8",
       "ut-codec-payshield": "^6.1.3",
       "ut-codec-string": "^6.1.0",
-      "ut-crypt": "^6.0.1",
+      "ut-crypt": "^6.0.2",
       "ut-ctp-aptra": "^6.4.0",
       "ut-ctp-iso": "^6.3.0",
       "ut-ctp-pan": "^6.4.0",
@@ -300,6 +300,7 @@
       "raven": "2.2.1",
       "request": "^2.88.0",
       "ut-browser-request": "^1.0.2",
+      "ut-rpc": "^6.0.0",
       "winston": "2.4.0"
     }
   }
