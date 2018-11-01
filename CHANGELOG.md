@@ -1,3 +1,13 @@
+<a name="6.4.6"></a>
+## [6.4.6](https://github.com/softwaregroup-bg/ut-tools/compare/v6.4.5...v6.4.6) (2018-11-01)
+
+
+### Bug Fixes
+
+* add ut-rpc to optional dep ([4c2f79e](https://github.com/softwaregroup-bg/ut-tools/commit/4c2f79e))
+
+
+
 <a name="6.4.5"></a>
 ## [6.4.5](https://github.com/softwaregroup-bg/ut-tools/compare/v6.4.4...v6.4.5) (2018-11-01)
 
