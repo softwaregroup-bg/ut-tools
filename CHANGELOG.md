@@ -1,3 +1,13 @@
+<a name="6.4.7"></a>
+## [6.4.7](https://github.com/softwaregroup-bg/ut-tools/compare/v6.4.6...v6.4.7) (2018-11-01)
+
+
+### Bug Fixes
+
+* sql warnings are now errors ([15ac974](https://github.com/softwaregroup-bg/ut-tools/commit/15ac974))
+
+
+
 <a name="6.4.6"></a>
 ## [6.4.6](https://github.com/softwaregroup-bg/ut-tools/compare/v6.4.5...v6.4.6) (2018-11-01)
 
