@@ -1,3 +1,14 @@
+<a name="6.4.8"></a>
+## [6.4.8](https://github.com/softwaregroup-bg/ut-tools/compare/v6.4.7...v6.4.8) (2018-11-10)
+
+
+### Bug Fixes
+
+* allow compile params ([3c1d55f](https://github.com/softwaregroup-bg/ut-tools/commit/3c1d55f))
+* allow ut-currency and ut-dispatch-db ([88635eb](https://github.com/softwaregroup-bg/ut-tools/commit/88635eb))
+
+
+
 <a name="6.4.7"></a>
 ## [6.4.7](https://github.com/softwaregroup-bg/ut-tools/compare/v6.4.6...v6.4.7) (2018-11-01)
 
