@@ -1,3 +1,12 @@
+## [6.4.9](https://github.com/softwaregroup-bg/ut-tools/compare/v6.4.8...v6.4.9) (2018-11-14)
+
+
+### Bug Fixes
+
+* upgrade dependencies ([f083f30](https://github.com/softwaregroup-bg/ut-tools/commit/f083f30))
+
+
+
 <a name="6.4.8"></a>
 ## [6.4.8](https://github.com/softwaregroup-bg/ut-tools/compare/v6.4.7...v6.4.8) (2018-11-10)
 
