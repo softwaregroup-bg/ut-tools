@@ -1,3 +1,12 @@
+## [6.4.10](https://github.com/softwaregroup-bg/ut-tools/compare/v6.4.9...v6.4.10) (2018-11-16)
+
+
+### Bug Fixes
+
+* add dns-discovery and mdns-resolver ([380192c](https://github.com/softwaregroup-bg/ut-tools/commit/380192c))
+
+
+
 ## [6.4.9](https://github.com/softwaregroup-bg/ut-tools/compare/v6.4.8...v6.4.9) (2018-11-14)
 
 
