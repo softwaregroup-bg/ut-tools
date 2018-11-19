@@ -1,3 +1,12 @@
+## [6.4.11](https://github.com/softwaregroup-bg/ut-tools/compare/v6.4.10...v6.4.11) (2018-11-19)
+
+
+### Bug Fixes
+
+* add dev dependency ([a742d0f](https://github.com/softwaregroup-bg/ut-tools/commit/a742d0f))
+
+
+
 ## [6.4.10](https://github.com/softwaregroup-bg/ut-tools/compare/v6.4.9...v6.4.10) (2018-11-16)
 
 
