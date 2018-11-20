@@ -1,3 +1,12 @@
+## [6.4.12](https://github.com/softwaregroup-bg/ut-tools/compare/v6.4.11...v6.4.12) (2018-11-20)
+
+
+### Bug Fixes
+
+* add devDependency ([bc7387a](https://github.com/softwaregroup-bg/ut-tools/commit/bc7387a))
+
+
+
 ## [6.4.11](https://github.com/softwaregroup-bg/ut-tools/compare/v6.4.10...v6.4.11) (2018-11-19)
 
 
