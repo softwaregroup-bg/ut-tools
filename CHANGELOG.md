@@ -1,3 +1,13 @@
+## [6.4.13](https://github.com/softwaregroup-bg/ut-tools/compare/v6.4.12...v6.4.13) (2018-12-04)
+
+
+### Bug Fixes
+
+* upgrade ([044e8de](https://github.com/softwaregroup-bg/ut-tools/commit/044e8de))
+* upgrade dependencies ([8004e99](https://github.com/softwaregroup-bg/ut-tools/commit/8004e99))
+
+
+
 ## [6.4.12](https://github.com/softwaregroup-bg/ut-tools/compare/v6.4.11...v6.4.12) (2018-11-20)
 
 
