@@ -165,7 +165,6 @@
       "glob": "7.1.2",
       "is-builtin-module": "1.0.0",
       "isparta": "4.0.0",
-      "javascript-obfuscator": "0.9.4",
       "jest": "20.0.4",
       "joi": "13.7.0",
       "joi-browser": "^13.4.0",
