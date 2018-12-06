@@ -1,3 +1,12 @@
+## [6.4.14](https://github.com/softwaregroup-bg/ut-tools/compare/v6.4.13...v6.4.14) (2018-12-06)
+
+
+### Bug Fixes
+
+* remove obfuscator, as it is never used ([be7267c](https://github.com/softwaregroup-bg/ut-tools/commit/be7267c))
+
+
+
 ## [6.4.13](https://github.com/softwaregroup-bg/ut-tools/compare/v6.4.12...v6.4.13) (2018-12-04)
 
 
