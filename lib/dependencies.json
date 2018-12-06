@@ -163,6 +163,7 @@
       "findup-sync": "0.4.3",
       "fs-plus": "3.0.2",
       "glob": "7.1.2",
+      "impl-ctp": "^7.1.5",
       "is-builtin-module": "1.0.0",
       "isparta": "4.0.0",
       "jest": "20.0.4",
