@@ -1,3 +1,12 @@
+## [6.4.16](https://github.com/softwaregroup-bg/ut-tools/compare/v6.4.15...v6.4.16) (2018-12-06)
+
+
+### Bug Fixes
+
+* allow impl-ctp as dev dep ([1f9b981](https://github.com/softwaregroup-bg/ut-tools/commit/1f9b981))
+
+
+
 ## [6.4.15](https://github.com/softwaregroup-bg/ut-tools/compare/v6.4.14...v6.4.15) (2018-12-06)
 
 
