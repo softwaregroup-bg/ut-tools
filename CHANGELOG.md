@@ -1,3 +1,12 @@
+# [6.5.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.4.16...v6.5.0) (2018-12-07)
+
+
+### Features
+
+* allow sql lint ignore ([efe2fd6](https://github.com/softwaregroup-bg/ut-tools/commit/efe2fd6))
+
+
+
 ## [6.4.16](https://github.com/softwaregroup-bg/ut-tools/compare/v6.4.15...v6.4.16) (2018-12-06)
 
 
