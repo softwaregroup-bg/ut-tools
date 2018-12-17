@@ -1,3 +1,12 @@
+# [6.6.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.5.0...v6.6.0) (2018-12-17)
+
+
+### Features
+
+* allow  webpack 4 related deps ([215b2c6](https://github.com/softwaregroup-bg/ut-tools/commit/215b2c6))
+
+
+
 # [6.5.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.4.16...v6.5.0) (2018-12-07)
 
 
