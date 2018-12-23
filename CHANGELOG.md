@@ -1,3 +1,13 @@
+## [6.6.1](https://github.com/softwaregroup-bg/ut-tools/compare/v6.6.0...v6.6.1) (2018-12-23)
+
+
+### Bug Fixes
+
+* add react-router-dom ([927d55f](https://github.com/softwaregroup-bg/ut-tools/commit/927d55f))
+* upgrade dns-discovery ([d65e78e](https://github.com/softwaregroup-bg/ut-tools/commit/d65e78e))
+
+
+
 # [6.6.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.5.0...v6.6.0) (2018-12-17)
 
 
