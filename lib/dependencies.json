@@ -300,6 +300,7 @@
         "url-loader": "^0.6.2",
         "webpack-bundle-analyzer": "^3.0.3",
         "webpack-hot-middleware": "^2.20.0",
+        "webpack-dev-middleware": "^3.4.0",
         "webpack": "^3.8.1"
     },
     "optionalDependencies": {
