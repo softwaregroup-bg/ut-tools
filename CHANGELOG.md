@@ -1,3 +1,12 @@
+## [6.6.2](https://github.com/softwaregroup-bg/ut-tools/compare/v6.6.1...v6.6.2) (2018-12-23)
+
+
+### Bug Fixes
+
+* allow webpack-dev-middleware ([5ad6092](https://github.com/softwaregroup-bg/ut-tools/commit/5ad6092))
+
+
+
 ## [6.6.1](https://github.com/softwaregroup-bg/ut-tools/compare/v6.6.0...v6.6.1) (2018-12-23)
 
 
