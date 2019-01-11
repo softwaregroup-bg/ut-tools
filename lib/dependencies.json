@@ -217,6 +217,7 @@
         "ut-ledger": "^1.36.0",
         "ut-port": "^6.6.0",
         "ut-port-file": "^6.0.0",
+        "ut-port-ftp": "^5.6.0",
         "ut-port-http": "^7.1.0",
         "ut-port-httpserver": "^10.2.0",
         "ut-port-jsonrpc": "^6.1.0",
