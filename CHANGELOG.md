@@ -1,3 +1,12 @@
+## [6.6.4](https://github.com/softwaregroup-bg/ut-tools/compare/v6.6.3...v6.6.4) (2019-01-11)
+
+
+### Bug Fixes
+
+* port ftp version ([f725ead](https://github.com/softwaregroup-bg/ut-tools/commit/f725ead))
+
+
+
 ## [6.6.3](https://github.com/softwaregroup-bg/ut-tools/compare/v6.6.2...v6.6.3) (2019-01-11)
 
 
