@@ -1,3 +1,12 @@
+## [6.6.3](https://github.com/softwaregroup-bg/ut-tools/compare/v6.6.2...v6.6.3) (2019-01-11)
+
+
+### Bug Fixes
+
+* add port-ftp ([7ecf852](https://github.com/softwaregroup-bg/ut-tools/commit/7ecf852))
+
+
+
 ## [6.6.2](https://github.com/softwaregroup-bg/ut-tools/compare/v6.6.1...v6.6.2) (2018-12-23)
 
 
