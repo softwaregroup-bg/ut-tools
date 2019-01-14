@@ -1,3 +1,13 @@
+## [6.6.5](https://github.com/softwaregroup-bg/ut-tools/compare/v6.6.4...v6.6.5) (2019-01-14)
+
+
+### Bug Fixes
+
+* upgrade to babel 7 ([d2f66fb](https://github.com/softwaregroup-bg/ut-tools/commit/d2f66fb))
+* use [@babel](https://github.com/babel)/node ([5a35229](https://github.com/softwaregroup-bg/ut-tools/commit/5a35229))
+
+
+
 ## [6.6.4](https://github.com/softwaregroup-bg/ut-tools/compare/v6.6.3...v6.6.4) (2019-01-11)
 
 
