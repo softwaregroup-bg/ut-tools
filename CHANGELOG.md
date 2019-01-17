@@ -1,3 +1,12 @@
+## [6.8.2](https://github.com/softwaregroup-bg/ut-tools/compare/v6.8.1...v6.8.2) (2019-01-17)
+
+
+### Bug Fixes
+
+* copy to .lint folder ([c999404](https://github.com/softwaregroup-bg/ut-tools/commit/c999404))
+
+
+
 ## [6.8.1](https://github.com/softwaregroup-bg/ut-tools/compare/v6.8.0...v6.8.1) (2019-01-17)
 
 
