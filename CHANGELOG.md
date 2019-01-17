@@ -1,3 +1,12 @@
+## [6.8.1](https://github.com/softwaregroup-bg/ut-tools/compare/v6.8.0...v6.8.1) (2019-01-17)
+
+
+### Bug Fixes
+
+* branch name ([2acfa51](https://github.com/softwaregroup-bg/ut-tools/commit/2acfa51))
+
+
+
 # [6.8.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.7.0...v6.8.0) (2019-01-17)
 
 
