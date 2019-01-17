@@ -10,7 +10,7 @@ versionBump()
         exec('git', ['push', 'origin', '--tags']);
         return exec('npm', tag ? ['publish', '--tag', tag] : ['publish']);
     })
-    .then(() => fs.copyFileSync && fs.copyFileSync('package.json', 'result.json'))
+    .then(() => fs.copyFileSync && fs.copyFileSync('package.json', '.lint/result.json'))
     .catch(function(e) {
         console.error(e);
         process.exit(1);
