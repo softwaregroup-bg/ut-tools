@@ -1,3 +1,12 @@
+# [6.7.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.6.5...v6.7.0) (2019-01-17)
+
+
+### Features
+
+* add result on release ([733b41b](https://github.com/softwaregroup-bg/ut-tools/commit/733b41b))
+
+
+
 ## [6.6.5](https://github.com/softwaregroup-bg/ut-tools/compare/v6.6.4...v6.6.5) (2019-01-14)
 
 
