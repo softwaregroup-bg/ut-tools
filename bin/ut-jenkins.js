@@ -13,16 +13,24 @@ require('../lib/setEnv');
 
 var command;
 var jobname = process.env.JOB_NAME || '';
+const SKIP = /\[ci-skip]/;
+const BRANCH = /^origin\/(master|(hotfix|major|minor|patch)\/[^/]+)$/;
 
 if (
+    process.env.JOB_TYPE === 'pipeline' &&
+    !gitLog.match(SKIP) &&
+    BRANCH.test(process.env.BRANCH_NAME)
+) {
+    command = 'release';
+} else if (
     /^(ut|impl)-.+?(_cr|_post-commit)$/.test(jobname) &&
     process.env.BUILD_CAUSE === 'SCMTRIGGER' &&
     (
         // /^(master|(hotfix|major|minor|patch)\/[^/]+)$/.test(process.env.gitlabSourceBranch) ||
-        /^origin\/(master|(hotfix|major|minor|patch)\/[^/]+)$/.test(process.env.GIT_BRANCH)
+        BRANCH.test(process.env.GIT_BRANCH)
     )
 ) {
-    if (gitLog.match(/\[ci-skip]/)) {
+    if (gitLog.match(SKIP)) {
         console.error('SHOULD NOT BE RUN IN CI', gitLog);
         process.exit(1);
     }
