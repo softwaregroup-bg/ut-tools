@@ -1,3 +1,12 @@
+# [6.8.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.7.0...v6.8.0) (2019-01-17)
+
+
+### Features
+
+* pipeline release checks ([d4a2a7e](https://github.com/softwaregroup-bg/ut-tools/commit/d4a2a7e))
+
+
+
 # [6.7.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.6.5...v6.7.0) (2019-01-17)
 
 
