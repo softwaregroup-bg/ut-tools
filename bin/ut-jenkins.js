@@ -15,11 +15,12 @@ var command;
 var jobname = process.env.JOB_NAME || '';
 const SKIP = /\[ci-skip]/;
 const BRANCH = /^origin\/(master|(hotfix|major|minor|patch)\/[^/]+)$/;
+let branch = process.env.BRANCH_NAME || process.env.GIT_BRANCH;
 
 if (
     process.env.JOB_TYPE === 'pipeline' &&
     !gitLog.match(SKIP) &&
-    BRANCH.test(process.env.BRANCH_NAME)
+    BRANCH.test(branch)
 ) {
     command = 'release';
 } else if (
@@ -27,7 +28,7 @@ if (
     process.env.BUILD_CAUSE === 'SCMTRIGGER' &&
     (
         // /^(master|(hotfix|major|minor|patch)\/[^/]+)$/.test(process.env.gitlabSourceBranch) ||
-        BRANCH.test(process.env.GIT_BRANCH)
+        BRANCH.test(branch)
     )
 ) {
     if (gitLog.match(SKIP)) {
