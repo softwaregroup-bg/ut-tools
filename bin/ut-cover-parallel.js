@@ -6,6 +6,7 @@ require('../lib/exec')(process.execPath, [
     '--cov',
     '--coverage-report=cobertura',
     '--coverage-report=html',
+    '--coverage-report=text',
     '-j' + (process.env.TAP_JOBS || '8'),
     'test/integration',
     'test/unit/cases'].concat(process.argv.slice(2)));
