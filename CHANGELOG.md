@@ -1,3 +1,12 @@
+## [6.8.4](https://github.com/softwaregroup-bg/ut-tools/compare/v6.8.3...v6.8.4) (2019-01-18)
+
+
+### Bug Fixes
+
+* add text coverage report ([db11e4f](https://github.com/softwaregroup-bg/ut-tools/commit/db11e4f))
+
+
+
 ## [6.8.3](https://github.com/softwaregroup-bg/ut-tools/compare/v6.8.2...v6.8.3) (2019-01-18)
 
 
