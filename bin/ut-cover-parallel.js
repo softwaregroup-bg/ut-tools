@@ -4,12 +4,21 @@
 require('../lib/exec')(process.execPath, [
     require.resolve('tap/bin/run'),
     '--cov',
-    '--coverage-report=cobertura',
-    '--coverage-report=html',
     '--coverage-report=text',
     '-j' + (process.env.TAP_JOBS || '8'),
     'test/integration',
     'test/unit/cases'].concat(process.argv.slice(2)));
+
+require('../lib/exec')(process.execPath, [
+    require.resolve('tap/bin/run'),
+    '--coverage-report=cobertura'
+]);
+
+require('../lib/exec')(process.execPath, [
+    require.resolve('tap/bin/run'),
+    '--coverage-report=html',
+    '--no-browser'
+]);
 
 require('../lib/exec')(process.execPath, [
     require.resolve('jest/bin/jest'),
