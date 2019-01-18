@@ -1,3 +1,12 @@
+## [6.8.5](https://github.com/softwaregroup-bg/ut-tools/compare/v6.8.4...v6.8.5) (2019-01-18)
+
+
+### Bug Fixes
+
+* multiple reports ([55c5cdb](https://github.com/softwaregroup-bg/ut-tools/commit/55c5cdb))
+
+
+
 ## [6.8.4](https://github.com/softwaregroup-bg/ut-tools/compare/v6.8.3...v6.8.4) (2019-01-18)
 
 
