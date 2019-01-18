@@ -1,3 +1,12 @@
+## [6.8.3](https://github.com/softwaregroup-bg/ut-tools/compare/v6.8.2...v6.8.3) (2019-01-18)
+
+
+### Bug Fixes
+
+* add coverage reports ([9ff695d](https://github.com/softwaregroup-bg/ut-tools/commit/9ff695d))
+
+
+
 ## [6.8.2](https://github.com/softwaregroup-bg/ut-tools/compare/v6.8.1...v6.8.2) (2019-01-17)
 
 
