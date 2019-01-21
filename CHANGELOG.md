@@ -1,3 +1,12 @@
+## [6.8.6](https://github.com/softwaregroup-bg/ut-tools/compare/v6.8.5...v6.8.6) (2019-01-21)
+
+
+### Bug Fixes
+
+* allow why-is-node-running ([60630f3](https://github.com/softwaregroup-bg/ut-tools/commit/60630f3))
+
+
+
 ## [6.8.5](https://github.com/softwaregroup-bg/ut-tools/compare/v6.8.4...v6.8.5) (2019-01-18)
 
 
