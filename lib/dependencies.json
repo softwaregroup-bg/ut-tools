@@ -317,6 +317,7 @@
         "request": "^2.88.0",
         "ut-browser-request": "^1.0.2",
         "ut-rpc": "^6.0.0",
+        "why-is-node-running": "^2.0.3",
         "winston": "2.4.0"
     }
 }
