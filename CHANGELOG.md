@@ -1,3 +1,12 @@
+## [6.8.8](https://github.com/softwaregroup-bg/ut-tools/compare/v6.8.7...v6.8.8) (2019-01-21)
+
+
+### Bug Fixes
+
+* upgrade mssql ([aabe541](https://github.com/softwaregroup-bg/ut-tools/commit/aabe541))
+
+
+
 ## [6.8.7](https://github.com/softwaregroup-bg/ut-tools/compare/v6.8.6...v6.8.7) (2019-01-21)
 
 
