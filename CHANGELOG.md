@@ -1,3 +1,12 @@
+## [6.8.9](https://github.com/softwaregroup-bg/ut-tools/compare/v6.8.8...v6.8.9) (2019-01-24)
+
+
+### Bug Fixes
+
+* allow ut-iso-acquirer-simulator in peer dependencies ([#69](https://github.com/softwaregroup-bg/ut-tools/issues/69)) ([c681454](https://github.com/softwaregroup-bg/ut-tools/commit/c681454))
+
+
+
 ## [6.8.8](https://github.com/softwaregroup-bg/ut-tools/compare/v6.8.7...v6.8.8) (2019-01-21)
 
 
