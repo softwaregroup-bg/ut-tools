@@ -1,3 +1,12 @@
+## [6.8.10](https://github.com/softwaregroup-bg/ut-tools/compare/v6.8.9...v6.8.10) (2019-01-30)
+
+
+### Bug Fixes
+
+* update dependencies ([8ae1c40](https://github.com/softwaregroup-bg/ut-tools/commit/8ae1c40))
+
+
+
 ## [6.8.9](https://github.com/softwaregroup-bg/ut-tools/compare/v6.8.8...v6.8.9) (2019-01-24)
 
 
