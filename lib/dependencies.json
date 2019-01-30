@@ -24,6 +24,7 @@
         "fresh-falafel": "1.2.0",
         "fs-plus": "3.0.2",
         "ftp": "0.3.10",
+        "google-auth-library": "3.0.1",
         "hapi-auth-basic": "5.0.0",
         "hapi-auth-jwt2": "8.1.0",
         "hapi-swagger": "9.1.2",
