@@ -5,6 +5,8 @@ require('../lib/exec')(process.execPath, [
     require.resolve('tap/bin/run'),
     '--cov',
     '--coverage-report=text',
+    '--output-file=.lint/tap.txt',
+    '--reporter=classic',
     '-j' + (process.env.TAP_JOBS || '8'),
     'test/integration',
     '!(node_modules)/**/*.test.js',
