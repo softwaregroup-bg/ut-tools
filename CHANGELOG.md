@@ -1,3 +1,12 @@
+## [6.9.1](https://github.com/softwaregroup-bg/ut-tools/compare/v6.9.0...v6.9.1) (2019-02-04)
+
+
+### Bug Fixes
+
+* exclude node_modules from tests ([97e95d2](https://github.com/softwaregroup-bg/ut-tools/commit/97e95d2))
+
+
+
 # [6.9.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.8.10...v6.9.0) (2019-02-04)
 
 
