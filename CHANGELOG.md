@@ -1,3 +1,12 @@
+# [6.9.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.8.10...v6.9.0) (2019-02-04)
+
+
+### Features
+
+* add *.test.js to tests ([b51f67e](https://github.com/softwaregroup-bg/ut-tools/commit/b51f67e))
+
+
+
 ## [6.8.10](https://github.com/softwaregroup-bg/ut-tools/compare/v6.8.9...v6.8.10) (2019-01-30)
 
 
