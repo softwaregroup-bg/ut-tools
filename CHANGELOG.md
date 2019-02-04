@@ -1,3 +1,12 @@
+## [6.9.2](https://github.com/softwaregroup-bg/ut-tools/compare/v6.9.1...v6.9.2) (2019-02-04)
+
+
+### Bug Fixes
+
+* save tap output to file, use classic for stdout ([4d6c665](https://github.com/softwaregroup-bg/ut-tools/commit/4d6c665))
+
+
+
 ## [6.9.1](https://github.com/softwaregroup-bg/ut-tools/compare/v6.9.0...v6.9.1) (2019-02-04)
 
 
