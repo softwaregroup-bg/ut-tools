@@ -1,3 +1,12 @@
+## [6.9.3](https://github.com/softwaregroup-bg/ut-tools/compare/v6.9.2...v6.9.3) (2019-02-05)
+
+
+### Bug Fixes
+
+* allow tap fix in fork ([45c0a35](https://github.com/softwaregroup-bg/ut-tools/commit/45c0a35))
+
+
+
 ## [6.9.2](https://github.com/softwaregroup-bg/ut-tools/compare/v6.9.1...v6.9.2) (2019-02-04)
 
 
