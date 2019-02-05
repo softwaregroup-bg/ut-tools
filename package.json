@@ -39,7 +39,7 @@
   "scripts": {
     "changelog": "./bin/ut-changelog.js",
     "check": "./bin/ut-check.js",
-    "cover": "./bin/ut-cover.js",
+    "cover": "./bin/ut-skip.js",
     "gitlab": "./bin/ut-gitlab.js",
     "jenkins": "./bin/ut-jenkins.js",
     "lint": "./bin/ut-lint-js.js .",
