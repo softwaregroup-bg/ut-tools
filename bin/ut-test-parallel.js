@@ -3,8 +3,11 @@
 
 require('../lib/exec')(process.execPath, [
     require.resolve('tap/bin/run'),
+    '--output-file=.lint/tap.txt',
+    '--reporter=classic',
     '-j' + (process.env.TAP_JOBS || '8'),
     'test/integration',
+    '!(node_modules)/**/*.test.js',
     'test/unit/cases'].concat(process.argv.slice(2)));
 
 require('../lib/exec')(process.execPath, [
