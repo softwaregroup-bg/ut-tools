@@ -1,3 +1,12 @@
+## [6.9.5](https://github.com/softwaregroup-bg/ut-tools/compare/v6.9.4...v6.9.5) (2019-02-05)
+
+
+### Bug Fixes
+
+* improve parallel test reports ([971a7ff](https://github.com/softwaregroup-bg/ut-tools/commit/971a7ff))
+
+
+
 ## [6.9.4](https://github.com/softwaregroup-bg/ut-tools/compare/v6.9.3...v6.9.4) (2019-02-05)
 
 
