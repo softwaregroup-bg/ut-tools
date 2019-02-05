@@ -1,3 +1,14 @@
+## [6.9.4](https://github.com/softwaregroup-bg/ut-tools/compare/v6.9.3...v6.9.4) (2019-02-05)
+
+
+### Bug Fixes
+
+* do not attempt to run unneeded tools ([82885c9](https://github.com/softwaregroup-bg/ut-tools/commit/82885c9))
+* remove packages, that are resposibility of consumer ([6cd3525](https://github.com/softwaregroup-bg/ut-tools/commit/6cd3525))
+* update mode ([4c79705](https://github.com/softwaregroup-bg/ut-tools/commit/4c79705))
+
+
+
 ## [6.9.3](https://github.com/softwaregroup-bg/ut-tools/compare/v6.9.2...v6.9.3) (2019-02-05)
 
 
