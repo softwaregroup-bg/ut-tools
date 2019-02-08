@@ -1,3 +1,12 @@
+## [6.9.6](https://github.com/softwaregroup-bg/ut-tools/compare/v6.9.5...v6.9.6) (2019-02-08)
+
+
+### Bug Fixes
+
+* allow bourne ([9277549](https://github.com/softwaregroup-bg/ut-tools/commit/9277549))
+
+
+
 ## [6.9.5](https://github.com/softwaregroup-bg/ut-tools/compare/v6.9.4...v6.9.5) (2019-02-05)
 
 
