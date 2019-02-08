@@ -1,3 +1,12 @@
+## [6.9.7](https://github.com/softwaregroup-bg/ut-tools/compare/v6.9.6...v6.9.7) (2019-02-08)
+
+
+### Bug Fixes
+
+* allow catbox ([#70](https://github.com/softwaregroup-bg/ut-tools/issues/70)) ([d0781f1](https://github.com/softwaregroup-bg/ut-tools/commit/d0781f1))
+
+
+
 ## [6.9.6](https://github.com/softwaregroup-bg/ut-tools/compare/v6.9.5...v6.9.6) (2019-02-08)
 
 
