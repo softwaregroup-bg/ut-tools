@@ -52,7 +52,7 @@
     "precover": "./bin/ut-precover.js",
     "preversion": "./bin/ut-preversion.js",
     "release": "./bin/ut-release.js",
-    "test": "./bin/ut-test.js",
+    "test": "./bin/ut-skip.js",
     "version": "./bin/ut-version.js",
     "versionbump": "./bin/ut-versionbump.js"
   },
