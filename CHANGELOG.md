@@ -1,3 +1,12 @@
+# [6.11.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.10.0...v6.11.0) (2019-02-10)
+
+
+### Features
+
+* more test formats ([ab03583](https://github.com/softwaregroup-bg/ut-tools/commit/ab03583))
+
+
+
 # [6.10.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.9.7...v6.10.0) (2019-02-10)
 
 
