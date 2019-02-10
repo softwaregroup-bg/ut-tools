@@ -1,3 +1,12 @@
+# [6.10.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.9.7...v6.10.0) (2019-02-10)
+
+
+### Features
+
+* allow class properties ([c6cdb72](https://github.com/softwaregroup-bg/ut-tools/commit/c6cdb72))
+
+
+
 ## [6.9.7](https://github.com/softwaregroup-bg/ut-tools/compare/v6.9.6...v6.9.7) (2019-02-08)
 
 
