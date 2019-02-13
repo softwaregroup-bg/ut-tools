@@ -1,3 +1,21 @@
+## [6.11.2](https://github.com/softwaregroup-bg/ut-tools/compare/v6.11.1...v6.11.2) (2019-02-13)
+
+
+### Bug Fixes
+
+* do not exit on reporter error ([5c8d37a](https://github.com/softwaregroup-bg/ut-tools/commit/5c8d37a))
+
+
+
+## [6.11.1](https://github.com/softwaregroup-bg/ut-tools/compare/v6.11.0...v6.11.1) (2019-02-13)
+
+
+### Bug Fixes
+
+* report failed tests ([54b24e0](https://github.com/softwaregroup-bg/ut-tools/commit/54b24e0))
+
+
+
 # [6.11.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.10.0...v6.11.0) (2019-02-10)
 
 
