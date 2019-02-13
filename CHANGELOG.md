@@ -1,3 +1,12 @@
+## [6.11.1](https://github.com/softwaregroup-bg/ut-tools/compare/v6.11.0...v6.11.1) (2019-02-13)
+
+
+### Bug Fixes
+
+* report failed tests ([54b24e0](https://github.com/softwaregroup-bg/ut-tools/commit/54b24e0))
+
+
+
 # [6.11.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.10.0...v6.11.0) (2019-02-10)
 
 
