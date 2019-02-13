@@ -15,14 +15,14 @@ require('../lib/exec')('"' + process.execPath + '"', [
     'xunit',
     '<.lint/tap.txt',
     '>.lint/xunit.xml'
-], {shell: true});
+], {shell: true}, false);
 
 require('../lib/exec')('"' + process.execPath + '"', [
     require.resolve('tap-mocha-reporter'),
     'classic',
     '<.lint/tap.txt',
     '>.lint/test.txt'
-], {shell: true});
+], {shell: true}, false);
 
 if (test === false) process.exit(1);
 
