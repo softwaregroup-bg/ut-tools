@@ -1,3 +1,12 @@
+## [6.11.3](https://github.com/softwaregroup-bg/ut-tools/compare/v6.11.2...v6.11.3) (2019-02-14)
+
+
+### Bug Fixes
+
+* mssql pool bugfix ([9396cfa](https://github.com/softwaregroup-bg/ut-tools/commit/9396cfa))
+
+
+
 ## [6.11.2](https://github.com/softwaregroup-bg/ut-tools/compare/v6.11.1...v6.11.2) (2019-02-13)
 
 
