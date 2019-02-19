@@ -23,6 +23,7 @@
         "csv": "1.1.0",
         "date-fns": "1.29.0",
         "dns-discovery": "6.2.3",
+        "dot-prop": "4.2.0",
         "edge": "^6.5.1",
         "encoding": "0.1.12",
         "fluent-logger": "3.2.1",
