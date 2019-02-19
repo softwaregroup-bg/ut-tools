@@ -1,3 +1,12 @@
+# [6.12.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.11.3...v6.12.0) (2019-02-19)
+
+
+### Features
+
+* dependencies ([cabf71b](https://github.com/softwaregroup-bg/ut-tools/commit/cabf71b))
+
+
+
 ## [6.11.3](https://github.com/softwaregroup-bg/ut-tools/compare/v6.11.2...v6.11.3) (2019-02-14)
 
 
