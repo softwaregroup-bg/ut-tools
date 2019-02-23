@@ -1,3 +1,12 @@
+## [6.12.2](https://github.com/softwaregroup-bg/ut-tools/compare/v6.12.1...v6.12.2) (2019-02-23)
+
+
+### Bug Fixes
+
+* update jsonwebtoken ([361c161](https://github.com/softwaregroup-bg/ut-tools/commit/361c161))
+
+
+
 ## [6.12.1](https://github.com/softwaregroup-bg/ut-tools/compare/v6.12.0...v6.12.1) (2019-02-21)
 
 
