@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /* eslint no-process-env:0, no-process-exit:0 */
 
-let test = require('../lib/exec')(process.execPath, [
+let test = require('../lib/exec')('"' + process.execPath + '"', [
     require.resolve('tap/bin/run'),
     '--cov',
     '--coverage-report=text',
@@ -9,15 +9,15 @@ let test = require('../lib/exec')(process.execPath, [
     '--reporter=classic',
     '-j' + (process.env.TAP_JOBS || '8'),
     'test/integration',
-    '!(node_modules|tap-snapshots)/**/*.test.js',
+    '"!(node_modules|tap-snapshots)/**/*.test.js"',
     'test/unit/cases'].concat(process.argv.slice(2)), undefined, false);
 
-require('../lib/exec')(process.execPath, [
+require('../lib/exec')('"' + process.execPath + '"', [
     require.resolve('tap/bin/run'),
     '--coverage-report=cobertura'
 ]);
 
-require('../lib/exec')(process.execPath, [
+require('../lib/exec')('"' + process.execPath + '"', [
     require.resolve('tap/bin/run'),
     '--coverage-report=html',
     '--no-browser'
@@ -39,7 +39,7 @@ require('../lib/exec')('"' + process.execPath + '"', [
 
 if (test === false) process.exit(1);
 
-require('../lib/exec')(process.execPath, [
+require('../lib/exec')('"' + process.execPath + '"', [
     require.resolve('jest/bin/jest'),
     '--testMatch=**/__tests__/**/*.js?(x)',
     '--passWithNoTests',
