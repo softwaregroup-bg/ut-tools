@@ -1,3 +1,12 @@
+## [6.12.6](https://github.com/softwaregroup-bg/ut-tools/compare/v6.12.5...v6.12.6) (2019-02-26)
+
+
+### Bug Fixes
+
+* quotes for linux shell ([8ef4271](https://github.com/softwaregroup-bg/ut-tools/commit/8ef4271))
+
+
+
 ## [6.12.5](https://github.com/softwaregroup-bg/ut-tools/compare/v6.12.4...v6.12.5) (2019-02-26)
 
 
