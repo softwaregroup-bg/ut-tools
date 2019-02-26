@@ -8,7 +8,7 @@ let test = require('../lib/exec')('"' + process.execPath + '"', [
     '-j' + (process.env.TAP_JOBS || '8'),
     'test/integration',
     '"!(node_modules|tap-snapshots)/**/*.test.js"',
-    'test/unit/cases'].concat(process.argv.slice(2)), undefined, false);
+    'test/unit/cases'].concat(process.argv.slice(2)), {shell: true}, false);
 
 require('../lib/exec')('"' + process.execPath + '"', [
     require.resolve('tap-mocha-reporter'),
@@ -31,4 +31,4 @@ require('../lib/exec')('"' + process.execPath + '"', [
     '--testMatch=**/__tests__/**/*.js?(x)',
     '--passWithNoTests',
     '--maxWorkers=2'
-]);
+], {shell: true});
