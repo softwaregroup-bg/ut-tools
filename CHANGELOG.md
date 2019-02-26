@@ -1,3 +1,12 @@
+## [6.12.4](https://github.com/softwaregroup-bg/ut-tools/compare/v6.12.3...v6.12.4) (2019-02-26)
+
+
+### Bug Fixes
+
+* windows quote pipe ([54edef8](https://github.com/softwaregroup-bg/ut-tools/commit/54edef8))
+
+
+
 ## [6.12.3](https://github.com/softwaregroup-bg/ut-tools/compare/v6.12.2...v6.12.3) (2019-02-26)
 
 
