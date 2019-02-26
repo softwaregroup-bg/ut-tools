@@ -1,3 +1,12 @@
+## [6.12.5](https://github.com/softwaregroup-bg/ut-tools/compare/v6.12.4...v6.12.5) (2019-02-26)
+
+
+### Bug Fixes
+
+* run in shell to support quotes ([cc3be11](https://github.com/softwaregroup-bg/ut-tools/commit/cc3be11))
+
+
+
 ## [6.12.4](https://github.com/softwaregroup-bg/ut-tools/compare/v6.12.3...v6.12.4) (2019-02-26)
 
 
