@@ -1,3 +1,12 @@
+## [6.12.7](https://github.com/softwaregroup-bg/ut-tools/compare/v6.12.6...v6.12.7) (2019-03-14)
+
+
+### Bug Fixes
+
+* remove wrong item ([c55cf9a](https://github.com/softwaregroup-bg/ut-tools/commit/c55cf9a))
+
+
+
 ## [6.12.6](https://github.com/softwaregroup-bg/ut-tools/compare/v6.12.5...v6.12.6) (2019-02-26)
 
 
