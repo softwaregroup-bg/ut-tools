@@ -1,3 +1,12 @@
+## [6.12.8](https://github.com/softwaregroup-bg/ut-tools/compare/v6.12.7...v6.12.8) (2019-03-18)
+
+
+### Bug Fixes
+
+* update stream-file-archive ([6a93768](https://github.com/softwaregroup-bg/ut-tools/commit/6a93768))
+
+
+
 ## [6.12.7](https://github.com/softwaregroup-bg/ut-tools/compare/v6.12.6...v6.12.7) (2019-03-14)
 
 
