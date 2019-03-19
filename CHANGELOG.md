@@ -1,3 +1,12 @@
+# [6.13.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.12.8...v6.13.0) (2019-03-19)
+
+
+### Features
+
+* allow dukpt modules as dev dependency ([858e219](https://github.com/softwaregroup-bg/ut-tools/commit/858e219))
+
+
+
 ## [6.12.8](https://github.com/softwaregroup-bg/ut-tools/compare/v6.12.7...v6.12.8) (2019-03-18)
 
 
