@@ -150,6 +150,9 @@
         "xml2js": "0.4.19"
     },
     "devDependencies": {
+        "@shenyan1206/buffer-helper": "^1.0.2",
+        "@shenyan1206/crypto-helper": "^1.0.1",
+        "@shenyan1206/dukpt": "^1.0.5",
         "@kadira/storybook": "^2.35.1",
         "@types/mocha": "^2.2.42",
         "@types/node": "^7.0.43",
