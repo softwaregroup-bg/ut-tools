@@ -1,3 +1,12 @@
+## [6.13.1](https://github.com/softwaregroup-bg/ut-tools/compare/v6.13.0...v6.13.1) (2019-03-20)
+
+
+### Bug Fixes
+
+* allow passing params to ut-compile ([aa733df](https://github.com/softwaregroup-bg/ut-tools/commit/aa733df))
+
+
+
 # [6.13.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.12.8...v6.13.0) (2019-03-19)
 
 
