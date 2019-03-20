@@ -1,3 +1,12 @@
+# [6.14.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.13.1...v6.14.0) (2019-03-20)
+
+
+### Features
+
+* allow compile during release ([807d91f](https://github.com/softwaregroup-bg/ut-tools/commit/807d91f))
+
+
+
 ## [6.13.1](https://github.com/softwaregroup-bg/ut-tools/compare/v6.13.0...v6.13.1) (2019-03-20)
 
 
