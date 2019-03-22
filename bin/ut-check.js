@@ -2,4 +2,4 @@
 
 require('../lib/exec')('npm', ['test']);
 require('../lib/exec')('nsp', ['check']);
-// npm outdated --depth 0 --registry https://nexus.softwaregroup-bg.com/repository/npm-all/
+// npm outdated --depth 0 --registry https://nexus.softwaregroup.com/repository/npm-all/
