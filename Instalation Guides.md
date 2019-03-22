@@ -9,7 +9,7 @@
   - choose genarete ssh key
   - open ssh pub key (located at C:\Users\<user home dir>\.ssh\id_rsa.pub) and add your mail at the end of file before new line (there is already some string generated that looks like mail or username, replace it with your mail)
   - add pub key to gitlab ssh keys
-    - Open https://git.softwaregroup-bg.com/profile/keys
+    - Open https://git.softwaregroup.com/profile/keys
     - Add SSH key
     - Copy the content of the ssh pub key file and paste it in the key field and add your email in the title field
 
@@ -20,7 +20,7 @@
   - install stylelint `npm install stylelint -g`
 
 ## Visual studio code linting + ut-tools
-  - set local npm registry to be used with executing in cmd `npm set registry https://nexus.softwaregroup-bg.com/repository/npm-all/`
+  - set local npm registry to be used with executing in cmd `npm set registry https://nexus.softwaregroup.com/repository/npm-all/`
   - Install ut tools `npm install ut-tools -g`
   - install eslint extension in visual studio code
     - ctrl+shift+p and type `install` then select "Extension: Install extensions"
