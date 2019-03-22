@@ -1,3 +1,12 @@
+## [6.14.2](https://github.com/softwaregroup-bg/ut-tools/compare/v6.14.1...v6.14.2) (2019-03-22)
+
+
+### Bug Fixes
+
+* chaged private git hostname ([636d54b](https://github.com/softwaregroup-bg/ut-tools/commit/636d54b))
+
+
+
 ## [6.14.1](https://github.com/softwaregroup-bg/ut-tools/compare/v6.14.0...v6.14.1) (2019-03-22)
 
 
