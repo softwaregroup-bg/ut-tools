@@ -1,3 +1,13 @@
+<a name="5.32.11"></a>
+## [5.32.11](https://github.com/softwaregroup-bg/ut-tools/compare/v5.32.10...v5.32.11) (2019-03-25)
+
+
+### Bug Fixes
+
+* typo ([30980e0](https://github.com/softwaregroup-bg/ut-tools/commit/30980e0))
+
+
+
 <a name="5.32.10"></a>
 ## [5.32.10](https://github.com/softwaregroup-bg/ut-tools/compare/v5.32.9...v5.32.10) (2018-04-12)
 
