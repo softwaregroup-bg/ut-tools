@@ -1,3 +1,12 @@
+# [6.15.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.14.2...v6.15.0) (2019-03-27)
+
+
+### Features
+
+* pass params to npm publish ([f1f4098](https://github.com/softwaregroup-bg/ut-tools/commit/f1f4098))
+
+
+
 ## [6.14.2](https://github.com/softwaregroup-bg/ut-tools/compare/v6.14.1...v6.14.2) (2019-03-22)
 
 
