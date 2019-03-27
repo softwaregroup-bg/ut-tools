@@ -9,7 +9,7 @@ versionBump()
         exec('git', ['push']);
         exec('git', ['push', 'origin', '--tags']);
         if (process.env.npm_package_scripts_compile) exec('npm', ['run', 'compile']);
-        return exec('npm', tag ? ['publish', '--tag', tag] : ['publish']);
+        return exec('npm', (tag ? ['publish', '--tag', tag] : ['publish']).concat(process.argv.slice(2)));
     })
     .then(() => fs.copyFileSync && fs.copyFileSync('package.json', '.lint/result.json'))
     .catch(function(e) {
