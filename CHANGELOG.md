@@ -1,3 +1,12 @@
+# [6.16.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.15.0...v6.16.0) (2019-04-27)
+
+
+### Features
+
+* add node-jose ([5be3760](https://github.com/softwaregroup-bg/ut-tools/commit/5be3760))
+
+
+
 # [6.15.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.14.2...v6.15.0) (2019-03-27)
 
 
