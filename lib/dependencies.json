@@ -193,7 +193,7 @@
         "semver": "5.6.0",
         "sort-keys": "2.0.0",
         "stylelint": "7.9.0",
-        "tap": ["^12.5.2", "kalinkrustev/node-tap#2536cc04faf85f1a6117c0f619167c0d90de5e07"],
+        "tap": ["^12.5.2", "^13.1.0"],
         "typescript": "^2.6.1",
         "ut-port-tcp": "^6.0.0",
         "ut-port-script": "^6.0.0",
