@@ -1,3 +1,13 @@
+## [6.16.1](https://github.com/softwaregroup-bg/ut-tools/compare/v6.16.0...v6.16.1) (2019-04-29)
+
+
+### Bug Fixes
+
+* allow sort-keys as devDep ([73261bd](https://github.com/softwaregroup-bg/ut-tools/commit/73261bd))
+* allow tap 13 ([e3843bc](https://github.com/softwaregroup-bg/ut-tools/commit/e3843bc))
+
+
+
 # [6.16.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.15.0...v6.16.0) (2019-04-27)
 
 
