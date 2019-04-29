@@ -1,3 +1,13 @@
+## [6.16.2](https://github.com/softwaregroup-bg/ut-tools/compare/v6.16.1...v6.16.2) (2019-04-29)
+
+
+### Bug Fixes
+
+* remove jest ([0f3359c](https://github.com/softwaregroup-bg/ut-tools/commit/0f3359c))
+* test existing paths only ([2319e25](https://github.com/softwaregroup-bg/ut-tools/commit/2319e25))
+
+
+
 ## [6.16.1](https://github.com/softwaregroup-bg/ut-tools/compare/v6.16.0...v6.16.1) (2019-04-29)
 
 
