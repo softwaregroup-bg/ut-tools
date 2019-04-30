@@ -4,6 +4,7 @@
         "abstract-leveldown": "2.6.1",
         "adm-zip": "0.4.7",
         "ajv": "6.10.0",
+        "amqplib": "0.5.3",
         "babylon": "6.14.1",
         "boom": "7.2.0",
         "bourne": "1.1.1",
