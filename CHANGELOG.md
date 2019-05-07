@@ -1,3 +1,13 @@
+## [6.17.1](https://github.com/softwaregroup-bg/ut-tools/compare/v6.17.0...v6.17.1) (2019-05-07)
+
+
+### Bug Fixes
+
+* add depenendcy to amqplib ([05c956e](https://github.com/softwaregroup-bg/ut-tools/commit/05c956e))
+* update dependencies whitelist ([c3926ac](https://github.com/softwaregroup-bg/ut-tools/commit/c3926ac))
+
+
+
 # [6.17.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.16.2...v6.17.0) (2019-05-07)
 
 
