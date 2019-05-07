@@ -1,3 +1,12 @@
+# [6.17.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.16.2...v6.17.0) (2019-05-07)
+
+
+### Features
+
+* allow qrcode ([77d30e7](https://github.com/softwaregroup-bg/ut-tools/commit/77d30e7))
+
+
+
 ## [6.16.2](https://github.com/softwaregroup-bg/ut-tools/compare/v6.16.1...v6.16.2) (2019-04-29)
 
 
