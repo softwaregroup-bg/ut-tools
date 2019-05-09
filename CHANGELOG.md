@@ -1,3 +1,12 @@
+# [6.18.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.17.1...v6.18.0) (2019-05-09)
+
+
+### Features
+
+* allow openid-client ([a9d3cc2](https://github.com/softwaregroup-bg/ut-tools/commit/a9d3cc2))
+
+
+
 ## [6.17.1](https://github.com/softwaregroup-bg/ut-tools/compare/v6.17.0...v6.17.1) (2019-05-07)
 
 
