@@ -1,3 +1,12 @@
+# [6.19.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.18.0...v6.19.0) (2019-05-29)
+
+
+### Features
+
+* support hyperledger fabric ([082c64f](https://github.com/softwaregroup-bg/ut-tools/commit/082c64f))
+
+
+
 # [6.18.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.17.1...v6.18.0) (2019-05-09)
 
 
