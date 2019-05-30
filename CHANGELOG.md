@@ -1,3 +1,12 @@
+## [6.19.1](https://github.com/softwaregroup-bg/ut-tools/compare/v6.19.0...v6.19.1) (2019-05-30)
+
+
+### Bug Fixes
+
+* whitelist koa middleware dependencies: koa-conditional-get and koa-etag ([fc54196](https://github.com/softwaregroup-bg/ut-tools/commit/fc54196))
+
+
+
 # [6.19.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.18.0...v6.19.0) (2019-05-29)
 
 
