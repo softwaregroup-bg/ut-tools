@@ -348,6 +348,7 @@
         "moleculer": "^0.13.3",
         "nats-hemera": "^6.1.0",
         "nats": "^1.0.1",
+        "rabbot": "2.2.1",
         "raven": "2.2.1",
         "request": "^2.88.0",
         "ut-browser-request": "^1.0.2",
