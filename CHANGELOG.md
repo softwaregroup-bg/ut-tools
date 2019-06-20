@@ -1,3 +1,12 @@
+## [6.20.1](https://github.com/softwaregroup-bg/ut-tools/compare/v6.20.0...v6.20.1) (2019-06-20)
+
+
+### Bug Fixes
+
+* rabbot version ([a190773](https://github.com/softwaregroup-bg/ut-tools/commit/a190773))
+
+
+
 # [6.20.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.19.1...v6.20.0) (2019-06-20)
 
 
