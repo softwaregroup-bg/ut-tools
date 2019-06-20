@@ -1,3 +1,12 @@
+# [6.20.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.19.1...v6.20.0) (2019-06-20)
+
+
+### Features
+
+* add rabbot for RabbitMQ support ([4159eba](https://github.com/softwaregroup-bg/ut-tools/commit/4159eba))
+
+
+
 ## [6.19.1](https://github.com/softwaregroup-bg/ut-tools/compare/v6.19.0...v6.19.1) (2019-05-30)
 
 
