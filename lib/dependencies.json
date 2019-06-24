@@ -158,6 +158,7 @@
         "ut-port": "^6.4.6",
         "ut-queue": "^6.1.0",
         "ut-rpc": "^6.0.0",
+        "ut-swagger2-validator": "^0.1.1",
         "ut-template": "^5.5.0",
         "ut-tsql-lexer": "^1.0.7",
         "ut-wss": "^0.2.0-rc-godfather.1",
