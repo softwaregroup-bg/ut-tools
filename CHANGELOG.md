@@ -1,3 +1,12 @@
+## [6.20.2](https://github.com/softwaregroup-bg/ut-tools/compare/v6.20.1...v6.20.2) (2019-06-24)
+
+
+### Bug Fixes
+
+* allow ut-swagger2-validator ([ff5277d](https://github.com/softwaregroup-bg/ut-tools/commit/ff5277d))
+
+
+
 ## [6.20.1](https://github.com/softwaregroup-bg/ut-tools/compare/v6.20.0...v6.20.1) (2019-06-20)
 
 
