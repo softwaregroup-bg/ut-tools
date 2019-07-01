@@ -1,3 +1,17 @@
+# [6.21.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.20.2...v6.21.0) (2019-07-01)
+
+
+### Bug Fixes
+
+* whitelist jsoneditor@6.1.0 ([570d926](https://github.com/softwaregroup-bg/ut-tools/commit/570d926))
+
+
+### Features
+
+* add yaml ([db4c141](https://github.com/softwaregroup-bg/ut-tools/commit/db4c141))
+
+
+
 ## [6.20.2](https://github.com/softwaregroup-bg/ut-tools/compare/v6.20.1...v6.20.2) (2019-06-24)
 
 
