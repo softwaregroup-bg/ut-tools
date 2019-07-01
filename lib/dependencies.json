@@ -170,7 +170,8 @@
         "ws": "2.3.1",
         "xml-splitter": "1.2.1",
         "xml-tag-stream": "0.0.6",
-        "xml2js": "0.4.19"
+        "xml2js": "0.4.19",
+        "yaml": "1.6.0"
     },
     "devDependencies": {
         "@shenyan1206/buffer-helper": "^1.0.2",
