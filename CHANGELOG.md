@@ -1,3 +1,12 @@
+# [6.22.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.21.0...v6.22.0) (2019-07-25)
+
+
+### Features
+
+* add new ut packages ([9e12a4a](https://github.com/softwaregroup-bg/ut-tools/commit/9e12a4a))
+
+
+
 # [6.21.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.20.2...v6.21.0) (2019-07-01)
 
 
