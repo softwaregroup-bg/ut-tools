@@ -1,3 +1,12 @@
+## [6.22.2](https://github.com/softwaregroup-bg/ut-tools/compare/v6.22.1...v6.22.2) (2019-07-25)
+
+
+### Bug Fixes
+
+* CVE-2019-10744 ([1db3381](https://github.com/softwaregroup-bg/ut-tools/commit/1db3381))
+
+
+
 ## [6.22.1](https://github.com/softwaregroup-bg/ut-tools/compare/v6.22.0...v6.22.1) (2019-07-25)
 
 
