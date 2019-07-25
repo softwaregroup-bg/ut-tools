@@ -1,3 +1,12 @@
+## [6.22.1](https://github.com/softwaregroup-bg/ut-tools/compare/v6.22.0...v6.22.1) (2019-07-25)
+
+
+### Bug Fixes
+
+* add babel ([15fd301](https://github.com/softwaregroup-bg/ut-tools/commit/15fd301))
+
+
+
 # [6.22.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.21.0...v6.22.0) (2019-07-25)
 
 
