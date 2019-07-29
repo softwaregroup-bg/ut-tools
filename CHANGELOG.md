@@ -1,3 +1,12 @@
+## [6.22.3](https://github.com/softwaregroup-bg/ut-tools/compare/v6.22.2...v6.22.3) (2019-07-29)
+
+
+### Bug Fixes
+
+* avoid lodash prototype pollution ([fd7a2c2](https://github.com/softwaregroup-bg/ut-tools/commit/fd7a2c2))
+
+
+
 ## [6.22.2](https://github.com/softwaregroup-bg/ut-tools/compare/v6.22.1...v6.22.2) (2019-07-25)
 
 
