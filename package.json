@@ -1,6 +1,6 @@
 {
   "name": "ut-tools",
-  "version": "6.22.3",
+  "version": "6.23.0",
   "description": "Build and Release management automation package.",
   "dependencies": {
     "@babel/core": "7.2.2",

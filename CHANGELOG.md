@@ -1,3 +1,12 @@
+# [6.23.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.22.3...v6.23.0) (2019-08-02)
+
+
+### Features
+
+* allow ut-merge ([bd33026](https://github.com/softwaregroup-bg/ut-tools/commit/bd33026))
+
+
+
 ## [6.22.3](https://github.com/softwaregroup-bg/ut-tools/compare/v6.22.2...v6.22.3) (2019-07-29)
 
 
