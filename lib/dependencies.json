@@ -158,6 +158,7 @@
         "ut-form-jsonschema": "^7.0.0",
         "ut-emv": "^6.1.2",
         "ut-error": "^5.4.9",
+        "ut-merge": "^1.0.1",
         "ut-log": "^6.1.0",
         "ut-port": "^6.4.6",
         "ut-queue": "^6.1.0",
