@@ -88,6 +88,7 @@
     "ut-precover": "./bin/ut-precover.js",
     "ut-preversion": "./bin/ut-preversion.js",
     "ut-release": "./bin/ut-release.js",
+    "ut-release-lerna": "./bin/ut-release-lerna.js",
     "ut-test": "./bin/ut-test.js",
     "ut-test-parallel": "./bin/ut-test-parallel.js",
     "ut-version": "./bin/ut-version.js",
@@ -107,5 +108,8 @@
     "yarn": "^1.10.1"
   },
   "author": "SoftwareGroup",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "lerna": "3.16.4"
+  }
 }
