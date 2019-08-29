@@ -25,13 +25,23 @@ async function release() {
         const versionCmd = ['version', '--conventional-commits', '--yes'];
 
         if (preid) {
-            versionCmd.push('--conventional-prerelease', '--preid', preid);
+            const prerelease = packages
+                .filter(p => !p.version.includes(`-${preid}.`))
+                .map(p => p.name)
+                .join(',');
+
+            if (prerelease) versionCmd.push('--preid', preid, '--conventional-prerelease=' + prerelease);
         } else {
-            versionCmd.push('--conventional-graduate');
+            const graduate = packages
+                .filter(p => /-[0-9A-Za-z-]+\./.test(p.version))
+                .map(p => p.name)
+                .join(',');
+
+            if (graduate) versionCmd.push('--conventional-graduate=' + graduate);
         }
 
         exec('lerna', versionCmd);
-        exec('lerna', ['publish', 'from-package']);
+        exec('lerna', ['publish', 'from-package', '--yes']);
 
     } catch(e) {
         console.error(e);
