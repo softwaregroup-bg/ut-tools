@@ -68,7 +68,6 @@ async function release() {
         }
 
         exec('lerna', ['publish', 'from-package', '--yes']);
-
     } catch (e) {
         console.error(e);
         process.exit(1);
