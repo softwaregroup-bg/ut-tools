@@ -2,7 +2,6 @@
 /* eslint no-console:0, no-process-exit:0, no-process-env:0 */
 const exec = require('../lib/exec');
 const versionInc = require('../lib/versionInc');
-const fs = require('fs');
 
 async function release() {
     try {
@@ -13,10 +12,13 @@ async function release() {
 
         // validate versions and get inc metadata
         const packages = await Promise.all(changed.map(async pkg => {
-            return {...pkg, inc: await versionInc(pkg, {
-                lernaPackage: pkg.name,
-                path: pkg.location
-            })};
+            return {
+                ...pkg,
+                inc: await versionInc(pkg, {
+                    lernaPackage: pkg.name,
+                    path: pkg.location
+                })
+            };
         }));
 
         // get preid from the first package
@@ -67,7 +69,7 @@ async function release() {
 
         exec('lerna', ['publish', 'from-package', '--yes']);
 
-    } catch(e) {
+    } catch (e) {
         console.error(e);
         process.exit(1);
     }
