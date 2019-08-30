@@ -1,14 +1,19 @@
 #!/usr/bin/env node
 /* eslint no-console:0, no-process-exit:0, no-process-env:0 */
-const exec = require('../lib/exec');
+const tokenizeBranch = require('../lib/tokenizeBranch');
 const versionInc = require('../lib/versionInc');
+const exec = require('../lib/exec');
+
+const isMaster = () => {
+    const branchTokens = tokenizeBranch();
+    return branchTokens.length === 1 && branchTokens[0] === 'master';
+};
 
 async function release() {
     try {
-        const changed = JSON.parse(exec('lerna', [
-            'changed',
-            '--json'
-        ], 'pipe'));
+        const changedCmd = ['changed', '--json'];
+        if (isMaster()) changedCmd.push('--conventional-graduate');
+        const changed = JSON.parse(exec('lerna', changedCmd, 'pipe'));
 
         // validate versions and get inc metadata
         const packages = await Promise.all(changed.map(async pkg => {
@@ -46,11 +51,11 @@ async function release() {
                     '--message',
                     '"chore(prerelease): [ci-skip] publish"'
                 ]);
-            })
+            });
         } else {
             const cmd = [
                 'version',
-                '--conventional-commits' ,
+                '--conventional-commits',
                 '--yes',
                 '--message',
                 '"chore(release): [ci-skip] publish"'
