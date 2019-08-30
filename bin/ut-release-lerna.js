@@ -13,34 +13,58 @@ async function release() {
 
         // validate versions and get inc metadata
         const packages = await Promise.all(changed.map(async pkg => {
-        return {...pkg, inc: await versionInc(pkg, {
+            return {...pkg, inc: await versionInc(pkg, {
                 lernaPackage: pkg.name,
                 path: pkg.location
-            })}
+            })};
         }));
 
-        // get preid from the first package as it should be the same for all packages
+        // get preid from the first package
+        // as it is extracted from the branch name
+        // and is therefore the same for all packages
         const { preid } = packages[0].inc;
 
-        const versionCmd = ['version', '--conventional-commits', '--yes'];
-
         if (preid) {
-            const prerelease = packages
-                .filter(p => !p.version.includes(`-${preid}.`))
-                .map(p => p.name)
-                .join(',');
+            const releaseTypes = packages.reduce((all, pkg) => {
+                const releaseType = pkg.inc.releaseType;
+                if (!all[releaseType]) all[releaseType] = [];
+                all[releaseType].push(pkg.name);
+                return all;
+            }, {});
 
-            if (prerelease) versionCmd.push('--preid', preid, '--conventional-prerelease=' + prerelease);
+            Object.entries(releaseTypes).forEach(([releaseType, list]) => {
+                exec('lerna', [
+                    'version',
+                    releaseType,
+                    '--conventional-prerelease=' + list.join(','),
+                    '--preid',
+                    preid,
+                    '--no-changelog',
+                    '--yes',
+                    '--message',
+                    '"chore(prerelease): [ci-skip] publish"'
+                ]);
+            })
         } else {
+            const cmd = [
+                'version',
+                '--conventional-commits' ,
+                '--yes',
+                '--message',
+                '"chore(release): [ci-skip] publish"'
+            ];
+
+            // packages with prerelease versions that have to be graduated
             const graduate = packages
                 .filter(p => /-[0-9A-Za-z-]+\./.test(p.version))
                 .map(p => p.name)
                 .join(',');
 
-            if (graduate) versionCmd.push('--conventional-graduate=' + graduate);
+            if (graduate) cmd.push('--conventional-graduate=' + graduate);
+
+            exec('lerna', cmd);
         }
 
-        exec('lerna', versionCmd);
         exec('lerna', ['publish', 'from-package', '--yes']);
 
     } catch(e) {
