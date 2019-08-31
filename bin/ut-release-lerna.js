@@ -57,6 +57,8 @@ async function release() {
                 'version',
                 '--conventional-commits',
                 '--yes',
+                '--changelog-preset',
+                require.resolve('./angular'),
                 '--message',
                 '"chore(release): [ci-skip] publish"'
             ];
