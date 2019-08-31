@@ -4,7 +4,9 @@ module.exports = Promise.resolve()
     .then(() => require('conventional-changelog-angular'))
     .then(options => {
         return new Promise((resolve, reject) => {
-            gitSemverTags(function(err, result) {
+            gitSemverTags({
+                lernaTags: true
+            }, function(err, result) {
                 if (err) {
                     reject(err);
                 } else {
@@ -12,8 +14,6 @@ module.exports = Promise.resolve()
                     if (from) options.conventionalChangelog.gitRawCommitsOpts = {from};
                     resolve(options);
                 }
-            }, {
-                lernaTags: true
             });
         });
     });
