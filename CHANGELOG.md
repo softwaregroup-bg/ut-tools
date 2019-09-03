@@ -1,3 +1,12 @@
+## [6.23.2](https://github.com/softwaregroup-bg/ut-tools/compare/v6.23.1...v6.23.2) (2019-09-03)
+
+
+### Bug Fixes
+
+* optimize deps by moving to peerDep ([16c9521](https://github.com/softwaregroup-bg/ut-tools/commit/16c9521))
+
+
+
 ## [6.23.1](https://github.com/softwaregroup-bg/ut-tools/compare/v6.23.0...v6.23.1) (2019-08-20)
 
 
