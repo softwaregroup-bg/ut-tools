@@ -1,3 +1,12 @@
+## [6.23.3](https://github.com/softwaregroup-bg/ut-tools/compare/v6.23.2...v6.23.3) (2019-09-03)
+
+
+### Bug Fixes
+
+* update chokidar ([b53fe9a](https://github.com/softwaregroup-bg/ut-tools/commit/b53fe9a))
+
+
+
 ## [6.23.2](https://github.com/softwaregroup-bg/ut-tools/compare/v6.23.1...v6.23.2) (2019-09-03)
 
 
