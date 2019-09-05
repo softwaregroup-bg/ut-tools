@@ -1,3 +1,12 @@
+## [6.23.4](https://github.com/softwaregroup-bg/ut-tools/compare/v6.23.3...v6.23.4) (2019-09-05)
+
+
+### Bug Fixes
+
+* dependencies ([5a538f5](https://github.com/softwaregroup-bg/ut-tools/commit/5a538f5))
+
+
+
 ## [6.23.3](https://github.com/softwaregroup-bg/ut-tools/compare/v6.23.2...v6.23.3) (2019-09-03)
 
 
