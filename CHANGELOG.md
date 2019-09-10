@@ -1,3 +1,26 @@
+# [6.24.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.23.4...v6.24.0) (2019-09-10)
+
+
+### Bug Fixes
+
+* add dependency ([4e74936](https://github.com/softwaregroup-bg/ut-tools/commit/4e74936))
+* add missing require ([a0cdbe8](https://github.com/softwaregroup-bg/ut-tools/commit/a0cdbe8))
+* changelog generation ([da21b5d](https://github.com/softwaregroup-bg/ut-tools/commit/da21b5d))
+* handle conventional prerelease more accurately ([8fad936](https://github.com/softwaregroup-bg/ut-tools/commit/8fad936))
+* linting ([bbd9cc4](https://github.com/softwaregroup-bg/ut-tools/commit/bbd9cc4))
+* linting ([acf8651](https://github.com/softwaregroup-bg/ut-tools/commit/acf8651))
+* linting ([d2dffb7](https://github.com/softwaregroup-bg/ut-tools/commit/d2dffb7))
+* prerelease and graduate only when necessary ([9739987](https://github.com/softwaregroup-bg/ut-tools/commit/9739987))
+* set previousTag in angular preset context ([a2048a6](https://github.com/softwaregroup-bg/ut-tools/commit/a2048a6))
+* track changed packages with --conventional-graduate when on master ([d833a72](https://github.com/softwaregroup-bg/ut-tools/commit/d833a72))
+
+
+### Features
+
+* lerna ([958582e](https://github.com/softwaregroup-bg/ut-tools/commit/958582e))
+
+
+
 ## [6.23.4](https://github.com/softwaregroup-bg/ut-tools/compare/v6.23.3...v6.23.4) (2019-09-05)
 
 
