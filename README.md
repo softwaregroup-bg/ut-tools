@@ -47,6 +47,8 @@ Circle CI, Gitlab CI, etc.
 * ut-pretest: run linting before testing
 * ut-preversion: run tests before incrementing the version
 * ut-release: increment the version and publish to npm
+* ut-release-lerna: increment the versions of all updated
+  lerna monorepo packages and publish to npm
 * ut-test: run all tests with blue-tape
 
 * ut command with arguments. Arguments can be one of the following 'status',

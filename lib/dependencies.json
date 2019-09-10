@@ -217,6 +217,7 @@
         "isparta": "4.0.0",
         "joi": "13.7.0",
         "joi-browser": "^13.4.0",
+        "lerna": "3.16.4",
         "lodash.merge": "4.6.2",
         "markdownlint": "0.7.0",
         "nyc": "11.4.1",
