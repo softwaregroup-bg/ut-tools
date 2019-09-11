@@ -1,3 +1,12 @@
+## [6.24.2](https://github.com/softwaregroup-bg/ut-tools/compare/v6.24.1...v6.24.2) (2019-09-11)
+
+
+### Bug Fixes
+
+* use default test files for lerna ([2bdec54](https://github.com/softwaregroup-bg/ut-tools/commit/2bdec54))
+
+
+
 ## [6.24.1](https://github.com/softwaregroup-bg/ut-tools/compare/v6.24.0...v6.24.1) (2019-09-11)
 
 
