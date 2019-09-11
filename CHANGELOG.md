@@ -1,3 +1,12 @@
+## [6.24.4](https://github.com/softwaregroup-bg/ut-tools/compare/v6.24.3...v6.24.4) (2019-09-11)
+
+
+### Bug Fixes
+
+* ingnore internal changelogs ([32ad400](https://github.com/softwaregroup-bg/ut-tools/commit/32ad400))
+
+
+
 ## [6.24.3](https://github.com/softwaregroup-bg/ut-tools/compare/v6.24.2...v6.24.3) (2019-09-11)
 
 
