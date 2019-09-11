@@ -1,6 +1,8 @@
 #!/usr/bin/env node
 /* eslint no-process-env:0, no-process-exit:0 */
 const fs = require('fs');
+const {testFiles} = require('../lib/defaults');
+
 var paths = [];
 if (fs.existsSync('test/integration')) paths.push('test/integration');
 if (fs.existsSync('test/unit/cases')) paths.push('test/unit/cases');
@@ -11,8 +13,7 @@ let test = require('../lib/exec')('"' + process.execPath + '"', [
     '--coverage-report=text',
     '--output-file=.lint/tap.txt',
     '--reporter=classic',
-    '-j' + (process.env.TAP_JOBS || '8'),
-    '"!(node_modules|tap-snapshots)/**/*.test.js"'].concat(paths, process.argv.slice(2)), {shell: true}, false);
+    '-j' + (process.env.TAP_JOBS || '8')].concat(testFiles, paths, process.argv.slice(2)), {shell: true}, false);
 
 require('../lib/exec')('"' + process.execPath + '"', [
     require.resolve('tap/bin/run'),
