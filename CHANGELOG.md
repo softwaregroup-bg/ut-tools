@@ -1,3 +1,12 @@
+## [6.24.3](https://github.com/softwaregroup-bg/ut-tools/compare/v6.24.2...v6.24.3) (2019-09-11)
+
+
+### Bug Fixes
+
+* ignore markdown lint for lerna ([da87697](https://github.com/softwaregroup-bg/ut-tools/commit/da87697))
+
+
+
 ## [6.24.2](https://github.com/softwaregroup-bg/ut-tools/compare/v6.24.1...v6.24.2) (2019-09-11)
 
 
