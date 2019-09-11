@@ -1,3 +1,12 @@
+## [6.24.1](https://github.com/softwaregroup-bg/ut-tools/compare/v6.24.0...v6.24.1) (2019-09-11)
+
+
+### Bug Fixes
+
+* handle tests in lerna ([f6eb222](https://github.com/softwaregroup-bg/ut-tools/commit/f6eb222))
+
+
+
 # [6.24.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.23.4...v6.24.0) (2019-09-10)
 
 
