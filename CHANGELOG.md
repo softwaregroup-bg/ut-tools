@@ -1,3 +1,12 @@
+## [6.24.5](https://github.com/softwaregroup-bg/ut-tools/compare/v6.24.4...v6.24.5) (2019-09-12)
+
+
+### Bug Fixes
+
+* update level ([92b975f](https://github.com/softwaregroup-bg/ut-tools/commit/92b975f))
+
+
+
 ## [6.24.4](https://github.com/softwaregroup-bg/ut-tools/compare/v6.24.3...v6.24.4) (2019-09-11)
 
 
