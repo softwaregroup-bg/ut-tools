@@ -1,7 +1,7 @@
 {
     "dependencies": {
         "@koa/cors": "3.0.0",
-        "abstract-leveldown": "2.6.1",
+        "abstract-leveldown": "6.1.1",
         "adm-zip": "0.4.7",
         "ajv": "6.10.0",
         "amqplib": "0.5.3",
@@ -63,10 +63,10 @@
         "koa-send": "5.0.0",
         "koa2-formidable": "1.0.2",
         "ldapjs": "1.0.1",
-        "level-sublevel": "6.6.1",
+        "level-sublevel": "6.6.5",
         "level-ttl": "3.1.1",
-        "leveldown": "2.0.0",
-        "levelup": "2.0.0",
+        "leveldown": "5.2.0",
+        "levelup": "4.2.0",
         "loader-utils": "0.2.16",
         "loadtest": "3.0.8",
         "lodash.assign": "4.2.0",
