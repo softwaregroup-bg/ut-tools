@@ -1,3 +1,12 @@
+## [6.24.7](https://github.com/softwaregroup-bg/ut-tools/compare/v6.24.6...v6.24.7) (2019-09-12)
+
+
+### Bug Fixes
+
+* enable ut-function ([cc81e79](https://github.com/softwaregroup-bg/ut-tools/commit/cc81e79))
+
+
+
 ## [6.24.6](https://github.com/softwaregroup-bg/ut-tools/compare/v6.24.5...v6.24.6) (2019-09-12)
 
 
