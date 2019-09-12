@@ -1,3 +1,12 @@
+## [6.24.6](https://github.com/softwaregroup-bg/ut-tools/compare/v6.24.5...v6.24.6) (2019-09-12)
+
+
+### Bug Fixes
+
+* update memdown ([7ec456d](https://github.com/softwaregroup-bg/ut-tools/commit/7ec456d))
+
+
+
 ## [6.24.5](https://github.com/softwaregroup-bg/ut-tools/compare/v6.24.4...v6.24.5) (2019-09-12)
 
 
