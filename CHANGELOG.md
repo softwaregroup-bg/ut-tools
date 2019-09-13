@@ -1,3 +1,12 @@
+## [6.24.8](https://github.com/softwaregroup-bg/ut-tools/compare/v6.24.7...v6.24.8) (2019-09-13)
+
+
+### Bug Fixes
+
+* exit with status 0 if no changed packages are found ([dcf94fe](https://github.com/softwaregroup-bg/ut-tools/commit/dcf94fe))
+
+
+
 ## [6.24.7](https://github.com/softwaregroup-bg/ut-tools/compare/v6.24.6...v6.24.7) (2019-09-12)
 
 
