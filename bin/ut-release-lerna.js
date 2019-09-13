@@ -11,9 +11,15 @@ const isMaster = () => {
 
 async function release() {
     try {
-        const changedCmd = ['changed', '--json'];
-        if (isMaster()) changedCmd.push('--conventional-graduate');
-        const changed = JSON.parse(exec('lerna', changedCmd, 'pipe'));
+        const ls = ['ls', '--json', '--since'];
+        if (isMaster()) ls.push('--conventional-graduate');
+
+        const changed = JSON.parse(exec('lerna', ls, 'pipe'));
+        if (!changed.length) {
+            console.log('lerna info', 'No changed packages found');
+            console.log('lerna', ls.join(' '), '=>', 0);
+            return process.exit(0);
+        }
 
         // validate versions and get inc metadata
         const packages = await Promise.all(changed.map(async pkg => {
