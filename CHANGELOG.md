@@ -1,3 +1,18 @@
+# [6.25.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.24.8...v6.25.0) (2019-09-17)
+
+
+### Bug Fixes
+
+* save audit to file if folder exists ([840b6a5](https://github.com/softwaregroup-bg/ut-tools/commit/840b6a5))
+* show audit output ([855d7f8](https://github.com/softwaregroup-bg/ut-tools/commit/855d7f8))
+
+
+### Features
+
+* create audit report ([f19784e](https://github.com/softwaregroup-bg/ut-tools/commit/f19784e))
+
+
+
 ## [6.24.8](https://github.com/softwaregroup-bg/ut-tools/compare/v6.24.7...v6.24.8) (2019-09-13)
 
 
