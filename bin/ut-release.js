@@ -7,7 +7,7 @@ var ansi = require('ansi-html');
 
 const audit = exec('npm', ['audit', '--color', 'always', '--registry', 'https://registry.npmjs.org'], 'pipe', 'stdout');
 console.log(audit);
-fs.writeFileSync('.lint/audit.html', '<pre>\n' + ansi(audit) + '\n</pre>');
+if (fs.existsSync('.lint')) fs.writeFileSync('.lint/audit.html', '<pre>\n' + ansi(audit) + '\n</pre>');
 
 versionBump()
     .then(({tag}) => {
