@@ -1,3 +1,12 @@
+## [6.25.1](https://github.com/softwaregroup-bg/ut-tools/compare/v6.25.0...v6.25.1) (2019-09-17)
+
+
+### Bug Fixes
+
+* ansi colors ([7a21368](https://github.com/softwaregroup-bg/ut-tools/commit/7a21368))
+
+
+
 # [6.25.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.24.8...v6.25.0) (2019-09-17)
 
 
