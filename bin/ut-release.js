@@ -3,6 +3,9 @@
 const exec = require('../lib/exec');
 const versionBump = require('../lib/versionBump');
 const fs = require('fs');
+var ansi = require('ansi-html');
+
+fs.writeFileSync('.lint/audit.html', '<pre>\n' + ansi(exec('npm', ['audit', '--registry', 'https://registry.npmjs.org'], 'pipe', 'stdout')) + '\n</pre>');
 
 versionBump()
     .then(({tag}) => {
