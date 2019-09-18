@@ -1,3 +1,12 @@
+## [6.25.2](https://github.com/softwaregroup-bg/ut-tools/compare/v6.25.1...v6.25.2) (2019-09-18)
+
+
+### Bug Fixes
+
+* update dependencies ([0db9ae1](https://github.com/softwaregroup-bg/ut-tools/commit/0db9ae1))
+
+
+
 ## [6.25.1](https://github.com/softwaregroup-bg/ut-tools/compare/v6.25.0...v6.25.1) (2019-09-17)
 
 
