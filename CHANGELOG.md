@@ -1,3 +1,13 @@
+## [6.25.3](https://github.com/softwaregroup-bg/ut-tools/compare/v6.25.2...v6.25.3) (2019-09-30)
+
+
+### Bug Fixes
+
+* allow immutable 4.0.0-rc ([0492568](https://github.com/softwaregroup-bg/ut-tools/commit/0492568))
+* deps ([148d086](https://github.com/softwaregroup-bg/ut-tools/commit/148d086))
+
+
+
 ## [6.25.2](https://github.com/softwaregroup-bg/ut-tools/compare/v6.25.1...v6.25.2) (2019-09-18)
 
 
