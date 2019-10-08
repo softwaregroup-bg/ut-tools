@@ -1,3 +1,12 @@
+## [6.25.6](https://github.com/softwaregroup-bg/ut-tools/compare/v6.25.5...v6.25.6) (2019-10-08)
+
+
+### Bug Fixes
+
+* update dependency to mssql@5.1.0 ([#88](https://github.com/softwaregroup-bg/ut-tools/issues/88)) ([9416fda](https://github.com/softwaregroup-bg/ut-tools/commit/9416fda))
+
+
+
 ## [6.25.5](https://github.com/softwaregroup-bg/ut-tools/compare/v6.25.4...v6.25.5) (2019-10-01)
 
 
