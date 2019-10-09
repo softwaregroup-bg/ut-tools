@@ -1,3 +1,12 @@
+## [6.25.7](https://github.com/softwaregroup-bg/ut-tools/compare/v6.25.6...v6.25.7) (2019-10-09)
+
+
+### Bug Fixes
+
+* limit optional dependencies ([ea1ad2a](https://github.com/softwaregroup-bg/ut-tools/commit/ea1ad2a))
+
+
+
 ## [6.25.6](https://github.com/softwaregroup-bg/ut-tools/compare/v6.25.5...v6.25.6) (2019-10-08)
 
 
