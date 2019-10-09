@@ -1,3 +1,12 @@
+## [6.25.8](https://github.com/softwaregroup-bg/ut-tools/compare/v6.25.7...v6.25.8) (2019-10-09)
+
+
+### Bug Fixes
+
+* move deps ([f3afd51](https://github.com/softwaregroup-bg/ut-tools/commit/f3afd51))
+
+
+
 ## [6.25.7](https://github.com/softwaregroup-bg/ut-tools/compare/v6.25.6...v6.25.7) (2019-10-09)
 
 
