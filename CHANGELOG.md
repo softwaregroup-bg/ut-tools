@@ -1,3 +1,12 @@
+## [6.25.9](https://github.com/softwaregroup-bg/ut-tools/compare/v6.25.8...v6.25.9) (2019-10-11)
+
+
+### Bug Fixes
+
+* add ut-function.currency ([#89](https://github.com/softwaregroup-bg/ut-tools/issues/89)) ([bec316b](https://github.com/softwaregroup-bg/ut-tools/commit/bec316b))
+
+
+
 ## [6.25.8](https://github.com/softwaregroup-bg/ut-tools/compare/v6.25.7...v6.25.8) (2019-10-09)
 
 
