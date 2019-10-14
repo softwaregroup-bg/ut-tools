@@ -1,3 +1,12 @@
+## [6.25.10](https://github.com/softwaregroup-bg/ut-tools/compare/v6.25.9...v6.25.10) (2019-10-14)
+
+
+### Bug Fixes
+
+* add deps ([49ec61a](https://github.com/softwaregroup-bg/ut-tools/commit/49ec61a))
+
+
+
 ## [6.25.9](https://github.com/softwaregroup-bg/ut-tools/compare/v6.25.8...v6.25.9) (2019-10-11)
 
 
