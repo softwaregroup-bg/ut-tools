@@ -182,7 +182,8 @@
         "xml-splitter": "1.2.1",
         "xml-tag-stream": "0.0.6",
         "xml2js": "0.4.19",
-        "yaml": "1.6.0"
+        "yaml": "1.6.0",
+        "ut-function.currency": "^1.0.0"
     },
     "devDependencies": {
         "@babel/core": "^7.2.2",
