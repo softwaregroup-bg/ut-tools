@@ -1,3 +1,12 @@
+# [6.26.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.25.11...v6.26.0) (2019-10-16)
+
+
+### Features
+
+* additional project naming rules ([#91](https://github.com/softwaregroup-bg/ut-tools/issues/91)) 👎 ([2d290f8](https://github.com/softwaregroup-bg/ut-tools/commit/2d290f8))
+
+
+
 ## [6.25.11](https://github.com/softwaregroup-bg/ut-tools/compare/v6.25.10...v6.25.11) (2019-10-16)
 
 
