@@ -1,3 +1,7 @@
+## [6.25.11](https://github.com/softwaregroup-bg/ut-tools/compare/v6.25.10...v6.25.11) (2019-10-16)
+
+
+
 ## [6.25.10](https://github.com/softwaregroup-bg/ut-tools/compare/v6.25.9...v6.25.10) (2019-10-14)
 
 
