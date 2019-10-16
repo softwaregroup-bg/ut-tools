@@ -314,7 +314,8 @@
         "ut-run": "^9.1.0",
         "ut-transfer": "^6.27.0",
         "ut-user": "^7.35.4",
-        "winston": "^2.4.0"
+        "winston": "^2.4.0",
+        "ut-function.currency": "^1.0.0"
     },
     "peerDevDependencies": {
         "@babel/core": "^7.2.2",
