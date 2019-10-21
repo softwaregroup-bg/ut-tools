@@ -1,3 +1,12 @@
+# [6.27.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.26.1...v6.27.0) (2019-10-21)
+
+
+### Features
+
+* enable [@hapi](https://github.com/hapi) ([c6de139](https://github.com/softwaregroup-bg/ut-tools/commit/c6de139))
+
+
+
 ## [6.26.1](https://github.com/softwaregroup-bg/ut-tools/compare/v6.26.0...v6.26.1) (2019-10-17)
 
 
