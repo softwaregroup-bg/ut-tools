@@ -1,3 +1,12 @@
+## [6.27.1](https://github.com/softwaregroup-bg/ut-tools/compare/v6.27.0...v6.27.1) (2019-10-22)
+
+
+### Bug Fixes
+
+* whitelist dependencies ([d2296ea](https://github.com/softwaregroup-bg/ut-tools/commit/d2296ea))
+
+
+
 # [6.27.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.26.1...v6.27.0) (2019-10-21)
 
 
