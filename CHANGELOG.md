@@ -1,3 +1,13 @@
+## [6.27.3](https://github.com/softwaregroup-bg/ut-tools/compare/v6.27.2...v6.27.3) (2019-10-23)
+
+
+### Bug Fixes
+
+* typo ([17a142c](https://github.com/softwaregroup-bg/ut-tools/commit/17a142c))
+* typo ([a922098](https://github.com/softwaregroup-bg/ut-tools/commit/a922098))
+
+
+
 ## [6.27.2](https://github.com/softwaregroup-bg/ut-tools/compare/v6.27.1...v6.27.2) (2019-10-23)
 
 
