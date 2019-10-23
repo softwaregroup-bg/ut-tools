@@ -1,3 +1,12 @@
+## [6.27.2](https://github.com/softwaregroup-bg/ut-tools/compare/v6.27.1...v6.27.2) (2019-10-23)
+
+
+### Bug Fixes
+
+* dep ([#93](https://github.com/softwaregroup-bg/ut-tools/issues/93)) ([54b945b](https://github.com/softwaregroup-bg/ut-tools/commit/54b945b))
+
+
+
 ## [6.27.1](https://github.com/softwaregroup-bg/ut-tools/compare/v6.27.0...v6.27.1) (2019-10-22)
 
 
