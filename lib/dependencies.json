@@ -123,7 +123,7 @@
         "nodemailer-smtp-transport": "2.7.4",
         "openid-client": "2.5.0",
         "os": "^0.1.1",
-        "oracledb": "^4.0.1"
+        "oracledb": "^4.0.1",
         "pg-promise": "5.3.1",
         "pofile": "1.0.8",
         "pull-paramap": "1.2.2",
