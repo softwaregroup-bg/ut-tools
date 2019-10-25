@@ -1,3 +1,12 @@
+## [6.27.4](https://github.com/softwaregroup-bg/ut-tools/compare/v6.27.3...v6.27.4) (2019-10-25)
+
+
+### Bug Fixes
+
+* add sort-keys ([c872199](https://github.com/softwaregroup-bg/ut-tools/commit/c872199))
+
+
+
 ## [6.27.3](https://github.com/softwaregroup-bg/ut-tools/compare/v6.27.2...v6.27.3) (2019-10-23)
 
 
