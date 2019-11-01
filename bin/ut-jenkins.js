@@ -24,7 +24,7 @@ if (
 ) {
     command = 'release';
 } else if (
-    /^(ut|impl|standard-service)(-\w{2,})+(_cr|_post-commit)$/.test(jobname) &&
+    /^(ut|(ut|create|impl|standard-service)(-\w{2,})+)(_cr|_post-commit)$/.test(jobname) &&
     process.env.BUILD_CAUSE === 'SCMTRIGGER' &&
     (
         // /^(master|(hotfix|major|minor|patch)\/[^/]+)$/.test(process.env.gitlabSourceBranch) ||
