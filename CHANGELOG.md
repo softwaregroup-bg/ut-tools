@@ -1,3 +1,12 @@
+## [6.27.5](https://github.com/softwaregroup-bg/ut-tools/compare/v6.27.4...v6.27.5) (2019-11-01)
+
+
+### Bug Fixes
+
+* add ut-api ([b0acec6](https://github.com/softwaregroup-bg/ut-tools/commit/b0acec6))
+
+
+
 ## [6.27.4](https://github.com/softwaregroup-bg/ut-tools/compare/v6.27.3...v6.27.4) (2019-10-25)
 
 

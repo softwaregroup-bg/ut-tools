@@ -1,6 +1,6 @@
 {
   "name": "ut-tools",
-  "version": "6.27.4",
+  "version": "6.27.5",
   "description": "Build and Release management automation package.",
   "dependencies": {
     "ansi-to-html": "0.6.11",
