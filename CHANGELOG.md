@@ -1,3 +1,12 @@
+# [6.28.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.27.5...v6.28.0) (2019-11-01)
+
+
+### Features
+
+* enable github create-* repository builds ([d9552fc](https://github.com/softwaregroup-bg/ut-tools/commit/d9552fc))
+
+
+
 ## [6.27.5](https://github.com/softwaregroup-bg/ut-tools/compare/v6.27.4...v6.27.5) (2019-11-01)
 
 
