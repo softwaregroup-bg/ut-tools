@@ -178,6 +178,7 @@
         "ut-form-jsonschema": "^7.0.0",
         "ut-function.capture-hapi": "^1.1.0",
         "ut-function.capture-request": "^1.1.0",
+        "ut-function.equals": "^1.1.0",
         "ut-function.flatten": "^1.2.0",
         "ut-function.includes": "^1.2.0",
         "ut-function.merge": "^1.2.0",
