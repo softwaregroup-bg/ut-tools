@@ -1,3 +1,12 @@
+# [6.29.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.28.2...v6.29.0) (2019-11-21)
+
+
+### Features
+
+* support impl-xxx-ui and impl-xxx-env dw repositories ([#98](https://github.com/softwaregroup-bg/ut-tools/issues/98)) 👎👎 ([6a8ca8b](https://github.com/softwaregroup-bg/ut-tools/commit/6a8ca8b))
+
+
+
 ## [6.28.2](https://github.com/softwaregroup-bg/ut-tools/compare/v6.28.1...v6.28.2) (2019-11-18)
 
 
