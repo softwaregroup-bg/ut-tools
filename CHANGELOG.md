@@ -1,3 +1,12 @@
+## [6.29.1](https://github.com/softwaregroup-bg/ut-tools/compare/v6.29.0...v6.29.1) (2019-11-24)
+
+
+### Bug Fixes
+
+* Jenkins bug BUILD_CAUSE=SCMTRIGGER,SCMTRIGGER ([c9b4735](https://github.com/softwaregroup-bg/ut-tools/commit/c9b4735))
+
+
+
 # [6.29.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.28.2...v6.29.0) (2019-11-21)
 
 
