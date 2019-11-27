@@ -1,3 +1,12 @@
+## [6.29.3](https://github.com/softwaregroup-bg/ut-tools/compare/v6.29.2...v6.29.3) (2019-11-27)
+
+
+### Bug Fixes
+
+* enable streaming upload deps ([838b599](https://github.com/softwaregroup-bg/ut-tools/commit/838b599))
+
+
+
 ## [6.29.2](https://github.com/softwaregroup-bg/ut-tools/compare/v6.29.1...v6.29.2) (2019-11-27)
 
 
