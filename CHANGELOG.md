@@ -1,3 +1,12 @@
+## [6.29.2](https://github.com/softwaregroup-bg/ut-tools/compare/v6.29.1...v6.29.2) (2019-11-27)
+
+
+### Bug Fixes
+
+* allow hapi proxy ([ec4e96f](https://github.com/softwaregroup-bg/ut-tools/commit/ec4e96f))
+
+
+
 ## [6.29.1](https://github.com/softwaregroup-bg/ut-tools/compare/v6.29.0...v6.29.1) (2019-11-24)
 
 
