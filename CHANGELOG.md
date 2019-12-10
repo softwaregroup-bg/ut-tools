@@ -1,3 +1,12 @@
+## [6.29.4](https://github.com/softwaregroup-bg/ut-tools/compare/v6.29.3...v6.29.4) (2019-12-10)
+
+
+### Bug Fixes
+
+* add immutable in dependencies ([#100](https://github.com/softwaregroup-bg/ut-tools/issues/100)) ([bd92c0f](https://github.com/softwaregroup-bg/ut-tools/commit/bd92c0f))
+
+
+
 ## [6.29.3](https://github.com/softwaregroup-bg/ut-tools/compare/v6.29.2...v6.29.3) (2019-11-27)
 
 
