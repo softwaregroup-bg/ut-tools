@@ -1,3 +1,12 @@
+## [6.29.5](https://github.com/softwaregroup-bg/ut-tools/compare/v6.29.4...v6.29.5) (2019-12-11)
+
+
+### Bug Fixes
+
+* add ibmmq ([97d50e8](https://github.com/softwaregroup-bg/ut-tools/commit/97d50e8))
+
+
+
 ## [6.29.4](https://github.com/softwaregroup-bg/ut-tools/compare/v6.29.3...v6.29.4) (2019-12-10)
 
 
