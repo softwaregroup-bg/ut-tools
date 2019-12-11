@@ -196,6 +196,7 @@
         "ut-port": "^6.4.6",
         "ut-port-console": "^9.0.2",
         "ut-port-performance": "^7.1.4",
+        "ut-port-tcp": "^7.1.0",
         "ut-queue": "^6.1.0",
         "ut-rpc": "^6.0.0",
         "ut-swagger2-validator": "^0.1.1",
