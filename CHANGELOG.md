@@ -1,3 +1,12 @@
+## [6.29.6](https://github.com/softwaregroup-bg/ut-tools/compare/v6.29.5...v6.29.6) (2019-12-11)
+
+
+### Bug Fixes
+
+* allow ut-port-tcp as dependency ([d59eac4](https://github.com/softwaregroup-bg/ut-tools/commit/d59eac4))
+
+
+
 ## [6.29.5](https://github.com/softwaregroup-bg/ut-tools/compare/v6.29.4...v6.29.5) (2019-12-11)
 
 
