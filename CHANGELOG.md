@@ -1,3 +1,12 @@
+## [6.29.8](https://github.com/softwaregroup-bg/ut-tools/compare/v6.29.7...v6.29.8) (2019-12-12)
+
+
+### Bug Fixes
+
+* add ut-function.xml2json ([c01c18d](https://github.com/softwaregroup-bg/ut-tools/commit/c01c18d))
+
+
+
 ## [6.29.7](https://github.com/softwaregroup-bg/ut-tools/compare/v6.29.6...v6.29.7) (2019-12-12)
 
 
