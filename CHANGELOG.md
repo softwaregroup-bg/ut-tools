@@ -1,3 +1,12 @@
+## [6.29.7](https://github.com/softwaregroup-bg/ut-tools/compare/v6.29.6...v6.29.7) (2019-12-12)
+
+
+### Bug Fixes
+
+* upgrade xml2js ([562b3e8](https://github.com/softwaregroup-bg/ut-tools/commit/562b3e8))
+
+
+
 ## [6.29.6](https://github.com/softwaregroup-bg/ut-tools/compare/v6.29.5...v6.29.6) (2019-12-11)
 
 
