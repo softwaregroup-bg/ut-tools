@@ -1,3 +1,12 @@
+## [6.29.11](https://github.com/softwaregroup-bg/ut-tools/compare/v6.29.10...v6.29.11) (2019-12-16)
+
+
+### Bug Fixes
+
+* enable inquirer ([1ba1f5b](https://github.com/softwaregroup-bg/ut-tools/commit/1ba1f5b))
+
+
+
 ## [6.29.10](https://github.com/softwaregroup-bg/ut-tools/compare/v6.29.9...v6.29.10) (2019-12-16)
 
 
