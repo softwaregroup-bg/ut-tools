@@ -1,3 +1,12 @@
+## [6.29.9](https://github.com/softwaregroup-bg/ut-tools/compare/v6.29.8...v6.29.9) (2019-12-16)
+
+
+### Bug Fixes
+
+* allow immutable on the server ([264fd11](https://github.com/softwaregroup-bg/ut-tools/commit/264fd11))
+
+
+
 ## [6.29.8](https://github.com/softwaregroup-bg/ut-tools/compare/v6.29.7...v6.29.8) (2019-12-12)
 
 
