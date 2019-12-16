@@ -49,7 +49,6 @@
     "lintcss": "./bin/ut-lint-css.js .",
     "postversion": "./bin/ut-postversion.js",
     "precommit": "./bin/ut-precommit.js",
-    "prepublish": "./bin/ut-prepublish.js",
     "prepush": "./bin/ut-prepush.js",
     "pretest": "./bin/ut-pretest.js",
     "precover": "./bin/ut-precover.js",
