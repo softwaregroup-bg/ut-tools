@@ -1,3 +1,12 @@
+## [6.29.12](https://github.com/softwaregroup-bg/ut-tools/compare/v6.29.11...v6.29.12) (2020-01-07)
+
+
+### Bug Fixes
+
+* deps ([057cf95](https://github.com/softwaregroup-bg/ut-tools/commit/057cf95))
+
+
+
 ## [6.29.11](https://github.com/softwaregroup-bg/ut-tools/compare/v6.29.10...v6.29.11) (2019-12-16)
 
 
