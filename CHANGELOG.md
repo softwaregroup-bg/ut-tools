@@ -1,3 +1,12 @@
+# [6.30.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.29.12...v6.30.0) (2020-01-08)
+
+
+### Features
+
+* npm run doc support ([dbe9b57](https://github.com/softwaregroup-bg/ut-tools/commit/dbe9b57))
+
+
+
 ## [6.29.12](https://github.com/softwaregroup-bg/ut-tools/compare/v6.29.11...v6.29.12) (2020-01-07)
 
 
