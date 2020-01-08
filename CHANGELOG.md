@@ -1,3 +1,12 @@
+## [6.30.1](https://github.com/softwaregroup-bg/ut-tools/compare/v6.30.0...v6.30.1) (2020-01-08)
+
+
+### Bug Fixes
+
+* allow json-schema-to-markdown as peer ([b10cf88](https://github.com/softwaregroup-bg/ut-tools/commit/b10cf88))
+
+
+
 # [6.30.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.29.12...v6.30.0) (2020-01-08)
 
 
