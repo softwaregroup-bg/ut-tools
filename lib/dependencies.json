@@ -305,6 +305,7 @@
         "vscode": "^1.1.6",
         "webpack": ["^3.8.1", "^4.37.0"],
         "which": "1.2.12",
+        "why-is-node-running": "^2.1.0",
         "write-json-file": "2.0.0"
     },
     "peerDependencies": {
