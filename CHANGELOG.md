@@ -1,3 +1,12 @@
+## [6.30.5](https://github.com/softwaregroup-bg/ut-tools/compare/v6.30.4...v6.30.5) (2020-01-15)
+
+
+### Bug Fixes
+
+* adit and .lint/result.json in ut-release-lerna ([#104](https://github.com/softwaregroup-bg/ut-tools/issues/104)) ([d1c4f54](https://github.com/softwaregroup-bg/ut-tools/commit/d1c4f54))
+
+
+
 ## [6.30.4](https://github.com/softwaregroup-bg/ut-tools/compare/v6.30.3...v6.30.4) (2020-01-15)
 
 
