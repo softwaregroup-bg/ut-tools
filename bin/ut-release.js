@@ -3,12 +3,8 @@
 const exec = require('../lib/exec');
 const versionBump = require('../lib/versionBump');
 const fs = require('fs');
-const Convert = require('ansi-to-html');
-const convert = new Convert();
 
-const audit = exec('npm', ['audit', '--color', 'always', '--registry', 'https://registry.npmjs.org'], 'pipe', 'stdout');
-console.log(audit);
-if (fs.existsSync('.lint')) fs.writeFileSync('.lint/audit.html', '<pre style="background-color: black; color: white">\n' + convert.toHtml(audit) + '\n</pre>');
+require('./audit')();
 
 versionBump()
     .then(({tag}) => {

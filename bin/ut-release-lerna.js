@@ -3,6 +3,7 @@
 const tokenizeBranch = require('../lib/tokenizeBranch');
 const versionInc = require('../lib/versionInc');
 const exec = require('../lib/exec');
+const fs = require('fs');
 
 const isMaster = () => {
     const branchTokens = tokenizeBranch();
@@ -81,10 +82,14 @@ async function release() {
         }
 
         exec('lerna', ['publish', 'from-package', '--yes']);
+
+        fs.copyFileSync && fs.copyFileSync('package.json', '.lint/result.json')
     } catch (e) {
         console.error(e);
         process.exit(1);
     }
 }
+
+require('./audit')();
 
 release();
