@@ -1,3 +1,12 @@
+## [6.30.4](https://github.com/softwaregroup-bg/ut-tools/compare/v6.30.3...v6.30.4) (2020-01-15)
+
+
+### Bug Fixes
+
+* coverage params ([bc02e99](https://github.com/softwaregroup-bg/ut-tools/commit/bc02e99))
+
+
+
 ## [6.30.3](https://github.com/softwaregroup-bg/ut-tools/compare/v6.30.2...v6.30.3) (2020-01-14)
 
 
