@@ -90,6 +90,6 @@ async function release() {
     }
 }
 
-require('./audit')();
+require('../lib/audit')();
 
 release();

@@ -4,7 +4,7 @@ const exec = require('../lib/exec');
 const versionBump = require('../lib/versionBump');
 const fs = require('fs');
 
-require('./audit')();
+require('../lib/audit')();
 
 versionBump()
     .then(({tag}) => {
