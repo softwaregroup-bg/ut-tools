@@ -10,20 +10,16 @@ if (fs.existsSync('test/unit/cases')) paths.push('test/unit/cases');
 let test = require('../lib/exec')('"' + process.execPath + '"', [
     require.resolve('tap/bin/run'),
     '--cov',
-    '--coverage-report=text',
     '--output-file=.lint/tap.txt',
     '--reporter=classic',
     '-j' + (process.env.TAP_JOBS || '8')].concat(testFiles, paths, process.argv.slice(2)), {shell: true}, false);
 
 require('../lib/exec')('"' + process.execPath + '"', [
     require.resolve('tap/bin/run'),
-    '--coverage-report=cobertura'
-], {shell: true});
-
-require('../lib/exec')('"' + process.execPath + '"', [
-    require.resolve('tap/bin/run'),
     '--coverage-report=html',
-    '--no-browser'
+    '--no-browser',
+    '--coverage-report=text',
+    '--coverage-report=cobertura'
 ], {shell: true});
 
 require('../lib/exec')('"' + process.execPath + '"', [
