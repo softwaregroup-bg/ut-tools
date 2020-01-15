@@ -83,7 +83,7 @@ async function release() {
 
         exec('lerna', ['publish', 'from-package', '--yes']);
 
-        fs.copyFileSync && fs.copyFileSync('package.json', '.lint/result.json')
+        fs.copyFileSync && fs.copyFileSync('package.json', '.lint/result.json');
     } catch (e) {
         console.error(e);
         process.exit(1);
