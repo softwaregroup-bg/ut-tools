@@ -168,6 +168,7 @@
         "ut-codec-jsonrpc": "^7.0.0",
         "ut-codec-ndc": "^7.0.1",
         "ut-codec-payshield": "^7.0.1",
+        "ut-codec-smpp": "^6.2.3",
         "ut-codec-string": "^6.1.0",
         "ut-config": "^7.0.0",
         "ut-crypt": "^6.0.2",
