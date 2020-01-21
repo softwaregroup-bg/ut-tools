@@ -1,3 +1,12 @@
+# [6.31.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.30.6...v6.31.0) (2020-01-21)
+
+
+### Features
+
+* dependencies; html-pdf - add version 2.2.0 ([#106](https://github.com/softwaregroup-bg/ut-tools/issues/106)) ([499db0e](https://github.com/softwaregroup-bg/ut-tools/commit/499db0e))
+
+
+
 ## [6.30.6](https://github.com/softwaregroup-bg/ut-tools/compare/v6.30.5...v6.30.6) (2020-01-20)
 
 
