@@ -58,7 +58,7 @@
         "hapi-auth-jwt2": "8.1.0",
         "hapi-swagger": "9.1.2",
         "hapi": "17.6.0",
-        "html-pdf": "1.5.0",
+        "html-pdf": ["1.5.0", "2.2.0"],
         "http-proxy": "1.17.0",
         "ibmmq": "0.9.10",
         "iconv-lite": "0.4.19",
