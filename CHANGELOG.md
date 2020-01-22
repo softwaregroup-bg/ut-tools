@@ -1,3 +1,12 @@
+## [6.31.1](https://github.com/softwaregroup-bg/ut-tools/compare/v6.31.0...v6.31.1) (2020-01-22)
+
+
+### Bug Fixes
+
+* update nodemailer ([930fafe](https://github.com/softwaregroup-bg/ut-tools/commit/930fafe))
+
+
+
 # [6.31.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.30.6...v6.31.0) (2020-01-21)
 
 
