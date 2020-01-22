@@ -25,7 +25,6 @@
         "marko",
         "moment",
         "ut-front/react",
-        "ut-port-smtp",
         "lodash",
         "ut-codec",
         "ut-identity",
