@@ -1,3 +1,12 @@
+## [6.31.2](https://github.com/softwaregroup-bg/ut-tools/compare/v6.31.1...v6.31.2) (2020-01-22)
+
+
+### Bug Fixes
+
+* mail deps ([b30298a](https://github.com/softwaregroup-bg/ut-tools/commit/b30298a))
+
+
+
 ## [6.31.1](https://github.com/softwaregroup-bg/ut-tools/compare/v6.31.0...v6.31.1) (2020-01-22)
 
 
