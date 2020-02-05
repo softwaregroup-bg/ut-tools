@@ -1,3 +1,12 @@
+## [6.32.3](https://github.com/softwaregroup-bg/ut-tools/compare/v6.32.2...v6.32.3) (2020-02-05)
+
+
+### Bug Fixes
+
+* redirect reporter stderr ([ac1f707](https://github.com/softwaregroup-bg/ut-tools/commit/ac1f707c8bea5249ddf14375d94c47a1f4e6e371))
+
+
+
 ## [6.32.2](https://github.com/softwaregroup-bg/ut-tools/compare/v6.32.1...v6.32.2) (2020-02-05)
 
 
