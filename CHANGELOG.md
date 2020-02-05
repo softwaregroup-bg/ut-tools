@@ -1,3 +1,12 @@
+## [6.32.2](https://github.com/softwaregroup-bg/ut-tools/compare/v6.32.1...v6.32.2) (2020-02-05)
+
+
+### Bug Fixes
+
+* resolve direct devDependency first ([4a5b9f3](https://github.com/softwaregroup-bg/ut-tools/commit/4a5b9f353eddee0092645d6f534e3bbb62031fb7))
+
+
+
 ## [6.32.1](https://github.com/softwaregroup-bg/ut-tools/compare/v6.32.0...v6.32.1) (2020-02-05)
 
 
