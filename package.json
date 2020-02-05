@@ -31,6 +31,7 @@
     "pkg": "4.3.7",
     "pkg-versions": "1.1.0",
     "request": "2.88.0",
+    "request-promise-native": "1.0.8",
     "resolve": "1.8.1",
     "semver": "5.6.0",
     "sort-keys": "4.0.0",
