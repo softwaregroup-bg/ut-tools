@@ -1,3 +1,12 @@
+# [6.32.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.31.3...v6.32.0) (2020-02-05)
+
+
+### Features
+
+* update dependencies ([72188f6](https://github.com/softwaregroup-bg/ut-tools/commit/72188f6753d1fcc7ccb8aefa62e698d99140e759))
+
+
+
 ## [6.31.3](https://github.com/softwaregroup-bg/ut-tools/compare/v6.31.2...v6.31.3) (2020-01-28)
 
 
