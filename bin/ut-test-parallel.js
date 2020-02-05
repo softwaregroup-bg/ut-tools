@@ -7,7 +7,7 @@ var paths = [];
 if (fs.existsSync('test/integration')) paths.push('test/integration');
 if (fs.existsSync('test/unit/cases')) paths.push('test/unit/cases');
 
-let test = require('../lib/exec')('"' + process.execPath + '"', [
+const test = require('../lib/exec')('"' + process.execPath + '"', [
     require.resolve('tap/bin/run'),
     '--output-file=.lint/tap.txt',
     '--reporter=classic',

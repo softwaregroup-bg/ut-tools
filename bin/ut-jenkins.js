@@ -15,7 +15,7 @@ var command;
 var jobname = process.env.JOB_NAME || '';
 const SKIP = /\[ci-skip]/;
 const BRANCH = /^origin\/(master|(hotfix|major|minor|patch)\/[^/]+)$/;
-let branch = process.env.BRANCH_NAME || process.env.GIT_BRANCH;
+const branch = process.env.BRANCH_NAME || process.env.GIT_BRANCH;
 
 if (
     process.env.JOB_TYPE === 'pipeline' &&
