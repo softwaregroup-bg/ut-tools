@@ -1,3 +1,12 @@
+## [6.32.1](https://github.com/softwaregroup-bg/ut-tools/compare/v6.32.0...v6.32.1) (2020-02-05)
+
+
+### Bug Fixes
+
+* semver upgrade ([c63a092](https://github.com/softwaregroup-bg/ut-tools/commit/c63a0925c3bb1a7f5437dcf94c5243adaef65b61))
+
+
+
 # [6.32.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.31.3...v6.32.0) (2020-02-05)
 
 
