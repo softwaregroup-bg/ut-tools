@@ -1,3 +1,12 @@
+# [6.33.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.32.3...v6.33.0) (2020-02-09)
+
+
+### Features
+
+* make ut-tools/eslint  shareable ([6a01d3b](https://github.com/softwaregroup-bg/ut-tools/commit/6a01d3bc146e4a8126f568ebb3ea0daae12d1de2))
+
+
+
 ## [6.32.3](https://github.com/softwaregroup-bg/ut-tools/compare/v6.32.2...v6.32.3) (2020-02-05)
 
 
