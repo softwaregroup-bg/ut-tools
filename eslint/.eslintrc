@@ -18,6 +18,7 @@
     "prefer-const": "warn",
     "object-curly-newline": "warn",
     "quote-props": "warn",
+    "no-var": "warn",
     "no-restricted-modules": ["error", {
       "paths": [
         "express",
