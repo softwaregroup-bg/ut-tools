@@ -1,3 +1,7 @@
+## [6.33.1](https://github.com/softwaregroup-bg/ut-tools/compare/v6.33.0...v6.33.1) (2020-02-10)
+
+
+
 # [6.33.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.32.3...v6.33.0) (2020-02-09)
 
 
