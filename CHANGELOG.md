@@ -1,3 +1,12 @@
+## [6.33.2](https://github.com/softwaregroup-bg/ut-tools/compare/v6.33.1...v6.33.2) (2020-02-12)
+
+
+### Bug Fixes
+
+* temp react warnings ([70cf75e](https://github.com/softwaregroup-bg/ut-tools/commit/70cf75ecf11c6677e60d8dce826dc3a2d983aaf2))
+
+
+
 ## [6.33.1](https://github.com/softwaregroup-bg/ut-tools/compare/v6.33.0...v6.33.1) (2020-02-10)
 
 
