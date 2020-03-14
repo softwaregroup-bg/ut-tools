@@ -1,3 +1,12 @@
+## [6.33.3](https://github.com/softwaregroup-bg/ut-tools/compare/v6.33.2...v6.33.3) (2020-03-14)
+
+
+### Bug Fixes
+
+* ignore tap-snapshots ([da9e110](https://github.com/softwaregroup-bg/ut-tools/commit/da9e110027a8709462c9ad3abdabab3c19215450))
+
+
+
 ## [6.33.2](https://github.com/softwaregroup-bg/ut-tools/compare/v6.33.1...v6.33.2) (2020-02-12)
 
 
