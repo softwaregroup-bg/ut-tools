@@ -1,3 +1,12 @@
+## [6.33.5](https://github.com/softwaregroup-bg/ut-tools/compare/v6.33.4...v6.33.5) (2020-07-13)
+
+
+### Bug Fixes
+
+* parser issue ([5188c83](https://github.com/softwaregroup-bg/ut-tools/commit/5188c830d277dd192e6f2595954f7e0a23b8a3dc))
+
+
+
 ## [6.33.4](https://github.com/softwaregroup-bg/ut-tools/compare/v6.33.3...v6.33.4) (2020-03-15)
 
 
