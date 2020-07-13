@@ -37,6 +37,7 @@
         "ut-permission"
       ]
     }],
+    "template-curly-spacing" : "off",
     "indent": ["error", 4, {"SwitchCase": 1, "ignoredNodes": [ "JSXAttribute", "JSXSpreadAttribute", "TemplateLiteral"]}],
     "semi": ["error", "always"],
     "object-curly-spacing": "off",
