@@ -37,7 +37,7 @@
         "ut-permission"
       ]
     }],
-    "indent": ["error", 4, {"SwitchCase": 1, "ignoredNodes": [ "JSXAttribute", "JSXSpreadAttribute"]}],
+    "indent": ["error", 4, {"SwitchCase": 1, "ignoredNodes": [ "JSXAttribute", "JSXSpreadAttribute", "TemplateLiteral"]}],
     "semi": ["error", "always"],
     "object-curly-spacing": "off",
     "space-before-function-paren": ["error", "never"],
