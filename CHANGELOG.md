@@ -1,3 +1,12 @@
+## [6.33.6](https://github.com/softwaregroup-bg/ut-tools/compare/v6.33.5...v6.33.6) (2020-07-13)
+
+
+### Bug Fixes
+
+* workaround for babel-eslint[#681](https://github.com/softwaregroup-bg/ut-tools/issues/681) ([8e2ad33](https://github.com/softwaregroup-bg/ut-tools/commit/8e2ad3331578d2cee0bf5ccb66ed40886005c6eb))
+
+
+
 ## [6.33.5](https://github.com/softwaregroup-bg/ut-tools/compare/v6.33.4...v6.33.5) (2020-07-13)
 
 
