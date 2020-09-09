@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 /* eslint no-process-env:0, no-process-exit:0, no-console:0 */
 var exec = require('../lib/exec');
+var fs = require('fs');
 var gitLog = exec('git', ['log', '-1', '--oneline'], 'pipe', false);
 
 if (!process.env.UT_MODULE) {
@@ -10,6 +11,11 @@ if (!process.env.UT_MODULE) {
     }
 }
 require('../lib/setEnv');
+
+if (process.env.JOB_TYPE !== 'pipeline' && fs.existsSync('Jenkinsfile')) {
+    console.error('SKIPPING OLD JENKINS JOBS');
+    process.exit(0);
+}
 
 var command;
 var jobname = process.env.JOB_NAME || '';
