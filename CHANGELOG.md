@@ -1,3 +1,12 @@
+# [6.34.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.33.8...v6.34.0) (2020-09-09)
+
+
+### Features
+
+* skip old jobs ([92e7c47](https://github.com/softwaregroup-bg/ut-tools/commit/92e7c47d4a92541acaa256ce76b0b1b94366bbcb))
+
+
+
 ## [6.33.8](https://github.com/softwaregroup-bg/ut-tools/compare/v6.33.7...v6.33.8) (2020-08-19)
 
 
