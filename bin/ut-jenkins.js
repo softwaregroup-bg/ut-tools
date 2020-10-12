@@ -28,7 +28,7 @@ if (
     !gitLog.match(SKIP) &&
     BRANCH.test(branch)
 ) {
-    command = 'release';
+    command = process.env.CHANGE_ID ? 'cover' : 'release';
 } else if (
     /^(ut|(ut|create|impl|standard-service)(-\w{2,})+)(_cr|_post-commit)$/.test(jobname) &&
     /SCMTRIGGER/.test(process.env.BUILD_CAUSE) &&
@@ -43,7 +43,7 @@ if (
     }
     command = 'release';
 } else {
-    command = 'test';
+    command = process.env.CHANGE_ID ? 'cover' : 'test';
 }
 
 exec('npm', ['run', command]);
