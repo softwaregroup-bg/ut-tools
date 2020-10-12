@@ -1,3 +1,12 @@
+## [6.34.1](https://github.com/softwaregroup-bg/ut-tools/compare/v6.34.0...v6.34.1) (2020-10-12)
+
+
+### Bug Fixes
+
+* run tests with coverage for MR/PR ([8f54e4c](https://github.com/softwaregroup-bg/ut-tools/commit/8f54e4cc256282a046830224857f11cb7cee59ec))
+
+
+
 # [6.34.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.33.8...v6.34.0) (2020-09-09)
 
 
