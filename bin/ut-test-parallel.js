@@ -13,7 +13,7 @@ const test = require('../lib/exec')('"' + process.execPath + '"', [
     resolve.sync('tap/bin/run', {basedir: '.'}),
     '--output-file=.lint/tap.txt',
     '--reporter=classic',
-    '-j' + (process.env.TAP_JOBS || '8')].concat(testFiles, paths, process.argv.slice(2)), {shell: true}, false);
+    '-j' + (process.env.TAP_JOBS || '4')].concat(testFiles, paths, process.argv.slice(2)), {shell: true}, false);
 
 require('../lib/exec')('"' + process.execPath + '"', [
     require.resolve('tap-mocha-reporter'),
