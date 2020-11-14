@@ -1,3 +1,14 @@
+## [6.34.3](https://github.com/softwaregroup-bg/ut-tools/compare/v6.34.2...v6.34.3) (2020-11-14)
+
+
+### Bug Fixes
+
+* await async lint ([a197c4f](https://github.com/softwaregroup-bg/ut-tools/commit/a197c4fef7564d45eaaf867a0adba833998aa78a))
+* set workdir to ignored path ([60371a7](https://github.com/softwaregroup-bg/ut-tools/commit/60371a75a98f03f8b5e9d7060fd1c00cd2baa370))
+* typo ([c6b6b6c](https://github.com/softwaregroup-bg/ut-tools/commit/c6b6b6cce9773ee13c5d34df827fe3f27acbdffb))
+
+
+
 ## [6.34.2](https://github.com/softwaregroup-bg/ut-tools/compare/v6.34.1...v6.34.2) (2020-10-16)
 
 
