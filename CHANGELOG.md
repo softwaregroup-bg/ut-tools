@@ -1,3 +1,17 @@
+# [6.35.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.34.3...v6.35.0) (2020-12-07)
+
+
+### Bug Fixes
+
+* add plugin ([713ca94](https://github.com/softwaregroup-bg/ut-tools/commit/713ca94990f9bcd1f1c1dcce664c353eac350535))
+
+
+### Features
+
+* support typescript and jest ([eb1ae8b](https://github.com/softwaregroup-bg/ut-tools/commit/eb1ae8b5d11ebe3647c110bd07e12e279f9ce8a7))
+
+
+
 ## [6.34.3](https://github.com/softwaregroup-bg/ut-tools/compare/v6.34.2...v6.34.3) (2020-11-14)
 
 
