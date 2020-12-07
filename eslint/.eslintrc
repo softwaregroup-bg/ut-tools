@@ -1,6 +1,16 @@
 {
   "parser": "babel-eslint",
-  "extends": ["standard", "standard-react"],
+  "extends": ["standard", "plugin:react/recommended", "prettier/@typescript-eslint"],
+  "env": {
+    "browser": true,
+    "jest": true,
+    "node": true
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
   "plugins": [
     "require-path-exists",
     "promise"
@@ -57,6 +67,12 @@
     }],
     "react/no-unused-prop-types": 1
   },
+  "overrides": [{
+    "files": ["*.tsx", "*.ts"],
+    "rules": {
+      "react/prop-types": "off"
+    }
+  }],
   "globals": {
     "isc": true
   }
