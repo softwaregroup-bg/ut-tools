@@ -1,3 +1,12 @@
+## [6.35.1](https://github.com/softwaregroup-bg/ut-tools/compare/v6.35.0...v6.35.1) (2020-12-08)
+
+
+### Bug Fixes
+
+* enable jest in cover script ([f5f6a18](https://github.com/softwaregroup-bg/ut-tools/commit/f5f6a18257cf7cba77cd4633b62a0b19edcfbe86))
+
+
+
 # [6.35.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.34.3...v6.35.0) (2020-12-07)
 
 
