@@ -1,3 +1,12 @@
+## [6.35.2](https://github.com/softwaregroup-bg/ut-tools/compare/v6.35.1...v6.35.2) (2020-12-09)
+
+
+### Bug Fixes
+
+* set as warnings for now ([c917e4c](https://github.com/softwaregroup-bg/ut-tools/commit/c917e4c7e5ad12f1fd77758b9de7287147e8819c))
+
+
+
 ## [6.35.1](https://github.com/softwaregroup-bg/ut-tools/compare/v6.35.0...v6.35.1) (2020-12-08)
 
 
