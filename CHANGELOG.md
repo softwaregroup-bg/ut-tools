@@ -1,3 +1,12 @@
+# [6.36.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.35.2...v6.36.0) (2020-12-16)
+
+
+### Features
+
+* upgrade eslint ([57db8e5](https://github.com/softwaregroup-bg/ut-tools/commit/57db8e534d668027ce89055566b3d67e6b90cf92))
+
+
+
 ## [6.35.2](https://github.com/softwaregroup-bg/ut-tools/compare/v6.35.1...v6.35.2) (2020-12-09)
 
 
