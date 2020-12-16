@@ -6,6 +6,11 @@
     "jest": true,
     "node": true
   },
+  "ignorePatterns": [
+    "*.d.ts",
+    "tap-snapshots",
+    "dist"
+  ],
   "settings": {
     "react": {
       "version": "detect"
@@ -52,6 +57,8 @@
     "semi": ["error", "always"],
     "object-curly-spacing": "off",
     "space-before-function-paren": ["error", "never"],
+    "multiline-ternary": "off",
+    "array-callback-return": "off",
     "react/jsx-indent": ["error", 4],
     "react/jsx-indent-props": [1, 4],
     "react/jsx-key": 1,
