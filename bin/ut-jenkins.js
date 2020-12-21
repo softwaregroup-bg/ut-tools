@@ -43,7 +43,7 @@ if (
     }
     command = 'release';
 } else {
-    command = process.env.CHANGE_ID ? 'cover' : 'test';
+    command = 'cover';
 }
 
 exec('npm', ['run', command]);
