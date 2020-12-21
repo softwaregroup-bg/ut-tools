@@ -1,3 +1,12 @@
+## [6.36.1](https://github.com/softwaregroup-bg/ut-tools/compare/v6.36.0...v6.36.1) (2020-12-21)
+
+
+### Bug Fixes
+
+* always run coverage ([96cace4](https://github.com/softwaregroup-bg/ut-tools/commit/96cace44052eac9138897953cbb104d3baf30214))
+
+
+
 # [6.36.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.35.2...v6.36.0) (2020-12-16)
 
 
