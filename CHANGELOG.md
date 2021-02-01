@@ -1,3 +1,12 @@
+## [6.36.2](https://github.com/softwaregroup-bg/ut-tools/compare/v6.36.1...v6.36.2) (2021-02-01)
+
+
+### Bug Fixes
+
+* less restrictive dependency check for dev and test tools ([#108](https://github.com/softwaregroup-bg/ut-tools/issues/108)) ([7fced3d](https://github.com/softwaregroup-bg/ut-tools/commit/7fced3d5bad6874b723fd24b38d7d3422b838dfb))
+
+
+
 ## [6.36.1](https://github.com/softwaregroup-bg/ut-tools/compare/v6.36.0...v6.36.1) (2020-12-21)
 
 
