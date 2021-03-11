@@ -1,3 +1,12 @@
+# [6.37.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.36.2...v6.37.0) (2021-03-11)
+
+
+### Features
+
+* checks for ut-portal ([655ac06](https://github.com/softwaregroup-bg/ut-tools/commit/655ac063ddc58b3bf4685420e67b841ad3b87b50))
+
+
+
 ## [6.36.2](https://github.com/softwaregroup-bg/ut-tools/compare/v6.36.1...v6.36.2) (2021-02-01)
 
 
