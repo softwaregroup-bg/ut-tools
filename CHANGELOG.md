@@ -1,3 +1,12 @@
+## [6.38.1](https://github.com/softwaregroup-bg/ut-tools/compare/v6.38.0...v6.38.1) (2021-06-18)
+
+
+### Bug Fixes
+
+* remove tap 14 from deps [UTCORE-121] ([6a8e649](https://github.com/softwaregroup-bg/ut-tools/commit/6a8e649763b2b2f5e0371d83fc40d0d5e371c9fe))
+
+
+
 # [6.38.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.37.0...v6.38.0) (2021-06-18)
 
 
