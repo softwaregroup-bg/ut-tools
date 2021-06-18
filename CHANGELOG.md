@@ -1,3 +1,12 @@
+# [6.38.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.37.0...v6.38.0) (2021-06-18)
+
+
+### Features
+
+* tap 15 [UTCORE-121] ([173d959](https://github.com/softwaregroup-bg/ut-tools/commit/173d95906fd5895584bc062e78322d7d6d058e31))
+
+
+
 # [6.37.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.36.2...v6.37.0) (2021-03-11)
 
 
