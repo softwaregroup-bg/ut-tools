@@ -12,6 +12,7 @@ if (fs.existsSync('test/unit/cases')) paths.push('test/unit/cases');
 const test = require('../lib/exec')('"' + process.execPath + '"', [
     resolve.sync('tap/bin/run', {basedir: '.'}),
     '--cov',
+    '--no-check-coverage',
     '--output-file=.lint/tap.txt',
     '--reporter=classic',
     '-j' + (process.env.TAP_JOBS || '4')].concat(testFiles, paths, process.argv.slice(2)), {shell: true}, false);
