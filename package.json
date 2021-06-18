@@ -36,8 +36,6 @@
     "resolve": "1.15.0",
     "semver": "7.1.2",
     "stylelint": "13.8.0",
-    "tap": "14.11.0",
-    "tap-mocha-reporter": "5.0.1",
     "ut-tsql-lexer": "^1.0.7",
     "why-is-node-running": "2.2.0",
     "write-json-file": "4.3.0"

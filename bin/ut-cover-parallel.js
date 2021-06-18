@@ -19,6 +19,7 @@ const test = require('../lib/exec')('"' + process.execPath + '"', [
 
 require('../lib/exec')('"' + process.execPath + '"', [
     resolve.sync('tap/bin/run', {basedir: '.'}),
+    '--no-check-coverage',
     '--coverage-report=html',
     '--no-browser',
     '--coverage-report=text',
