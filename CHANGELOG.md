@@ -1,3 +1,12 @@
+## [6.38.2](https://github.com/softwaregroup-bg/ut-tools/compare/v6.38.1...v6.38.2) (2021-06-20)
+
+
+### Bug Fixes
+
+* support older tap too [UTCORE-121] ([ac9b986](https://github.com/softwaregroup-bg/ut-tools/commit/ac9b986b041716d0275a9571df288ecf4a197eaa))
+
+
+
 ## [6.38.1](https://github.com/softwaregroup-bg/ut-tools/compare/v6.38.0...v6.38.1) (2021-06-18)
 
 
