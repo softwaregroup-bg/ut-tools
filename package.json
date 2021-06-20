@@ -113,6 +113,7 @@
   "author": "SoftwareGroup",
   "license": "Apache-2.0",
   "devDependencies": {
-    "lerna": "3.22.1"
+    "lerna": "3.22.1",
+    "tap": "^15.0.9"
   }
 }
