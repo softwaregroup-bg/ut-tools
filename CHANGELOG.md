@@ -1,3 +1,12 @@
+# [6.39.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.38.2...v6.39.0) (2021-09-05)
+
+
+### Features
+
+* enable top level .test. files ([727f7c4](https://github.com/softwaregroup-bg/ut-tools/commit/727f7c45ca747c80648f36b7588236eb07fe1b1a))
+
+
+
 ## [6.38.2](https://github.com/softwaregroup-bg/ut-tools/compare/v6.38.1...v6.38.2) (2021-06-20)
 
 
