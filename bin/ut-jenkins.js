@@ -23,6 +23,8 @@ const SKIP = /\[ci-skip]/;
 const BRANCH = /^origin\/(master|(hotfix|major|minor|patch)\/[^/]+)$/;
 const branch = process.env.BRANCH_NAME || process.env.GIT_BRANCH;
 
+if (!/^origin\/(\w+\/)?(\w+-)*\w+$/.test(branch)) throw new Error('Incorrect branch name!');
+
 if (
     process.env.JOB_TYPE === 'pipeline' &&
     !gitLog.match(SKIP) &&
