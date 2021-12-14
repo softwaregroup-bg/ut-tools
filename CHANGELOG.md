@@ -1,3 +1,12 @@
+# [6.40.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.39.0...v6.40.0) (2021-12-14)
+
+
+### Features
+
+* react-hooks/exhaustive-deps, branch pattern ([cff15d0](https://github.com/softwaregroup-bg/ut-tools/commit/cff15d030fff9c864f902687cf3041d9eb5bedd3))
+
+
+
 # [6.39.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.38.2...v6.39.0) (2021-09-05)
 
 
