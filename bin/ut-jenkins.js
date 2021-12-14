@@ -1,11 +1,11 @@
 #!/usr/bin/env node
 /* eslint no-process-env:0, no-process-exit:0, no-console:0 */
-var exec = require('../lib/exec');
-var fs = require('fs');
-var gitLog = exec('git', ['log', '-1', '--oneline'], 'pipe', false);
+const exec = require('../lib/exec');
+const fs = require('fs');
+const gitLog = exec('git', ['log', '-1', '--oneline'], 'pipe', false);
 
 if (!process.env.UT_MODULE) {
-    var utModule = (process.env.GIT_URL || '').match(/^.*\/.*-(.*)\.git$/);
+    const utModule = (process.env.GIT_URL || '').match(/^.*\/.*-(.*)\.git$/);
     if (utModule) {
         process.env.UT_MODULE = utModule[1];
     }
@@ -17,11 +17,13 @@ if (process.env.JOB_TYPE !== 'pipeline' && fs.existsSync('Jenkinsfile')) {
     process.exit(0);
 }
 
-var command;
-var jobname = process.env.JOB_NAME || '';
+let command;
+const jobname = process.env.JOB_NAME || '';
 const SKIP = /\[ci-skip]/;
 const BRANCH = /^origin\/(master|(hotfix|major|minor|patch)\/[^/]+)$/;
 const branch = process.env.BRANCH_NAME || process.env.GIT_BRANCH;
+
+if (!/^origin\/(\w+\/)?(\w+-)*\w+$/.test(branch)) throw new Error('Branches names must match the following formats: xxx/yyy-zzz, xxx/yyy or xxx');
 
 if (
     process.env.JOB_TYPE === 'pipeline' &&

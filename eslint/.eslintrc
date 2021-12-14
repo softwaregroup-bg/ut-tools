@@ -1,6 +1,11 @@
 {
   "parser": "babel-eslint",
-  "extends": ["standard", "plugin:react/recommended", "prettier/@typescript-eslint"],
+  "extends": [
+    "standard",
+    "plugin:react/recommended",
+    "prettier/@typescript-eslint",
+    "plugin:react-hooks/recommended"
+  ],
   "env": {
     "browser": true,
     "jest": true,
@@ -68,6 +73,7 @@
     "react/no-unescaped-entities": 1,
     "react/jsx-closing-bracket-location": [2, "line-aligned"],
     "react/jsx-closing-tag-location": 0,
+    "react-hooks/exhaustive-deps": ["error", {"additionalHooks": "(useSubmit|useLoad)"}],
     "require-path-exists/notEmpty": 2,
     "require-path-exists/tooManyArguments": 2,
     "require-path-exists/exists": 0,
