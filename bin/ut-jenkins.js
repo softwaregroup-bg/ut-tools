@@ -49,3 +49,4 @@ if (
 }
 
 exec('npm', ['run', command]);
+if (process.env.npm_package_scripts_review && process.env.CHANGE_ID) exec('npm', ['run', 'review']);

@@ -46,5 +46,3 @@ exec('"' + process.execPath + '"', [
 ], {shell: true}, false);
 
 if (test === false) process.exit(1);
-
-if (process.env.npm_package_scripts_review && process.env.CHANGE_ID) exec('npm', ['run', 'review']);
