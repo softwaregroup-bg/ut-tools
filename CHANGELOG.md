@@ -1,3 +1,12 @@
+## [6.40.1](https://github.com/softwaregroup-bg/ut-tools/compare/v6.40.0...v6.40.1) (2022-02-03)
+
+
+### Bug Fixes
+
+* move review ([6692fc2](https://github.com/softwaregroup-bg/ut-tools/commit/6692fc22574cc507b6b710a97086ae0b412e60e7))
+
+
+
 # [6.40.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.39.0...v6.40.0) (2021-12-14)
 
 
