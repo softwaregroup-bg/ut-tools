@@ -1,3 +1,12 @@
+## [6.40.3](https://github.com/softwaregroup-bg/ut-tools/compare/v6.40.2...v6.40.3) (2022-03-10)
+
+
+### Bug Fixes
+
+* update sql linter ([97e6057](https://github.com/softwaregroup-bg/ut-tools/commit/97e60578f51a4308445bbf982df0d600f15d24d8))
+
+
+
 ## [6.40.2](https://github.com/softwaregroup-bg/ut-tools/compare/v6.40.1...v6.40.2) (2022-02-23)
 
 
