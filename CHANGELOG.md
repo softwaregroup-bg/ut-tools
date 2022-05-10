@@ -1,3 +1,7 @@
+## [6.40.8](https://github.com/softwaregroup-bg/ut-tools/compare/v6.40.7...v6.40.8) (2022-05-10)
+
+
+
 ## [6.40.7](https://github.com/softwaregroup-bg/ut-tools/compare/v6.40.6...v6.40.7) (2022-04-05)
 
 
