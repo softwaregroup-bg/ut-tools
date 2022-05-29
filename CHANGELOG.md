@@ -1,3 +1,12 @@
+## [6.40.10](https://github.com/softwaregroup-bg/ut-tools/compare/v6.40.9...v6.40.10) (2022-05-29)
+
+
+### Bug Fixes
+
+* ignore help folder during lint ([2b2f514](https://github.com/softwaregroup-bg/ut-tools/commit/2b2f514c71f79e58db9ed8af5dd54e56b3dcec3b))
+
+
+
 ## [6.40.9](https://github.com/softwaregroup-bg/ut-tools/compare/v6.40.8...v6.40.9) (2022-05-13)
 
 
