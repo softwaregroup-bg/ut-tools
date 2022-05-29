@@ -14,6 +14,7 @@
   "ignorePatterns": [
     "*.d.ts",
     "tap-snapshots",
+    "help",
     "dist"
   ],
   "settings": {
