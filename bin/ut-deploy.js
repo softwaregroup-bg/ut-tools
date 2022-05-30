@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-const util = require('node:util');
+const util = require('util');
 const request = util.promisify(require('request'));
 const minimist = require('minimist');
 const {resolve} = require('path');
