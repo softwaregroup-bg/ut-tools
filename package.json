@@ -1,6 +1,6 @@
 {
   "name": "ut-tools",
-  "version": "6.40.10",
+  "version": "6.41.0",
   "description": "Build and Release management automation package.",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "4.10.0",

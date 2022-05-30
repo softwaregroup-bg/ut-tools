@@ -1,3 +1,12 @@
+# [6.41.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.40.10...v6.41.0) (2022-05-30)
+
+
+### Features
+
+* ut-deploy ([090bb9b](https://github.com/softwaregroup-bg/ut-tools/commit/090bb9ba47ed22d10d677efe52c8c5b51703dc0c))
+
+
+
 ## [6.40.10](https://github.com/softwaregroup-bg/ut-tools/compare/v6.40.9...v6.40.10) (2022-05-29)
 
 
