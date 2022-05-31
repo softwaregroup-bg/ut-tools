@@ -19,7 +19,9 @@ function check(result) {
 (async() => {
     try {
         const argv = minimist(process.argv.slice(2));
-        let base = argv._[0]; // https://dev.azure.com/${organization}/${project}/_apis/git/repositories/${repostoryId}
+        const {version, name} = require(resolve('package.json'));
+        const [, impl] = name.match(/^impl-(.*)$/);
+        let base = argv._[0] || `// https://dev.azure.com/sg-main/env-${impl}/_apis/git/repositories/env-${impl}`;
         base = base.endsWith('/') ? base : `${base}/`;
         const auth = {
             user: '',
@@ -37,7 +39,6 @@ function check(result) {
             const meta = check(await request(url, {json: true, auth}));
             const content = check(await request(url, {auth}));
             if (versionRegex.test(content) && tagRegex.test(content)) {
-                const {version} = require(resolve('package.json'));
                 const tag = content.match(tagRegex)[1];
                 if (tag === process.env.DEPLOY_TAG) {
                     const updated = content.replace(versionRegex, `$1 ${version}`);
