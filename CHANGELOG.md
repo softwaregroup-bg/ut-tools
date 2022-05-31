@@ -1,3 +1,12 @@
+## [6.41.1](https://github.com/softwaregroup-bg/ut-tools/compare/v6.41.0...v6.41.1) (2022-05-31)
+
+
+### Bug Fixes
+
+* default Azure DevOps url ([45c345f](https://github.com/softwaregroup-bg/ut-tools/commit/45c345ff981fa578631e19f852210cc80e7ba0c0))
+
+
+
 # [6.41.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.40.10...v6.41.0) (2022-05-30)
 
 
