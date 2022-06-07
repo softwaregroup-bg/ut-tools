@@ -3,6 +3,7 @@
   "version": "6.40.1",
   "description": "Build and Release management automation package.",
   "dependencies": {
+    "@stoplight/spectral-cli": "^6.4.1",
     "@typescript-eslint/eslint-plugin": "4.10.0",
     "@typescript-eslint/parser": "4.10.0",
     "ansi-to-html": "0.6.14",
@@ -107,8 +108,8 @@
     "Continuous"
   ],
   "engines": {
-    "node": "^8.11.3 || ^10.16.3 || ^12.14.1 || ^14.15.3",
-    "npm": "^6.14.9",
+    "node": ">=8 <=16",
+    "npm": ">=6",
     "yarn": "^1.22.5"
   },
   "author": "SoftwareGroup",
