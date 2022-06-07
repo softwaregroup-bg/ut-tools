@@ -1,3 +1,67 @@
+## [6.41.1](https://github.com/softwaregroup-bg/ut-tools/compare/v6.41.0...v6.41.1) (2022-05-31)
+
+
+### Bug Fixes
+
+* default Azure DevOps url ([45c345f](https://github.com/softwaregroup-bg/ut-tools/commit/45c345ff981fa578631e19f852210cc80e7ba0c0))
+
+
+
+# [6.41.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.40.10...v6.41.0) (2022-05-30)
+
+
+### Features
+
+* ut-deploy ([090bb9b](https://github.com/softwaregroup-bg/ut-tools/commit/090bb9ba47ed22d10d677efe52c8c5b51703dc0c))
+
+
+
+## [6.40.10](https://github.com/softwaregroup-bg/ut-tools/compare/v6.40.9...v6.40.10) (2022-05-29)
+
+
+### Bug Fixes
+
+* ignore help folder during lint ([2b2f514](https://github.com/softwaregroup-bg/ut-tools/commit/2b2f514c71f79e58db9ed8af5dd54e56b3dcec3b))
+
+
+
+## [6.40.9](https://github.com/softwaregroup-bg/ut-tools/compare/v6.40.8...v6.40.9) (2022-05-13)
+
+
+
+## [6.40.8](https://github.com/softwaregroup-bg/ut-tools/compare/v6.40.7...v6.40.8) (2022-05-10)
+
+
+
+## [6.40.7](https://github.com/softwaregroup-bg/ut-tools/compare/v6.40.6...v6.40.7) (2022-04-05)
+
+
+
+## [6.40.6](https://github.com/softwaregroup-bg/ut-tools/compare/v6.40.5...v6.40.6) (2022-03-21)
+
+
+
+## [6.40.5](https://github.com/softwaregroup-bg/ut-tools/compare/v6.40.4...v6.40.5) (2022-03-12)
+
+
+
+## [6.40.4](https://github.com/softwaregroup-bg/ut-tools/compare/v6.40.3...v6.40.4) (2022-03-10)
+
+
+
+## [6.40.3](https://github.com/softwaregroup-bg/ut-tools/compare/v6.40.2...v6.40.3) (2022-03-10)
+
+
+### Bug Fixes
+
+* update sql linter ([97e6057](https://github.com/softwaregroup-bg/ut-tools/commit/97e60578f51a4308445bbf982df0d600f15d24d8))
+
+
+
+## [6.40.2](https://github.com/softwaregroup-bg/ut-tools/compare/v6.40.1...v6.40.2) (2022-02-23)
+
+
+
 ## [6.40.1](https://github.com/softwaregroup-bg/ut-tools/compare/v6.40.0...v6.40.1) (2022-02-03)
 
 
