@@ -1,6 +1,7 @@
 
 module.exports = {
     root: true,
+    parser: 'babel-eslint',
     extends: [
         require.resolve('eslint-config-standard'),
         require.resolve('./react'),
