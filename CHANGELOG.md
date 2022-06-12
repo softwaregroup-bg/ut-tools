@@ -1,3 +1,12 @@
+## [7.1.2](https://github.com/softwaregroup-bg/ut-tools/compare/v7.1.1...v7.1.2) (2022-06-12)
+
+
+### Bug Fixes
+
+* update exclusions ([9897925](https://github.com/softwaregroup-bg/ut-tools/commit/9897925f459fd07efed0cc684583a7d7a75da770))
+
+
+
 ## [7.1.1](https://github.com/softwaregroup-bg/ut-tools/compare/v7.1.0...v7.1.1) (2022-06-12)
 
 
