@@ -1,3 +1,7 @@
+## [7.1.1](https://github.com/softwaregroup-bg/ut-tools/compare/v7.1.0...v7.1.1) (2022-06-12)
+
+
+
 # [7.1.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.41.2...v7.1.0) (2022-06-12)
 
 
