@@ -21,7 +21,7 @@ function check(result) {
         const argv = minimist(process.argv.slice(2));
         const {version, name} = require(resolve('package.json'));
         const [, impl] = name.match(/^impl-(.*)$/);
-        let base = argv._[0] || `// https://dev.azure.com/sg-main/env-${impl}/_apis/git/repositories/env-${impl}`;
+        let base = argv._[0] || `https://dev.azure.com/sg-main/env-${impl}/_apis/git/repositories/env-${impl}`;
         base = base.endsWith('/') ? base : `${base}/`;
         const auth = {
             user: '',

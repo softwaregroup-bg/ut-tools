@@ -1,12 +1,12 @@
 /* eslint no-process-env:0 */
 
 function getOwner() {
-    var owner = process.env.npm_package_repository_url;
+    const owner = process.env.npm_package_repository_url;
     return (owner && owner.split(/[:/]/)[1]) || 'softwaregroup-bg';
 }
 
 function getHost() {
-    var host = process.env.npm_package_repository_url;
+    const host = process.env.npm_package_repository_url;
     return 'https://' + ((host && host.split(/[:/@]/)[1]) || 'github.com');
 }
 

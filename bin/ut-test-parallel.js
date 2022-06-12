@@ -5,7 +5,7 @@ const {testFiles} = require('../lib/defaults');
 const resolve = require('resolve');
 const redirect = require('os').platform() === 'win32' ? '2>nul' : '2>/dev/null';
 
-var paths = [];
+const paths = [];
 if (fs.existsSync('test/integration')) paths.push('test/integration');
 if (fs.existsSync('test/unit/cases')) paths.push('test/unit/cases');
 

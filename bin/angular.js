@@ -1,4 +1,4 @@
-var gitSemverTags = require('git-semver-tags');
+const gitSemverTags = require('git-semver-tags');
 
 module.exports = Promise.resolve()
     .then(() => require('conventional-changelog-angular'))
