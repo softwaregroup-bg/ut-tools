@@ -1,3 +1,12 @@
+## [7.1.4](https://github.com/softwaregroup-bg/ut-tools/compare/v7.1.3...v7.1.4) (2022-06-12)
+
+
+### Bug Fixes
+
+* pkg lint ([f21243f](https://github.com/softwaregroup-bg/ut-tools/commit/f21243f3f9f4f1c8b10ccd5dd13beb3c5317f4d4))
+
+
+
 ## [7.1.3](https://github.com/softwaregroup-bg/ut-tools/compare/v7.1.2...v7.1.3) (2022-06-12)
 
 
