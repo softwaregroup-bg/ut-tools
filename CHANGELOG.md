@@ -1,3 +1,12 @@
+# [7.1.0](https://github.com/softwaregroup-bg/ut-tools/compare/v6.41.2...v7.1.0) (2022-06-12)
+
+
+### Features
+
+* global install with bundled deps ([e657787](https://github.com/softwaregroup-bg/ut-tools/commit/e6577871a962a69c0f94f85a10457be11ad0e209))
+
+
+
 ## [6.41.2](https://github.com/softwaregroup-bg/ut-tools/compare/v6.41.1...v6.41.2) (2022-06-12)
 
 
