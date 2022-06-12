@@ -1,3 +1,12 @@
+## [6.41.3](https://github.com/softwaregroup-bg/ut-tools/compare/v6.41.2...v6.41.3) (2022-06-12)
+
+
+### Bug Fixes
+
+* restore parser ([a73445a](https://github.com/softwaregroup-bg/ut-tools/commit/a73445a2f9ed0e99f2330cededfc697bbf958b80))
+
+
+
 ## [6.41.2](https://github.com/softwaregroup-bg/ut-tools/compare/v6.41.1...v6.41.2) (2022-06-12)
 
 
