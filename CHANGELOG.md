@@ -1,3 +1,13 @@
+## [6.41.2](https://github.com/softwaregroup-bg/ut-tools/compare/v6.41.1...v6.41.2) (2022-06-12)
+
+
+### Bug Fixes
+
+* typo ([e1ab748](https://github.com/softwaregroup-bg/ut-tools/commit/e1ab7488d5433fa9ce589243ed4561d3f72d8a39))
+* update exclusions, lint ([f99966c](https://github.com/softwaregroup-bg/ut-tools/commit/f99966ca2e256b0645cece52798ae9bc57f4bdbd))
+
+
+
 ## [6.41.1](https://github.com/softwaregroup-bg/ut-tools/compare/v6.41.0...v6.41.1) (2022-05-31)
 
 
