@@ -1,3 +1,12 @@
+## [7.1.5](https://github.com/softwaregroup-bg/ut-tools/compare/v7.1.4...v7.1.5) (2022-06-13)
+
+
+### Bug Fixes
+
+* global usage ([84bd6ae](https://github.com/softwaregroup-bg/ut-tools/commit/84bd6ae497322e7d56896a5b98d6a8ce12f461a7))
+
+
+
 ## [7.1.4](https://github.com/softwaregroup-bg/ut-tools/compare/v7.1.3...v7.1.4) (2022-06-12)
 
 
