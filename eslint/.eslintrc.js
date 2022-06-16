@@ -1,4 +1,3 @@
-
 module.exports = {
     root: true,
     extends: [
@@ -86,8 +85,11 @@ module.exports = {
     },
     overrides: [{
         files: ['*.tsx', '*.ts'],
+        extends: [require.resolve('./typescript')],
         rules: {
-            'react/prop-types': 'off'
+            'react/prop-types': 'off',
+            '@typescript-eslint/no-empty-function': 'off',
+            '@typescript-eslint/no-unused-vars': ['error', {ignoreRestSiblings: true, args: 'none'}]
         }
     }]
 };
