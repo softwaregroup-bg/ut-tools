@@ -1,3 +1,12 @@
+## [7.1.6](https://github.com/softwaregroup-bg/ut-tools/compare/v7.1.5...v7.1.6) (2022-06-16)
+
+
+### Bug Fixes
+
+* TypeScript lint ([62104b4](https://github.com/softwaregroup-bg/ut-tools/commit/62104b4290f3fc8cb4cbbc3a52a03c4f2ebf3f95))
+
+
+
 ## [7.1.5](https://github.com/softwaregroup-bg/ut-tools/compare/v7.1.4...v7.1.5) (2022-06-13)
 
 

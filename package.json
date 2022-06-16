@@ -1,6 +1,6 @@
 {
   "name": "ut-tools",
-  "version": "7.1.5",
+  "version": "7.1.6",
   "description": "Build and Release management automation package.",
   "dependencies": {
     "@stoplight/spectral-cli": "6.4.1",
