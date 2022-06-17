@@ -1,3 +1,12 @@
+## [7.1.7](https://github.com/softwaregroup-bg/ut-tools/compare/v7.1.6...v7.1.7) (2022-06-17)
+
+
+### Bug Fixes
+
+* add typescript ([286a57f](https://github.com/softwaregroup-bg/ut-tools/commit/286a57f1af5d7cd05956d3e258955d6d434648bf))
+
+
+
 ## [7.1.6](https://github.com/softwaregroup-bg/ut-tools/compare/v7.1.5...v7.1.6) (2022-06-16)
 
 
