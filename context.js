@@ -1,12 +1,12 @@
 /* eslint no-process-env:0 */
 
 function getOwner() {
-    const owner = process.env.npm_package_repository_url;
+    const owner = require(process.env.npm_package_json)?.repository?.url;
     return (owner && owner.split(/[:/]/)[1]) || 'softwaregroup-bg';
 }
 
 function getHost() {
-    const host = process.env.npm_package_repository_url;
+    const host = require(process.env.npm_package_json)?.repository?.url;
     return 'https://' + ((host && host.split(/[:/@]/)[1]) || 'github.com');
 }
 
