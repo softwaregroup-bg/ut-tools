@@ -1,3 +1,12 @@
+## [7.1.8](https://github.com/softwaregroup-bg/ut-tools/compare/v7.1.7...v7.1.8) (2022-07-15)
+
+
+### Bug Fixes
+
+* read package.json ([89ec4bf](https://github.com/softwaregroup-bg/ut-tools/commit/89ec4bfc17447ce85ba828c6e3b52c84fa7ed979))
+
+
+
 ## [7.1.7](https://github.com/softwaregroup-bg/ut-tools/compare/v7.1.6...v7.1.7) (2022-06-17)
 
 
