@@ -1,3 +1,12 @@
+## [7.1.9](https://github.com/softwaregroup-bg/ut-tools/compare/v7.1.8...v7.1.9) (2022-07-21)
+
+
+### Bug Fixes
+
+* break on lint error ([abe8169](https://github.com/softwaregroup-bg/ut-tools/commit/abe816982f58f6b9aa9334cc934267559af93d6e))
+
+
+
 ## [7.1.8](https://github.com/softwaregroup-bg/ut-tools/compare/v7.1.7...v7.1.8) (2022-07-15)
 
 
