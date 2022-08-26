@@ -10,9 +10,10 @@ versionBump()
     .then(({tag}) => {
         exec('git', ['push']);
         exec('git', ['push', 'origin', '--tags']);
-        if (require(process.env.npm_package_json)?.scripts?.doc) {
+        const pkgJson = require(process.env.npm_package_json);
+        if (pkgJson?.scripts?.doc) {
             exec('npm', ['run', 'doc',
-                '--fromVersion', process.env.npm_package_json.version,
+                '--fromVersion', pkgJson.version,
                 '--toolsUrl', process.env.TOOLS_URL,
                 '--toolsUsername', process.env.TOOLS_USERNAME,
                 '--toolsPassword', process.env.TOOLS_PASSWORD,
@@ -20,7 +21,7 @@ versionBump()
                 '--buildNumber', process.env.BUILD_NUMBER
             ]);
         }
-        if (require(process.env.npm_package_json)?.scripts?.compile) exec('npm', ['run', 'compile']);
+        if (pkgJson?.scripts?.compile) exec('npm', ['run', 'compile']);
         return exec('npm', (tag ? ['publish', '--tag', tag] : ['publish']).concat(process.argv.slice(2)));
     })
     .then(() => fs.copyFileSync && fs.copyFileSync('package.json', '.lint/result.json'))
