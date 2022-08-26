@@ -2,6 +2,7 @@
 /* eslint no-console:0, no-process-exit:0, no-process-env:0 */
 const exec = require('../lib/exec');
 const versionBump = require('../lib/versionBump');
+const pkgJson = process.env.npm_package_json && require(process.env.npm_package_json);
 const fs = require('fs');
 
 require('../lib/audit')();
@@ -10,7 +11,6 @@ versionBump()
     .then(({tag}) => {
         exec('git', ['push']);
         exec('git', ['push', 'origin', '--tags']);
-        const pkgJson = require(process.env.npm_package_json);
         if (pkgJson?.scripts?.doc) {
             exec('npm', ['run', 'doc',
                 '--fromVersion', pkgJson.version,
