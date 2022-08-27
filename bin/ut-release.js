@@ -15,8 +15,8 @@ versionBump()
             exec('npm', ['run', 'doc',
                 '--fromVersion', pkgJson.version,
                 '--toolsUrl', process.env.TOOLS_URL,
-                '--toolsUsername', process.env.TOOLS_USERNAME,
-                '--toolsPassword', process.env.TOOLS_PASSWORD,
+                '--toolsUsername', process.env.IMPL_TOOLS_USR,
+                '--toolsPassword', process.env.IMPL_TOOLS_PSW,
                 '--branchName', process.env.BRANCH_NAME,
                 '--buildNumber', process.env.BUILD_NUMBER
             ]);
