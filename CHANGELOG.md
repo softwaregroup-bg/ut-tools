@@ -1,3 +1,12 @@
+## [7.1.10](https://github.com/softwaregroup-bg/ut-tools/compare/v7.1.9...v7.1.10) (2022-08-27)
+
+
+### Bug Fixes
+
+* pass arguments to npm run doc ([#114](https://github.com/softwaregroup-bg/ut-tools/issues/114)) ([0060d61](https://github.com/softwaregroup-bg/ut-tools/commit/0060d6171e6c9047a23ef72cfc8ca8c228e03f3c))
+
+
+
 ## [7.1.9](https://github.com/softwaregroup-bg/ut-tools/compare/v7.1.8...v7.1.9) (2022-07-21)
 
 
