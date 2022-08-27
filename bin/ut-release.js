@@ -9,18 +9,18 @@ require('../lib/audit')();
 
 versionBump()
     .then(({tag}) => {
-        exec('git', ['push']);
-        exec('git', ['push', 'origin', '--tags']);
         if (pkgJson?.scripts?.doc) {
             exec('npm', ['run', 'doc',
                 '--fromVersion', pkgJson.version,
-                '--toolsUrl', process.env.TOOLS_URL,
+                '--toolsUrl', process.env.IMPL_TOOLS_URL,
                 '--toolsUsername', process.env.IMPL_TOOLS_USR,
                 '--toolsPassword', process.env.IMPL_TOOLS_PSW,
                 '--branchName', process.env.BRANCH_NAME,
                 '--buildNumber', process.env.BUILD_NUMBER
             ]);
         }
+        exec('git', ['push']);
+        exec('git', ['push', 'origin', '--tags']);
         if (pkgJson?.scripts?.compile) exec('npm', ['run', 'compile']);
         return exec('npm', (tag ? ['publish', '--tag', tag] : ['publish']).concat(process.argv.slice(2)));
     })
