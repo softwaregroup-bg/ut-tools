@@ -11,6 +11,7 @@ versionBump()
     .then(({tag}) => {
         if (pkgJson?.scripts?.doc) {
             exec('npm', ['run', 'doc',
+                '--',
                 '--fromVersion', pkgJson.version,
                 '--toolsUrl', process.env.IMPL_TOOLS_URL,
                 '--toolsUsername', process.env.IMPL_TOOLS_USR,
