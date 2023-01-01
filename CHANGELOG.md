@@ -1,3 +1,12 @@
+# [7.2.0](https://github.com/softwaregroup-bg/ut-tools/compare/v7.1.12...v7.2.0) (2023-01-01)
+
+
+### Features
+
+* SQL coverage ([f156ceb](https://github.com/softwaregroup-bg/ut-tools/commit/f156ceb9d140f7ec0fd55f0309145325e4c90b96))
+
+
+
 ## [7.1.12](https://github.com/softwaregroup-bg/ut-tools/compare/v7.1.11...v7.1.12) (2022-08-28)
 
 
