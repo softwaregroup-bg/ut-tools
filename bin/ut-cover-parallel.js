@@ -10,6 +10,8 @@ if (fs.existsSync('test/integration')) paths.push('test/integration');
 if (fs.existsSync('test/unit/cases')) paths.push('test/unit/cases');
 
 const test = exec('tap', [
+    '--nyc-arg=--extension=.sql',
+    '--nyc-arg=--exclude=\'!**/*.sql\'',
     '--cov',
     '--no-check-coverage',
     '--output-file=.lint/tap.txt',
@@ -18,6 +20,8 @@ const test = exec('tap', [
 ].filter(Boolean).concat(testFiles, paths, process.argv.slice(2)), {shell: true}, false);
 
 exec('tap', [
+    '--nyc-arg=--extension=.sql',
+    '--nyc-arg=--exclude=\'!**/*.sql\'',
     '--no-check-coverage',
     '--coverage-report=html',
     '--no-browser',
