@@ -1,3 +1,12 @@
+# [7.3.0](https://github.com/softwaregroup-bg/ut-tools/compare/v7.2.0...v7.3.0) (2023-02-01)
+
+
+### Features
+
+* API lint ([c8bdeb0](https://github.com/softwaregroup-bg/ut-tools/commit/c8bdeb0f6200701282273f2cbd55e3835f03348b))
+
+
+
 # [7.2.0](https://github.com/softwaregroup-bg/ut-tools/compare/v7.1.12...v7.2.0) (2023-01-01)
 
 
