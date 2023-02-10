@@ -1,3 +1,12 @@
+## [7.3.2](https://github.com/softwaregroup-bg/ut-tools/compare/v7.3.1...v7.3.2) (2023-02-10)
+
+
+### Bug Fixes
+
+* api lint output files ([c6bd694](https://github.com/softwaregroup-bg/ut-tools/commit/c6bd6944d25da94a98348ba4dcd45441ddc2bb87))
+
+
+
 ## [7.3.1](https://github.com/softwaregroup-bg/ut-tools/compare/v7.3.0...v7.3.1) (2023-02-07)
 
 
