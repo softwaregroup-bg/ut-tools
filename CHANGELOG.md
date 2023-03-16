@@ -1,3 +1,12 @@
+# [7.4.0](https://github.com/softwaregroup-bg/ut-tools/compare/v7.3.2...v7.4.0) (2023-03-16)
+
+
+### Features
+
+* improved deploy pipeline ([2ab98fd](https://github.com/softwaregroup-bg/ut-tools/commit/2ab98fd6856f32463ea92b418ed3d7ed02354ea4))
+
+
+
 ## [7.3.2](https://github.com/softwaregroup-bg/ut-tools/compare/v7.3.1...v7.3.2) (2023-02-10)
 
 
