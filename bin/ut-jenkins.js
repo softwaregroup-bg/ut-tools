@@ -48,5 +48,9 @@ if (
     command = 'cover';
 }
 
-exec('npm', ['run', command]);
-if (require(process.env.npm_package_json)?.scripts?.review && process.env.CHANGE_ID) exec('npm', ['run', 'review']);
+try {
+    exec('npm', ['run', command]);
+    if (require(process.env.npm_package_json)?.scripts?.review && process.env.CHANGE_ID) exec('npm', ['run', 'review']);
+} finally {
+    exec('ut-run', ['metrics'], {shell: true}, false);
+}
