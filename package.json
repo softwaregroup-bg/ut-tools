@@ -117,6 +117,6 @@
   "license": "Apache-2.0",
   "devDependencies": {
     "lerna": "5.0.0",
-    "tap": "^16.2.0"
+    "tap": "^16.3.6"
   }
 }
