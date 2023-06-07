@@ -47,6 +47,7 @@ if (
 } else {
     command = 'cover';
 }
+
 try {
     const result = exec('npm', ['run', command], undefined, false);
     if (result !== false && require(process.env.npm_package_json)?.scripts?.review && process.env.CHANGE_ID) exec('npm', ['run', 'review'], undefined, false);
