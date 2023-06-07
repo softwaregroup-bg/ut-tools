@@ -1,3 +1,12 @@
+# [7.8.0](https://github.com/softwaregroup-bg/ut-tools/compare/v7.7.0...v7.8.0) (2023-06-07)
+
+
+### Features
+
+* metrics ([27b7185](https://github.com/softwaregroup-bg/ut-tools/commit/27b718523be9a56bb476e0e23f74baf002fca3de))
+
+
+
 # [7.7.0](https://github.com/softwaregroup-bg/ut-tools/compare/v7.6.0...v7.7.0) (2023-06-07)
 
 
