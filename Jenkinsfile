@@ -1,4 +1,4 @@
-library identifier: 'jenkinsfile@gallium', retriever: modernSCM([
+library identifier: 'jenkinsfile@author', retriever: modernSCM([
     $class: 'GitSCMSource',
     remote: 'https://github.com/softwaregroup-bg/jenkinsfile.git'
 ])

@@ -47,10 +47,9 @@ if (
 } else {
     command = 'cover';
 }
-
 try {
-    exec('npm', ['run', command]);
-    if (require(process.env.npm_package_json)?.scripts?.review && process.env.CHANGE_ID) exec('npm', ['run', 'review']);
+    const result = exec('npm', ['run', command], undefined, false);
+    if (result !== false && require(process.env.npm_package_json)?.scripts?.review && process.env.CHANGE_ID) exec('npm', ['run', 'review'], undefined, false);
 } finally {
     exec('ut-run', ['metrics'], {shell: true}, false);
 }
