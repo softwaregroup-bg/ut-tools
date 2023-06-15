@@ -1,3 +1,12 @@
+## [7.11.1](https://github.com/softwaregroup-bg/ut-tools/compare/v7.11.0...v7.11.1) (2023-06-15)
+
+
+### Bug Fixes
+
+* md lint ignores ([738ac28](https://github.com/softwaregroup-bg/ut-tools/commit/738ac2875173376fe87357faa20c50f3c1d835a8))
+
+
+
 # [7.11.0](https://github.com/softwaregroup-bg/ut-tools/compare/v7.10.0...v7.11.0) (2023-06-07)
 
 
