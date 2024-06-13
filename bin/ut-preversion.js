@@ -1,3 +1,6 @@
 #!/usr/bin/env node
-
-require('../lib/exec')('npm', ['run', 'cover']);
+const exec = require('../lib/exec');
+exec('npm', ['run', 'cover']);
+if (process.env.npm_package_json && require(process.env.npm_package_json).scripts?.license) {
+    exec('npm', ['run', 'license']);
+}

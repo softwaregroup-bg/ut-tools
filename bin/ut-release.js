@@ -3,12 +3,13 @@
 const exec = require('../lib/exec');
 const versionBump = require('../lib/versionBump');
 const pkgJson = process.env.npm_package_json && require(process.env.npm_package_json);
-const fs = require('fs');
+const {unlink, rename, copyFle} = require('node:fs/promises');
+const {glob} = require('glob');
 
 require('../lib/audit')();
 
 versionBump()
-    .then(({tag}) => {
+    .then(async({tag}) => {
         if (pkgJson?.scripts?.doc) {
             exec('npm', ['run', 'doc',
                 '--',
@@ -23,9 +24,16 @@ versionBump()
         exec('git', ['push']);
         exec('git', ['push', 'origin', '--tags']);
         if (pkgJson?.scripts?.compile) exec('npm', ['run', 'compile']);
+        if (pkgJson?.scripts?.license) {
+            const cjs = await glob('**/*.js.cjs', { ignore: 'node_modules/**' });
+            await Promise.all(cjs.map(async f => {
+                await unlink(f.replace('.cjs', ''));
+                await rename(f, f.replace('.cjs', ''));
+            }));
+        }
         return exec('npm', (tag ? ['publish', '--tag', tag] : ['publish']).concat(process.argv.slice(2)));
     })
-    .then(() => fs.copyFileSync && fs.copyFileSync('package.json', '.lint/result.json'))
+    .then(() => copyFle('package.json', '.lint/result.json'))
     .catch(function(e) {
         console.error(e);
         process.exit(1);
