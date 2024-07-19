@@ -81,6 +81,7 @@
     "ut-deploy": "./bin/ut-deploy.js",
     "ut-gitlab": "./bin/ut-gitlab.js",
     "ut-jenkins": "./bin/ut-jenkins.js",
+    "ut-license": "./bin/ut-license.js",
     "ut-lint": "./bin/ut-lint.js",
     "ut-lint-js": "./bin/ut-lint-js.js",
     "ut-lint-sql": "./bin/ut-lint-sql.js",
