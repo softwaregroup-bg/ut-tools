@@ -1,3 +1,12 @@
+## [7.12.3](https://github.com/softwaregroup-bg/ut-tools/compare/v7.12.2...v7.12.3) (2024-07-19)
+
+
+### Bug Fixes
+
+* IMPL_TOOLS_LICENSE_URL ([2f14f65](https://github.com/softwaregroup-bg/ut-tools/commit/2f14f6584e87ad6621bd02a385bffc64733c8641))
+
+
+
 ## [7.12.2](https://github.com/softwaregroup-bg/ut-tools/compare/v7.12.1...v7.12.2) (2024-07-19)
 
 
