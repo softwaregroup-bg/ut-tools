@@ -1,3 +1,12 @@
+# [7.12.0](https://github.com/softwaregroup-bg/ut-tools/compare/v7.11.1...v7.12.0) (2024-07-19)
+
+
+### Features
+
+* ut-license command ([793013d](https://github.com/softwaregroup-bg/ut-tools/commit/793013dd68974ddb001ffea43a51f119449ce00e))
+
+
+
 ## [7.11.1](https://github.com/softwaregroup-bg/ut-tools/compare/v7.11.0...v7.11.1) (2023-06-15)
 
 
