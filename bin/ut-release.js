@@ -4,7 +4,7 @@ const exec = require('../lib/exec');
 const versionBump = require('../lib/versionBump');
 const pkgJson = process.env.npm_package_json && require(process.env.npm_package_json);
 const {unlink, rename, copyFle} = require('node:fs/promises');
-const {glob} = require('glob');
+const glob = require('glob');
 
 require('../lib/audit')();
 
@@ -25,7 +25,7 @@ versionBump()
         exec('git', ['push', 'origin', '--tags']);
         if (pkgJson?.scripts?.compile) exec('npm', ['run', 'compile']);
         if (pkgJson?.scripts?.license) {
-            const cjs = await glob('**/*.js.cjs', { ignore: 'node_modules/**' });
+            const cjs = glob.sync('**/*.js.cjs', { ignore: 'node_modules/**' });
             await Promise.all(cjs.map(async f => {
                 await unlink(f.replace('.cjs', ''));
                 await rename(f, f.replace('.cjs', ''));
