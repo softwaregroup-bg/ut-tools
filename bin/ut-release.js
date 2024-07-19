@@ -3,7 +3,7 @@
 const exec = require('../lib/exec');
 const versionBump = require('../lib/versionBump');
 const pkgJson = process.env.npm_package_json && require(process.env.npm_package_json);
-const {unlink, rename, copyFle} = require('node:fs/promises');
+const {unlink, rename, copyFile} = require('node:fs/promises');
 const glob = require('glob');
 
 require('../lib/audit')();
@@ -33,7 +33,7 @@ versionBump()
         }
         return exec('npm', (tag ? ['publish', '--tag', tag] : ['publish']).concat(process.argv.slice(2)));
     })
-    .then(() => copyFle('package.json', '.lint/result.json'))
+    .then(() => copyFile('package.json', '.lint/result.json'))
     .catch(function(e) {
         console.error(e);
         process.exit(1);
