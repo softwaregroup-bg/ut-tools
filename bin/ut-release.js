@@ -6,10 +6,20 @@ const pkgJson = process.env.npm_package_json && require(process.env.npm_package_
 const {unlink, rename, copyFile} = require('node:fs/promises');
 const glob = require('glob');
 
-require('../lib/audit')();
-
-versionBump()
-    .then(async({tag}) => {
+async function release() {
+    try {
+        const versionParams = {};
+        if (pkgJson?.scripts?.license) {
+            const license = JSON.parse(exec('npm', ['run', 'license']));
+            versionParams.env = {
+                AEGIS_KEY: license.encryptionKey,
+                AEGIS_IV: license.encryptionIV,
+                AEGIS_CIPHER: license.encryptionCipher,
+                AEGIS_BUILD: 1,
+                AEGIS_OVERWRITE: 1
+            }
+        }
+        const {tag} = await versionBump(versionParams);
         if (pkgJson?.scripts?.doc) {
             exec('npm', ['run', 'doc',
                 '--',
@@ -24,17 +34,13 @@ versionBump()
         exec('git', ['push']);
         exec('git', ['push', 'origin', '--tags']);
         if (pkgJson?.scripts?.compile) exec('npm', ['run', 'compile']);
-        if (pkgJson?.scripts?.license) {
-            const cjs = glob.sync('**/*.js.cjs', { ignore: 'node_modules/**' });
-            await Promise.all(cjs.map(async f => {
-                await unlink(f.replace('.cjs', ''));
-                await rename(f, f.replace('.cjs', ''));
-            }));
-        }
-        return exec('npm', (tag ? ['publish', '--tag', tag] : ['publish']).concat(process.argv.slice(2)));
-    })
-    .then(() => copyFile('package.json', '.lint/result.json'))
-    .catch(function(e) {
+        exec('npm', (tag ? ['publish', '--tag', tag] : ['publish']).concat(process.argv.slice(2)));
+        await copyFile('package.json', '.lint/result.json')
+    } catch (e) {
         console.error(e);
         process.exit(1);
-    });
+    }
+}
+
+require('../lib/audit')();
+release();
