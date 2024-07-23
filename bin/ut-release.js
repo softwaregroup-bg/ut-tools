@@ -3,8 +3,7 @@
 const exec = require('../lib/exec');
 const versionBump = require('../lib/versionBump');
 const pkgJson = process.env.npm_package_json && require(process.env.npm_package_json);
-const {unlink, rename, copyFile} = require('node:fs/promises');
-const glob = require('glob');
+const {copyFile} = require('node:fs/promises');
 
 async function release() {
     try {
@@ -17,7 +16,7 @@ async function release() {
                 AEGIS_CIPHER: license.encryptionCipher,
                 AEGIS_BUILD: 1,
                 AEGIS_OVERWRITE: 1
-            }
+            };
         }
         const {tag} = await versionBump(versionParams);
         if (pkgJson?.scripts?.doc) {
@@ -35,7 +34,7 @@ async function release() {
         exec('git', ['push', 'origin', '--tags']);
         if (pkgJson?.scripts?.compile) exec('npm', ['run', 'compile']);
         exec('npm', (tag ? ['publish', '--tag', tag] : ['publish']).concat(process.argv.slice(2)));
-        await copyFile('package.json', '.lint/result.json')
+        await copyFile('package.json', '.lint/result.json');
     } catch (e) {
         console.error(e);
         process.exit(1);
