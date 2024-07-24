@@ -1,3 +1,12 @@
+## [7.12.5](https://github.com/softwaregroup-bg/ut-tools/compare/v7.12.4...v7.12.5) (2024-07-23)
+
+
+### Bug Fixes
+
+* license ([#117](https://github.com/softwaregroup-bg/ut-tools/issues/117)) ([eab209e](https://github.com/softwaregroup-bg/ut-tools/commit/eab209e6518e71c8415512de6a81a4aacd5e4c25))
+
+
+
 ## [7.12.4](https://github.com/softwaregroup-bg/ut-tools/compare/v7.12.3...v7.12.4) (2024-07-22)
 
 
