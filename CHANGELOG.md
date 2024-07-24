@@ -1,3 +1,12 @@
+## [7.12.9](https://github.com/softwaregroup-bg/ut-tools/compare/v7.12.8...v7.12.9) (2024-07-24)
+
+
+### Bug Fixes
+
+* ignore stdout from npm ([3eaf9b8](https://github.com/softwaregroup-bg/ut-tools/commit/3eaf9b82ec6631ac05d6fd0dedb756f43c092526))
+
+
+
 ## [7.12.8](https://github.com/softwaregroup-bg/ut-tools/compare/v7.12.7...v7.12.8) (2024-07-24)
 
 
