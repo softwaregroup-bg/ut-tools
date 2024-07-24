@@ -1,3 +1,12 @@
+## [7.12.8](https://github.com/softwaregroup-bg/ut-tools/compare/v7.12.7...v7.12.8) (2024-07-24)
+
+
+### Bug Fixes
+
+* pipe 'npm run license' output ([7c43f46](https://github.com/softwaregroup-bg/ut-tools/commit/7c43f466f865b39bc2e6b0b6fe92907ec9d1a298))
+
+
+
 ## [7.12.7](https://github.com/softwaregroup-bg/ut-tools/compare/v7.12.6...v7.12.7) (2024-07-24)
 
 
