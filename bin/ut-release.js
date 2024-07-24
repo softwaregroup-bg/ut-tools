@@ -9,7 +9,7 @@ async function release() {
     try {
         const versionParams = {};
         if (pkgJson?.scripts?.license) {
-            const license = JSON.parse(exec('npm', ['run', 'license']));
+            const license = JSON.parse(exec('npm', ['run', 'license'], 'pipe'));
             versionParams.env = {
                 AEGIS_KEY: license.encryptionKey,
                 AEGIS_IV: license.encryptionIV,
