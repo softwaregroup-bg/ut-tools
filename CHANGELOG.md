@@ -1,3 +1,12 @@
+## [7.12.7](https://github.com/softwaregroup-bg/ut-tools/compare/v7.12.6...v7.12.7) (2024-07-24)
+
+
+### Bug Fixes
+
+* ut-license command to inherit stdio ([38b4a7e](https://github.com/softwaregroup-bg/ut-tools/commit/38b4a7eed095d8579458c3b4db6d62c298ea0944))
+
+
+
 ## [7.12.6](https://github.com/softwaregroup-bg/ut-tools/compare/v7.12.5...v7.12.6) (2024-07-24)
 
 
