@@ -12,6 +12,7 @@ async function release() {
             const output = exec('npm', ['run', 'license'], 'pipe');
             const license = JSON.parse(output.split('\n').pop());
             versionParams.env = {
+                ...process.env,
                 AEGIS_KEY: license.encryptionKey,
                 AEGIS_IV: license.encryptionIV,
                 AEGIS_CIPHER: license.encryptionCipher,
