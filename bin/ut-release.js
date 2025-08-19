@@ -8,7 +8,9 @@ const {copyFile} = require('node:fs/promises');
 async function release() {
     try {
         const versionParams = {};
+        console.log('====================release===============');
         if (pkgJson?.scripts?.license) {
+            console.log('====================release-license===============');
             const output = exec('npm', ['run', 'license'], 'pipe');
             const license = JSON.parse(output.split('\n').pop());
             versionParams.env = {
@@ -20,7 +22,11 @@ async function release() {
                 AEGIS_OVERWRITE: 1
             };
         }
+        console.log('====================release-versionParams===============');
+        console.log(JSON.stringify(versionParams, null, 2));
+        console.log('====================release-versionParams===============');
         const {tag} = await versionBump(versionParams);
+        console.log('====================release-versionBump===============');
         if (pkgJson?.scripts?.doc) {
             exec('npm', ['run', 'doc',
                 '--',
