@@ -1,3 +1,12 @@
+# [7.13.0](https://github.com/softwaregroup-bg/ut-tools/compare/v7.12.11...v7.13.0) (2025-08-19)
+
+
+### Features
+
+* adding console.log DII-1 ([e6ba314](https://github.com/softwaregroup-bg/ut-tools/commit/e6ba3146178c8761a693e388ca5e1abef110b7cd))
+
+
+
 ## [7.12.11](https://github.com/softwaregroup-bg/ut-tools/compare/v7.12.10...v7.12.11) (2025-07-29)
 
 
