@@ -22,9 +22,6 @@ async function release() {
                 AEGIS_OVERWRITE: 1
             };
         }
-        console.log('====================release-versionParams===============');
-        console.log(JSON.stringify(versionParams, null, 2));
-        console.log('====================release-versionParams===============');
         const {tag} = await versionBump(versionParams);
         console.log('====================release-versionBump===============');
         if (pkgJson?.scripts?.doc) {
