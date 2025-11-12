@@ -1,7 +1,7 @@
 # UT Tools
 
 Continuous integration, continuous delivery and automation scrips to be used
-within package.json scripts section.
+within package.json scripts section. Some updates.
 
 Starting with `ut-tools` version 7, it needs to be installed as a global package,
 instead of adding it in `devDependencies`, which will only slow down
@@ -39,3 +39,4 @@ in the appropriate place (user or workspace settings ctrl+, ):
 * ut-release-lerna: increment the versions of all updated
   lerna monorepo packages and publish to npm
 * ut-test: run all tests
+
