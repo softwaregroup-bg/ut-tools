@@ -1,3 +1,7 @@
+## [7.13.2](https://github.com/softwaregroup-bg/ut-tools/compare/v7.13.1...v7.13.2) (2025-11-12)
+
+
+
 ## [7.13.1](https://github.com/softwaregroup-bg/ut-tools/compare/v7.13.0...v7.13.1) (2025-08-20)
 
 
